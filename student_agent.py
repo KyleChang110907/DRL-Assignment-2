@@ -231,10 +231,10 @@ class Game2048Env(gym.Env):
         # If the simulated board is different from the current board, the move is legal
         return not np.array_equal(self.board, temp_board)
 
-from Modules2048.TD_MCTS.NTuple_MCTS import get_action as mcts_get_action
+
 def get_action(state, score):
     env = Game2048Env()
-
+    from Modules2048.TD_MCTS.NTuple_MCTS import get_action as mcts_get_action
     action = mcts_get_action(state, score, env)
 
     return action
