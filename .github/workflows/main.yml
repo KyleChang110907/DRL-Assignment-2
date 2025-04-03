@@ -25,11 +25,17 @@ jobs:
 
     - name: 2. Installing dependencies
       run: |
-        pip install gym
+        pip install gym gdown
         pip install -r requirements.txt
+    
+    - name: Download large file from Google Drive
+        run: |
+          gdown --fuzzy https://drive.google.com/file/d/1H9s-ZqMpgPeEJ76AzOY1Dlljj8z5UBcd/view?usp=drive_link -O value_net.pkl
 
     - name: 3. Ensure env.so is executable
       run: chmod +x env.cpython-38-x86_64-linux-gnu.so
 
     - name: 4. Run Evaluation
+      env:
+        MODE: 'eval'
       run: python eval.py --token a91aae52cff9ef65932db06b150ffd47

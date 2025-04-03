@@ -3,3 +3,4 @@ requests
 argparse
 torch
 matplotlib
+python-dotenv

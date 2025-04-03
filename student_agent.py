@@ -231,10 +231,13 @@ class Game2048Env(gym.Env):
         # If the simulated board is different from the current board, the move is legal
         return not np.array_equal(self.board, temp_board)
 
+from Modules2048.TD_MCTS.NTuple_MCTS import get_action as mcts_get_action
 def get_action(state, score):
     env = Game2048Env()
-    return random.choice([0, 1, 2, 3]) # Choose a random action
+
+    action = mcts_get_action(state, score, env)
+
+    return action
+    # return random.choice([0, 1, 2, 3]) # Choose a random action
     
     # You can submit this random agent to evaluate the performance of a purely random strategy.
-
-

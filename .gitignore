@@ -7,3 +7,8 @@ __pycache__/
 
 # ignore eval.py
 eval.py
+
+# ignore pkl files
+Modules2048/value_approximation/N_tuple_TD0_6Tuples_4pattern_lr10-1/
+Modules2048/checkpoints/
+
