@@ -4,3 +4,4 @@ argparse
 torch
 matplotlib
 python-dotenv
+dill
