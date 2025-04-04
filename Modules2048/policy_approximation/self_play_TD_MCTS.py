@@ -15,8 +15,8 @@ from Modules2048.value_approximation.NTuple_TD0 import patterns
 from Modules2048.value_approximation.NTuple_TD0 import rot90, rot180, rot270, flip_horizontal
 
 from Modules2048.TD_MCTS.NTuple_MCTS import PUCTNode, MCTS_PUCT
-value_folder_path = './Modules2048/checkpoints/value_approximation/N_tuple_TD0_6Tuples_4pattern_lr10-1/'
-value_folder_path = './Modules2048/value_approximation/N_tuple_TD0_6Tuples_4pattern_lr10-1/'
+value_folder_path = './Modules2048/checkpoints/value_approximation/N_tuple_TD0_6Tuples_4pattern_lr10-1_/'
+
 VALUE_CHECKPOINT_FILE = os.path.join(value_folder_path, 'value_net.pkl')
 
 folder_path = './Modules2048/checkpoints/policy_approximation/self_play_TD_MCTS/'

@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from collections import defaultdict
 from student_agent import Game2048Env
 
-folder_path = './Modules2048/value_approximation/N_tuple_TD0_6Tuples_4pattern_lr10-1/'
+folder_path = './Modules2048/checkpoints/value_approximation/N_tuple_TD0_6Tuples_4pattern_lr10-1/'
 os.makedirs(folder_path, exist_ok=True)
 
 CHECKPOINT_FILE = folder_path + 'value_net.pkl'
@@ -48,7 +48,7 @@ class OptimisticDefault:
 # NTupleApproximator (4 patterns of 6 tuples)
 # -------------------------------
 class NTupleApproximator:
-    def __init__(self, board_size, patterns, optimistic_init=50):
+    def __init__(self, board_size, patterns, optimistic_init=2000):
         """
         Initializes the N-Tuple approximator for value estimation.
         We use optimistic initialization to encourage exploration.
@@ -246,7 +246,7 @@ patterns = [pattern1, pattern2, pattern3, pattern4]
 # Main Training Loop
 # -------------------------------
 if __name__ == "__main__":
-    approximator = NTupleApproximator(board_size=4, patterns=patterns, optimistic_init=50)
+    approximator = NTupleApproximator(board_size=4, patterns=patterns, optimistic_init=2000)
     env = Game2048Env()
 
     if os.path.exists(CHECKPOINT_FILE):
@@ -254,7 +254,7 @@ if __name__ == "__main__":
             approximator.weights = pickle.load(f)
     
     # Train for 30,000 episodes.
-    final_scores = td_learning(env, approximator, num_episodes=100000, alpha=0.1, gamma=0.99, epsilon=0.1)
+    final_scores = td_learning(env, approximator, num_episodes=30000, alpha=0.01, gamma=0.99, epsilon=0.1)
 
     plt.figure(figsize=(8, 4))
     plt.plot(final_scores)

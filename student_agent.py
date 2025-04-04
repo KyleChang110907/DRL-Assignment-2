@@ -233,10 +233,10 @@ class Game2048Env(gym.Env):
 
 
 def get_action(state, score):
-    env = Game2048Env()
+    
     from Modules2048.TD_MCTS.NTuple_MCTS import get_action as mcts_get_action
-    action = mcts_get_action(state, score, env)
-
+    action = mcts_get_action(state, score)
+    print(f'State: {state}, Score: {score}, Action: {action}')
     return action
     # return random.choice([0, 1, 2, 3]) # Choose a random action
     
