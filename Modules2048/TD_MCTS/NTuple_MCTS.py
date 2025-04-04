@@ -33,6 +33,49 @@ else:
 # -------------------------------
 # MCTS-PUCT Integration with the Trained Value Approximator
 # -------------------------------
+
+def simulate_row_move(row, board_size=4):
+    # Compress the row: move non-zero elements to the left.
+    new_row = row[row != 0]
+    new_row = np.pad(new_row, (0, board_size - len(new_row)), mode='constant')
+    # Merge adjacent equal numbers.
+    for i in range(len(new_row) - 1):
+        if new_row[i] == new_row[i + 1] and new_row[i] != 0:
+            new_row[i] *= 2
+            new_row[i + 1] = 0
+    # Compress again after merging.
+    new_row = new_row[new_row != 0]
+    new_row = np.pad(new_row, (0, board_size - len(new_row)), mode='constant')
+    return new_row
+
+def get_legal_moves_from_state(state, board_size=4):
+    legal_moves = []
+    for action in range(4):
+        temp_board = state.copy()
+        if action == 0:  # move up: process columns
+            for j in range(board_size):
+                col = temp_board[:, j]
+                new_col = simulate_row_move(col, board_size)
+                temp_board[:, j] = new_col
+        elif action == 1:  # move down: process reversed columns
+            for j in range(board_size):
+                col = temp_board[:, j][::-1]
+                new_col = simulate_row_move(col, board_size)
+                temp_board[:, j] = new_col[::-1]
+        elif action == 2:  # move left: process rows
+            for i in range(board_size):
+                row = temp_board[i]
+                temp_board[i] = simulate_row_move(row, board_size)
+        elif action == 3:  # move right: process reversed rows
+            for i in range(board_size):
+                row = temp_board[i][::-1]
+                new_row = simulate_row_move(row, board_size)
+                temp_board[i] = new_row[::-1]
+        # If the simulated board changed, the move is legal.
+        if not np.array_equal(temp_board, state):
+            legal_moves.append(action)
+    return legal_moves
+
 class PUCTNode:
     def __init__(self, state, score, parent=None, action=None):
         """
@@ -48,7 +91,8 @@ class PUCTNode:
         self.visits = 0
         self.total_reward = 0.0
         # Only consider legal moves from the pure state.
-        self.untried_actions = [a for a in range(4) if env.is_move_legal(a)]
+        # Only consider legal moves directly from the state.
+        self.untried_actions = get_legal_moves_from_state(self.state, 4)
     
     def fully_expanded(self):
         return len(self.untried_actions) == 0
@@ -196,6 +240,9 @@ def get_action(state, score):
     
     # Create the root node for MCTS using the given state and score.
     root = PUCTNode(state, score)
+    
+    # print out illegal moves
+    print('legal moves:', root.untried_actions)
     
     # Run MCTS simulations from the root.
     for _ in range(mcts_puct.iterations):
