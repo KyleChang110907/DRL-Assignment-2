@@ -1,0 +1,9 @@
+game=/lud/board/space/line/Connect6.lud
+START GAME OPTIONS
+Board Size/19x19
+END GAME OPTIONS
+RNG internal state=90,106,44,-19,-26,-25,-96,105
+numInitialPlacementMoves=0
+rankings=0.0,0.0,0.0
+SANDBOX=false
+LUDII_VERSION=1.3.12

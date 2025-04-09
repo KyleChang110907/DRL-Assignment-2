@@ -14,10 +14,10 @@ import dotenv
 dotenv.load_dotenv()
 
 from Modules2048.value_approximation.NTuple_TD0 import NTupleApproximator, simulate_move_without_tile
-from Modules2048.value_approximation.NTuple_TD0 import patterns
+from Modules2048.value_approximation.NTuple_TD0 import patterns, OptimisticDefault
     
 # Folder and checkpoint paths.
-folder_path = './Modules2048/checkpoints/value_approximation/N_tuple_TD0_6Tuples_4pattern_lr10-1/'
+folder_path = './Modules2048/checkpoints/value_approximation/N_tuple_TD0_6Tuples_4pattern_lr10-1_ori/'
 
 MODE = os.getenv('MODE', 'test')
 if MODE == 'LOCAL':
@@ -211,17 +211,23 @@ class MCTS_PUCT:
 
 
 # Instantiate the NTupleApproximator with optimistic initialization.
-approximator = NTupleApproximator(board_size=4, patterns=patterns, optimistic_init=50)
+optimistic_init = 0.1  # Adjust this value as needed.
+approximator = NTupleApproximator(board_size=4, patterns=patterns, optimistic_init=optimistic_init)
 # Optionally load trained weights:
 if os.path.exists(CHECKPOINT_FILE):
     with open(CHECKPOINT_FILE, "rb") as f:
         approximator.weights = pickle.load(f)
+    print(f"Loaded weights from {CHECKPOINT_FILE}")
+
+    for d in approximator.weights:
+            d.default_factory = OptimisticDefault(optimistic_init)
+
 else:
     print(f"Checkpoint file {CHECKPOINT_FILE} not found. Using default weights.")
 
 from student_agent import Game2048Env  # Provided environment
 env = Game2048Env()
-mcts_puct = MCTS_PUCT(env, approximator, iterations=50, c_puct=1.41, rollout_depth=1 , gamma=0.99)
+mcts_puct = MCTS_PUCT(env, approximator, iterations=100, c_puct=1.41, rollout_depth=1 , gamma=0.99)
     
 
 def get_action(state, score):
@@ -242,7 +248,7 @@ def get_action(state, score):
     root = PUCTNode(state, score)
     
     # print out illegal moves
-    print('legal moves:', root.untried_actions)
+    # print('legal moves:', root.untried_actions)
     
     # Run MCTS simulations from the root.
     for _ in range(mcts_puct.iterations):
