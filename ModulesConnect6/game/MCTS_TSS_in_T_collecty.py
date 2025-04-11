@@ -457,7 +457,28 @@ def check_window_intermediate_custom(window, board_coords, my_val, L):
             return [empty_cells[0], empty_cells[1]]
         else:
             return None
-        
+
+def check_window_missing_one_custom(window, board_coords, my_val, L):
+    """
+    For a window of fixed length L, if the window contains only 0 or my_val,
+    and exactly L-1 cells are my_val (i.e. the other cell is empty),
+    then return (board_coords[0], board_coords[-1]).
+    Otherwise, return None.
+    """
+    if len(window) != L:
+        return None
+    # 檢查窗口是否純淨：只允許 0 或 my_val
+    for cell in window:
+        if cell not in (0, my_val):
+            return None
+    count_my = np.count_nonzero(window==my_val)
+    if count_my != (L-1):
+        return None
+    # 檢查兩端是否皆為空
+    empty_cells = [board_coords[i] for i in range(L) if window[i] == 0]
+    if len(empty_cells) != 1:
+        return None
+    return [empty_cells[0]]
 
 def pre_mcts_collect(game, my_val, phase="win"):
     """
@@ -608,6 +629,46 @@ def pre_mcts_collect(game, my_val, phase="win"):
                         moves_found.extend(candidate)
         return moves_found
     
+    def scan_direction_missing_one(dr, dc, L, for_win=True):
+        moves_found = []
+        val_to_check = my_val if for_win else opp_val
+        if dr==0 and dc!=0:
+            # horizontal
+            for r in range(size):
+                for c in range(size-L+1):
+                    window = board[r, c:c+L]
+                    coords = [(r, c+i) for i in range(L)]
+                    candidate = check_window_missing_one_custom(window, coords, val_to_check, L )
+                    if candidate is not None:
+                        moves_found.extend(candidate)
+        elif dc==0 and dr!=0:
+            # vertical
+            for c in range(size):
+                for r in range(size-L+1):
+                    window = board[r:r+L, c]
+                    coords = [(r+i, c) for i in range(L)]
+                    candidate = check_window_missing_one_custom(window, coords, val_to_check, L )
+                    if candidate is not None:
+                        moves_found.extend(candidate)
+        elif dr==dc:
+            # main diagonal
+            for r in range(size-L+1):
+                for c in range(size-L+1):
+                    window = np.array([board[r+i, c+i] for i in range(L)])
+                    coords = [(r+i, c+i) for i in range(L)]
+                    candidate = check_window_missing_one_custom(window, coords, val_to_check, L )
+                    if candidate is not None:
+                        moves_found.extend(candidate)
+        elif dr==1 and dc==-1:
+            # anti-diagonal
+            for r in range(size-L+1):
+                for c in range(L-1, size):
+                    window = np.array([board[r+i, c-i] for i in range(L)])
+                    coords = [(r+i, c-i) for i in range(L)]
+                    candidate = check_window_missing_one_custom(window, coords, val_to_check, L )
+                    if candidate is not None:
+                        moves_found.extend(candidate)
+        return moves_found
     
 
     
@@ -628,6 +689,15 @@ def pre_mcts_collect(game, my_val, phase="win"):
     candidates.extend(scan_direction_intermediate(1, 1, 7, for_win=for_win))
     candidates.extend(scan_direction_intermediate(1, -1, 6, for_win=for_win))
     candidates.extend(scan_direction_intermediate(1, -1, 7, for_win=for_win))
+    candidates.extend(scan_direction_missing_one(0, 1, 6, for_win=for_win))
+    candidates.extend(scan_direction_missing_one(0, 1, 7, for_win=for_win))
+    candidates.extend(scan_direction_missing_one(1, 0, 6, for_win=for_win))
+    candidates.extend(scan_direction_missing_one(1, 0, 7, for_win=for_win))
+    candidates.extend(scan_direction_missing_one(1, 1, 6, for_win=for_win))
+    candidates.extend(scan_direction_missing_one(1, 1, 7, for_win=for_win))
+    candidates.extend(scan_direction_missing_one(1, -1, 6, for_win=for_win))
+    candidates.extend(scan_direction_missing_one(1, -1, 7, for_win=for_win))
+    
     # candidates.extend(scan_direction(0, 1, 6, for_win=for_win))
     # candidates.extend(scan_direction(0, 1, 7, for_win=for_win))
     # candidates.extend(scan_direction(1, 0, 6, for_win=for_win))
