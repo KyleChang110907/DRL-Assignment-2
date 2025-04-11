@@ -10,7 +10,7 @@ import logging
 import os
 
 # Configure logging.
-log_folder = "./logs/MCTS_ITSS/"
+log_folder = "./logs/MCTS_TSS_in_T_collect/"
 os.makedirs(log_folder, exist_ok=True)
 log_filename = log_folder + "log_" + datetime.datetime.now().strftime("%Y%m%d_%H%M%S") + ".txt"
 logging.basicConfig(filename=log_filename,
@@ -140,7 +140,7 @@ class Connect6Game:
             logging.info(f"Phase 1 (immediate win): {len(win_candidates)} candidate(s) found.")
             restricted_game = clone_game(self)
             root = MCTSNode(restricted_game, restricted_actions=win_candidates)
-            best_move = mcts(root, itermax=20)
+            best_move = mcts(root, itermax=5)
             move_str = move_to_str(best_move, self)
             self.play_move(color, move_str)
             logging.info(f"MCTS (win candidates) selected move: {move_str}")
@@ -154,7 +154,7 @@ class Connect6Game:
             logging.info(f"Phase 2 (defense): {len(defense_candidates)} candidate(s) found.")
             restricted_game = clone_game(self)
             root = MCTSNode(restricted_game, restricted_actions=defense_candidates)
-            best_move = mcts(root, itermax=20)
+            best_move = mcts(root, itermax=5)
             move_str = move_to_str(best_move, self)
             self.play_move(color, move_str)
             logging.info(f"MCTS (defense candidates) selected move: {move_str}")
@@ -165,7 +165,7 @@ class Connect6Game:
         # Phase 3: Use full legal moves if no candidate found.
         logging.info("No candidate found in Phase 1 or 2; using full legal moves for MCTS.")
         root = MCTSNode(clone_game(self))
-        best_move = mcts(root, itermax=20)
+        best_move = mcts(root, itermax=5)
         move_str = move_to_str(best_move, self)
         self.play_move(color, move_str)
         logging.info(f"MCTS selected move: {move_str}")
@@ -446,13 +446,18 @@ def check_window_intermediate_custom(window, board_coords, my_val, L):
         # 先得到empty cells 在window中的index
         empty_cells_index = [i for i in range(L) if window[i] == 0] 
         if len(empty_cells) == 2:
-            # if (empty_cells_index[0] + 1 == empty_cells_index[1]) and (empty_cells_index[0] == 0 or empty_cells_index[1] == L-1):
-            #     return None
+            if (empty_cells_index[0] + 1 == empty_cells_index[1]) :
+                if empty_cells_index[0] == 0 :
+                    logging.debug(f"check_window_intermediate_custom (only one inserted{empty_cells[1]}): For L={L}, window {window} with coords {board_coords} triggers candidate.")
+                    return [empty_cells[1]]
+                elif empty_cells_index[1] == L-1:
+                    logging.debug(f"check_window_intermediate_custom (only one inserted{empty_cells[0]}): For L={L}, window {window} with coords {board_coords} triggers candidate.")
+                    return [empty_cells[0]]
             logging.debug(f"check_window_intermediate_custom: For L={L}, window {window} with coords {board_coords} triggers candidate.")
             return [empty_cells[0], empty_cells[1]]
         else:
             return None
-
+        
 
 def pre_mcts_collect(game, my_val, phase="win"):
     """
@@ -470,6 +475,64 @@ def pre_mcts_collect(game, my_val, phase="win"):
 
     # 根據 phase 判斷是否啟用 defense_mode
     defense_mode = True if phase=="defense" else False
+
+    def scan_direction(dr, dc, L, for_win=True):
+        moves_found = []
+        val_to_check = my_val if for_win else opp_val
+        if dr==0 and dc!=0:
+            # horizontal
+            for r in range(size):
+                for c in range(size-L+1):
+                    window = board[r, c:c+L]
+                    coords = [(r, c+i) for i in range(L)]
+                    candidate = check_window_margin_custom(window, coords, val_to_check, L )
+                    
+                    if candidate is not None:
+                        moves_found.extend(candidate)
+                    candidate = check_window_intermediate_custom(window, coords, val_to_check, L )
+                    if candidate is not None:
+                        moves_found.extend(candidate)
+        
+        elif dc==0 and dr!=0:
+            # vertical
+            for c in range(size):
+                for r in range(size-L+1):
+                    window = board[r:r+L, c]
+                    coords = [(r+i, c) for i in range(L)]
+                    candidate = check_window_margin_custom(window, coords, val_to_check, L )
+                    if candidate is not None:
+                        moves_found.extend(candidate)
+                    candidate = check_window_intermediate_custom(window, coords, val_to_check, L )
+                    if candidate is not None:
+                        moves_found.extend(candidate)
+        
+        elif dr==dc:
+            # main diagonal
+            for r in range(size-L+1):
+                for c in range(size-L+1):
+                    window = np.array([board[r+i, c+i] for i in range(L)])
+                    coords = [(r+i, c+i) for i in range(L)]
+                    candidate = check_window_margin_custom(window, coords, val_to_check, L )
+                    if candidate is not None:
+                        moves_found.extend(candidate)
+                    candidate = check_window_intermediate_custom(window, coords, val_to_check, L )
+                    if candidate is not None:
+                        moves_found.extend(candidate)
+        
+        elif dr==1 and dc==-1:
+            # anti-diagonal
+            for r in range(size-L+1):
+                for c in range(L-1, size):
+                    window = np.array([board[r+i, c-i] for i in range(L)])
+                    coords = [(r+i, c-i) for i in range(L)]
+                    candidate = check_window_margin_custom(window, coords, val_to_check, L )
+                    if candidate is not None:
+                        moves_found.extend(candidate)
+                    candidate = check_window_intermediate_custom(window, coords, val_to_check, L )
+                    if candidate is not None:
+                        moves_found.extend(candidate)
+        return moves_found
+
 
     def scan_direction_margin(dr, dc, L, for_win=True):
         moves_found = []
@@ -544,11 +607,12 @@ def pre_mcts_collect(game, my_val, phase="win"):
                     if candidate is not None:
                         moves_found.extend(candidate)
         return moves_found
-    logging.info(f'candidates: {candidates}')
-    logging.info(f'phase: {phase}')
+    
+    
+
+    
     for_win = True if phase=="win" else False
     candidates.extend(scan_direction_margin(0, 1, 6, for_win=for_win))
-    logging.info(f'candidates after extend: {candidates}')
     candidates.extend(scan_direction_margin(0, 1, 7, for_win=for_win))
     candidates.extend(scan_direction_margin(1, 0, 6, for_win=for_win))
     candidates.extend(scan_direction_margin(1, 0, 7, for_win=for_win))
@@ -564,17 +628,39 @@ def pre_mcts_collect(game, my_val, phase="win"):
     candidates.extend(scan_direction_intermediate(1, 1, 7, for_win=for_win))
     candidates.extend(scan_direction_intermediate(1, -1, 6, for_win=for_win))
     candidates.extend(scan_direction_intermediate(1, -1, 7, for_win=for_win))
+    # candidates.extend(scan_direction(0, 1, 6, for_win=for_win))
+    # candidates.extend(scan_direction(0, 1, 7, for_win=for_win))
+    # candidates.extend(scan_direction(1, 0, 6, for_win=for_win))
+    # candidates.extend(scan_direction(1, 0, 7, for_win=for_win))
+    # candidates.extend(scan_direction(1, 1, 6, for_win=for_win))
+    # candidates.extend(scan_direction(1, 1, 7, for_win=for_win))
+    # candidates.extend(scan_direction(1, -1, 6, for_win=for_win))
+    # candidates.extend(scan_direction(1, -1, 7, for_win=for_win))
+
 
     # 每兩個候選點組合成一個走法
     moves = []
     candidates = list(set(candidates))  # 去除重覆
     logging.info(f'Final candidates: {candidates}')
-    if len(candidates)>0:
+    if len(candidates)>=2:
         for i in range(len(candidates)):
             for j in range(i+1, len(candidates)):
                 if candidates[i] and candidates[j]:
                     move = (candidates[i], candidates[j])
                     moves.append(move)
+    elif len(candidates)==1:
+        logging.info(f"Phase {phase}: Found only one candidate: {candidates[0]}")
+        # 如果只有一個候選點，則將其與慢哈頓距離小於三的所有空點組合
+        r = 2 
+        neighbors = get_neighbors(game, candidates[0], r)
+        while len(neighbors)<2:
+            r+= 1
+            neighbors = get_neighbors(game, candidates[0], r)
+        for nb in neighbors:
+            if nb in candidates:
+                continue
+            move = (candidates[0], nb)
+            moves.append(move)
     
     unique_moves = list(set(moves))  # 去除重覆
     logging.info(f"Phase {phase}: Collected {len(unique_moves)}unique candidate(s):{unique_moves}")
