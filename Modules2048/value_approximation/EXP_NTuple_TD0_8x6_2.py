@@ -253,7 +253,7 @@ if __name__ == "__main__":
     else:
         print(f"Checkpoint file {CHECKPOINT_FILE} not found. Using default weights.")
 
-    final_scores = td_learning(env, approximator, num_episodes=100000, alpha=0.1, gamma=0.99)
+    final_scores = td_learning(env, approximator, num_episodes=100000, alpha=0.05, gamma=0.99)
 
     plt.figure(figsize=(8, 4))
     plt.plot(final_scores)

@@ -1,0 +1,200 @@
+2025-04-10 20:29:27,795 [INFO] Starting pre-MCTS check.
+2025-04-10 20:29:27,795 [DEBUG] Pre-MCTS check start.
+2025-04-10 20:29:27,811 [INFO] Pre-MCTS check found no immediate win or defense move.
+2025-04-10 20:29:27,811 [INFO] Pre-MCTS check did not trigger; entering MCTS search.
+2025-04-10 20:29:27,812 [INFO] MCTS: Starting search.
+2025-04-10 20:29:27,812 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-10 20:29:27,812 [DEBUG] Tree_policy iteration 1: Expanding move (7, 11)
+2025-04-10 20:29:27,812 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-10 20:29:27,812 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:27,914 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:27,916 [DEBUG] Tree_policy iteration 1: Expanding move (14, 8)
+2025-04-10 20:29:27,917 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:28,072 [INFO] Default policy: Playout finished with winner: 2
+2025-04-10 20:29:28,072 [DEBUG] Tree_policy iteration 1: Expanding move (0, 9)
+2025-04-10 20:29:28,072 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:28,099 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:28,099 [DEBUG] Tree_policy iteration 1: Expanding move (8, 15)
+2025-04-10 20:29:28,099 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:28,195 [INFO] Default policy: Playout finished with winner: 2
+2025-04-10 20:29:28,195 [DEBUG] Tree_policy iteration 1: Expanding move (15, 12)
+2025-04-10 20:29:28,195 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:28,275 [INFO] Default policy: Playout finished with winner: 2
+2025-04-10 20:29:28,276 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-10 20:29:28,276 [INFO] MCTS selected move: M8
+2025-04-10 20:29:28,411 [INFO] Starting pre-MCTS check.
+2025-04-10 20:29:28,411 [DEBUG] Pre-MCTS check start.
+2025-04-10 20:29:28,427 [INFO] Pre-MCTS check found no immediate win or defense move.
+2025-04-10 20:29:28,427 [INFO] Pre-MCTS check did not trigger; entering MCTS search.
+2025-04-10 20:29:28,427 [INFO] MCTS: Starting search.
+2025-04-10 20:29:28,427 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-10 20:29:28,427 [DEBUG] Tree_policy iteration 1: Expanding move ((8, 9), (8, 12))
+2025-04-10 20:29:28,427 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-10 20:29:28,427 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:28,584 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:28,585 [DEBUG] Tree_policy iteration 1: Expanding move ((5, 18), (7, 12))
+2025-04-10 20:29:28,585 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:28,763 [INFO] Default policy: Playout finished with winner: 2
+2025-04-10 20:29:28,763 [DEBUG] Tree_policy iteration 1: Expanding move ((4, 15), (8, 10))
+2025-04-10 20:29:28,763 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:28,936 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:28,936 [DEBUG] Tree_policy iteration 1: Expanding move ((5, 15), (9, 12))
+2025-04-10 20:29:28,936 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:29,074 [INFO] Default policy: Playout finished with winner: 2
+2025-04-10 20:29:29,074 [DEBUG] Tree_policy iteration 1: Expanding move ((6, 16), (6, 9))
+2025-04-10 20:29:29,075 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:29,169 [INFO] Default policy: Playout finished with winner: 2
+2025-04-10 20:29:29,169 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-10 20:29:29,169 [INFO] MCTS selected move: K9,N9
+2025-04-10 20:29:29,662 [INFO] Starting pre-MCTS check.
+2025-04-10 20:29:29,662 [DEBUG] Pre-MCTS check start.
+2025-04-10 20:29:29,679 [INFO] Pre-MCTS check found no immediate win or defense move.
+2025-04-10 20:29:29,679 [INFO] Pre-MCTS check did not trigger; entering MCTS search.
+2025-04-10 20:29:29,679 [INFO] MCTS: Starting search.
+2025-04-10 20:29:29,679 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-10 20:29:29,679 [DEBUG] Tree_policy iteration 1: Expanding move ((10, 9), (6, 7))
+2025-04-10 20:29:29,680 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-10 20:29:29,680 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:29,817 [INFO] Default policy: Playout finished with winner: 2
+2025-04-10 20:29:29,817 [DEBUG] Tree_policy iteration 1: Expanding move ((18, 10), (7, 7))
+2025-04-10 20:29:29,817 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:29,950 [INFO] Default policy: Playout finished with winner: 2
+2025-04-10 20:29:29,950 [DEBUG] Tree_policy iteration 1: Expanding move ((15, 7), (1, 18))
+2025-04-10 20:29:29,951 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:30,127 [INFO] Default policy: Playout finished with winner: 2
+2025-04-10 20:29:30,127 [DEBUG] Tree_policy iteration 1: Expanding move ((5, 18), (3, 14))
+2025-04-10 20:29:30,128 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:30,291 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:30,292 [DEBUG] Tree_policy iteration 1: Expanding move ((9, 14), (8, 7))
+2025-04-10 20:29:30,292 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:30,452 [INFO] Default policy: Playout finished with winner: 2
+2025-04-10 20:29:30,452 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-10 20:29:30,453 [INFO] MCTS selected move: K11,H7
+2025-04-10 20:29:30,594 [INFO] Starting pre-MCTS check.
+2025-04-10 20:29:30,594 [DEBUG] Pre-MCTS check start.
+2025-04-10 20:29:30,609 [INFO] Pre-MCTS check found no immediate win or defense move.
+2025-04-10 20:29:30,609 [INFO] Pre-MCTS check did not trigger; entering MCTS search.
+2025-04-10 20:29:30,610 [INFO] MCTS: Starting search.
+2025-04-10 20:29:30,610 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-10 20:29:30,610 [DEBUG] Tree_policy iteration 1: Expanding move ((16, 9), (17, 10))
+2025-04-10 20:29:30,610 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-10 20:29:30,610 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:30,812 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:30,812 [DEBUG] Tree_policy iteration 1: Expanding move ((12, 8), (18, 11))
+2025-04-10 20:29:30,812 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:30,991 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:30,991 [DEBUG] Tree_policy iteration 1: Expanding move ((18, 9), (10, 7))
+2025-04-10 20:29:30,992 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:31,121 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:31,121 [DEBUG] Tree_policy iteration 1: Expanding move ((1, 16), (4, 6))
+2025-04-10 20:29:31,122 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:31,350 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:31,350 [DEBUG] Tree_policy iteration 1: Expanding move ((9, 7), (1, 18))
+2025-04-10 20:29:31,351 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:31,530 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:31,530 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-10 20:29:31,530 [INFO] MCTS selected move: K17,L18
+2025-04-10 20:29:31,760 [INFO] Starting pre-MCTS check.
+2025-04-10 20:29:31,760 [DEBUG] Pre-MCTS check start.
+2025-04-10 20:29:31,776 [INFO] Pre-MCTS check found no immediate win or defense move.
+2025-04-10 20:29:31,776 [INFO] Pre-MCTS check did not trigger; entering MCTS search.
+2025-04-10 20:29:31,776 [INFO] MCTS: Starting search.
+2025-04-10 20:29:31,777 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-10 20:29:31,777 [DEBUG] Tree_policy iteration 1: Expanding move ((5, 18), (10, 7))
+2025-04-10 20:29:31,780 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-10 20:29:31,780 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:31,914 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:31,915 [DEBUG] Tree_policy iteration 1: Expanding move ((1, 18), (0, 12))
+2025-04-10 20:29:31,915 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:32,084 [INFO] Default policy: Playout finished with winner: 2
+2025-04-10 20:29:32,084 [DEBUG] Tree_policy iteration 1: Expanding move ((6, 8), (12, 9))
+2025-04-10 20:29:32,085 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:32,169 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:32,170 [DEBUG] Tree_policy iteration 1: Expanding move ((12, 8), (4, 17))
+2025-04-10 20:29:32,170 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:32,345 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:32,345 [DEBUG] Tree_policy iteration 1: Expanding move ((6, 18), (18, 10))
+2025-04-10 20:29:32,346 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:32,482 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:32,482 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-10 20:29:32,483 [INFO] MCTS selected move: T6,H11
+2025-04-10 20:29:32,643 [INFO] Starting pre-MCTS check.
+2025-04-10 20:29:32,643 [DEBUG] Pre-MCTS check start.
+2025-04-10 20:29:32,660 [INFO] Pre-MCTS check found no immediate win or defense move.
+2025-04-10 20:29:32,660 [INFO] Pre-MCTS check did not trigger; entering MCTS search.
+2025-04-10 20:29:32,661 [INFO] MCTS: Starting search.
+2025-04-10 20:29:32,661 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-10 20:29:32,661 [DEBUG] Tree_policy iteration 1: Expanding move ((6, 18), (5, 17))
+2025-04-10 20:29:32,661 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-10 20:29:32,662 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:32,852 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:32,853 [DEBUG] Tree_policy iteration 1: Expanding move ((14, 9), (5, 8))
+2025-04-10 20:29:32,853 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:33,056 [INFO] Default policy: Playout finished with winner: 2
+2025-04-10 20:29:33,056 [DEBUG] Tree_policy iteration 1: Expanding move ((6, 11), (1, 13))
+2025-04-10 20:29:33,057 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:33,220 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:33,221 [DEBUG] Tree_policy iteration 1: Expanding move ((7, 16), (4, 5))
+2025-04-10 20:29:33,221 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:33,401 [INFO] Default policy: Playout finished with winner: 2
+2025-04-10 20:29:33,402 [DEBUG] Tree_policy iteration 1: Expanding move ((13, 10), (12, 9))
+2025-04-10 20:29:33,402 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:33,562 [INFO] Default policy: Playout finished with winner: 2
+2025-04-10 20:29:33,562 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-10 20:29:33,562 [INFO] MCTS selected move: T7,S6
+2025-04-10 20:29:33,742 [INFO] Starting pre-MCTS check.
+2025-04-10 20:29:33,742 [DEBUG] Pre-MCTS check start.
+2025-04-10 20:29:33,751 [DEBUG] check_window_margin_custom: For L=6, window [0 2 2 2 2 0] with coords [(6, 8), (7, 8), (8, 8), (9, 8), (10, 8), (11, 8)] triggers candidate.
+2025-04-10 20:29:33,751 [DEBUG] Scan (1,0) at (6,8) with L=6: window [0 2 2 2 2 0] -> candidate pair ((6, 8), (11, 8))
+2025-04-10 20:29:33,751 [DEBUG] board coords: [(5, 8), (6, 8), (7, 8), (8, 8), (9, 8), (10, 8)]
+2025-04-10 20:29:33,751 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(2), np.int64(2), np.int64(2), np.int64(2)]
+2025-04-10 20:29:33,751 [DEBUG] check_window_intermediate_custom: empty_cells=[(5, 8), (6, 8)]
+2025-04-10 20:29:33,751 [DEBUG] check_window_intermediate_custom: For L=6, window [0 0 2 2 2 2] with coords [(5, 8), (6, 8), (7, 8), (8, 8), (9, 8), (10, 8)] triggers candidate.
+2025-04-10 20:29:33,751 [DEBUG] Scan (1,0) at (5,8) with L=6: window [0 0 2 2 2 2] -> candidate pair ((5, 8), (6, 8))
+2025-04-10 20:29:33,751 [DEBUG] The consecutive condition should be found in the former check_window_margin_custom.
+2025-04-10 20:29:33,751 [DEBUG] board coords: [(7, 8), (8, 8), (9, 8), (10, 8), (11, 8), (12, 8)]
+2025-04-10 20:29:33,751 [DEBUG] board values[np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(0), np.int64(0)]
+2025-04-10 20:29:33,751 [DEBUG] check_window_intermediate_custom: empty_cells=[(11, 8), (12, 8)]
+2025-04-10 20:29:33,751 [DEBUG] check_window_intermediate_custom: For L=6, window [2 2 2 2 0 0] with coords [(7, 8), (8, 8), (9, 8), (10, 8), (11, 8), (12, 8)] triggers candidate.
+2025-04-10 20:29:33,752 [DEBUG] Scan (1,0) at (7,8) with L=6: window [2 2 2 2 0 0] -> candidate pair ((11, 8), (12, 8))
+2025-04-10 20:29:33,752 [INFO] Pre-MCTS defense check (L=6) triggered: ((6, 8), (11, 8)) in direction (1, 0)
+2025-04-10 20:29:33,752 [INFO] Pre-MCTS: Immediate defense move pair found: ((6, 8), (11, 8))
+2025-04-10 20:29:33,927 [INFO] Starting pre-MCTS check.
+2025-04-10 20:29:33,927 [DEBUG] Pre-MCTS check start.
+2025-04-10 20:29:33,941 [INFO] Pre-MCTS check found no immediate win or defense move.
+2025-04-10 20:29:33,941 [INFO] Pre-MCTS check did not trigger; entering MCTS search.
+2025-04-10 20:29:33,942 [INFO] MCTS: Starting search.
+2025-04-10 20:29:33,942 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-10 20:29:33,943 [DEBUG] Tree_policy iteration 1: Expanding move ((13, 5), (14, 11))
+2025-04-10 20:29:33,944 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-10 20:29:33,944 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:34,121 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:34,121 [DEBUG] Tree_policy iteration 1: Expanding move ((5, 11), (12, 9))
+2025-04-10 20:29:34,122 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:34,282 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:34,282 [DEBUG] Tree_policy iteration 1: Expanding move ((7, 18), (12, 9))
+2025-04-10 20:29:34,283 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:34,424 [INFO] Default policy: Playout finished with winner: 2
+2025-04-10 20:29:34,424 [DEBUG] Tree_policy iteration 1: Expanding move ((9, 10), (9, 14))
+2025-04-10 20:29:34,425 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:34,519 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:34,519 [DEBUG] Tree_policy iteration 1: Expanding move ((16, 8), (12, 5))
+2025-04-10 20:29:34,520 [INFO] Default policy: Pre-MCTS check passed; starting random playout.
+2025-04-10 20:29:34,669 [INFO] Default policy: Playout finished with winner: 1
+2025-04-10 20:29:34,669 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-10 20:29:34,669 [INFO] MCTS selected move: F14,M15
+2025-04-10 20:29:34,828 [INFO] Starting pre-MCTS check.
+2025-04-10 20:29:34,828 [DEBUG] Pre-MCTS check start.
+2025-04-10 20:29:34,838 [DEBUG] board coords: [(3, 13), (4, 12), (5, 11), (6, 10), (7, 9), (8, 8)]
+2025-04-10 20:29:34,838 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(2), np.int64(2), np.int64(2), np.int64(2)]
+2025-04-10 20:29:34,838 [DEBUG] check_window_intermediate_custom: empty_cells=[(3, 13), (4, 12)]
+2025-04-10 20:29:34,838 [DEBUG] check_window_intermediate_custom: For L=6, window [0 0 2 2 2 2] with coords [(3, 13), (4, 12), (5, 11), (6, 10), (7, 9), (8, 8)] triggers candidate.
+2025-04-10 20:29:34,838 [DEBUG] Scan anti-diag at (3,13) with L=6: window [0 0 2 2 2 2] -> candidate pair ((3, 13), (4, 12))
+2025-04-10 20:29:34,838 [DEBUG] board coords: [(6, 10), (7, 9), (8, 8), (9, 7), (10, 6), (11, 5)]
+2025-04-10 20:29:34,838 [DEBUG] board values[np.int64(2), np.int64(2), np.int64(2), np.int64(2), np.int64(0), np.int64(0)]
+2025-04-10 20:29:34,838 [DEBUG] check_window_intermediate_custom: empty_cells=[(10, 6), (11, 5)]
+2025-04-10 20:29:34,838 [DEBUG] check_window_intermediate_custom: For L=6, window [2 2 2 2 0 0] with coords [(6, 10), (7, 9), (8, 8), (9, 7), (10, 6), (11, 5)] triggers candidate.
+2025-04-10 20:29:34,838 [DEBUG] Scan anti-diag at (6,10) with L=6: window [2 2 2 2 0 0] -> candidate pair ((10, 6), (11, 5))
+2025-04-10 20:29:34,838 [INFO] Pre-MCTS defense check (L=6) triggered: ((3, 13), (4, 12)) in direction (1, -1)
+2025-04-10 20:29:34,838 [INFO] Pre-MCTS: Immediate defense move pair found: ((3, 13), (4, 12))
+2025-04-10 20:36:19,554 [INFO] Game terminated.

@@ -1,0 +1,3 @@
+2025-04-10 22:37:16,063 [INFO] Starting pre-MCTS check.
+2025-04-10 22:37:16,063 [DEBUG] Pre-MCTS check start.
+2025-04-10 22:37:33,106 [INFO] Game terminated.

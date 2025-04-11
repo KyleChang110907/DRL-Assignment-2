@@ -2,8 +2,24 @@ game=/lud/board/space/line/Connect6.lud
 START GAME OPTIONS
 Board Size/19x19
 END GAME OPTIONS
-RNG internal state=90,106,44,-19,-26,-25,-96,105
+RNG internal state=-104,-67,10,-24,112,-102,102,39
+Move=[Move:mover=1,from=96,to=96,actions=[Add:type=Vertex,to=96,what=1,decision=true]]
+Move=[Move:mover=2,from=271,to=271,actions=[Add:type=Vertex,to=271,what=2,decision=true],[SetNextPlayer:player=2]]
+Move=[Move:mover=2,from=135,to=135,actions=[Add:type=Vertex,to=135,what=2,decision=true]]
+Move=[Move:mover=1,from=252,to=252,actions=[Add:type=Vertex,to=252,what=1,decision=true],[SetNextPlayer:player=1]]
+Move=[Move:mover=1,from=269,to=269,actions=[Add:type=Vertex,to=269,what=1,decision=true]]
+Move=[Move:mover=2,from=251,to=251,actions=[Add:type=Vertex,to=251,what=2,decision=true],[SetNextPlayer:player=2]]
+Move=[Move:mover=2,from=231,to=231,actions=[Add:type=Vertex,to=231,what=2,decision=true]]
+Move=[Move:mover=1,from=270,to=270,actions=[Add:type=Vertex,to=270,what=1,decision=true],[SetNextPlayer:player=1]]
+Move=[Move:mover=1,from=311,to=311,actions=[Add:type=Vertex,to=311,what=1,decision=true]]
+Move=[Move:mover=2,from=211,to=211,actions=[Add:type=Vertex,to=211,what=2,decision=true],[SetNextPlayer:player=2]]
+Move=[Move:mover=2,from=191,to=191,actions=[Add:type=Vertex,to=191,what=2,decision=true]]
+Move=[Move:mover=1,from=152,to=152,actions=[Add:type=Vertex,to=152,what=1,decision=true],[SetNextPlayer:player=1]]
+Move=[Move:mover=1,from=248,to=248,actions=[Add:type=Vertex,to=248,what=1,decision=true]]
+Move=[Move:mover=2,from=171,to=171,actions=[Add:type=Vertex,to=171,what=2,decision=true],[SetNextPlayer:player=2]]
 numInitialPlacementMoves=0
-rankings=0.0,0.0,0.0
+winner=2
+endtype=NaturalEnd
+rankings=0.0,2.0,1.0
 SANDBOX=false
 LUDII_VERSION=1.3.12

@@ -1,0 +1,6 @@
+2025-04-09 23:44:30,598 [INFO] Starting pre-MCTS check.
+2025-04-09 23:44:30,598 [DEBUG] Pre-MCTS check start.
+2025-04-09 23:44:30,603 [INFO] Pre-MCTS check found no immediate win or defense move.
+2025-04-09 23:44:30,603 [INFO] Pre-MCTS check did not trigger; entering MCTS search.
+2025-04-09 23:44:30,603 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-09 23:44:30,603 [DEBUG] Tree_policy iteration 1: Expanding move (np.int64(4), np.int64(2))

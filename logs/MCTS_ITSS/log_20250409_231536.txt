@@ -1,0 +1,4 @@
+2025-04-09 23:15:43,864 [DEBUG] Pre-MCTS check start.
+2025-04-09 23:15:43,869 [INFO] Pre-MCTS check found no immediate win or defense move.
+2025-04-09 23:15:43,869 [INFO] Pre-MCTS check did not trigger; entering MCTS search.
+2025-04-09 23:44:17,775 [INFO] Game terminated.

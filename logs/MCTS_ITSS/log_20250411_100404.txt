@@ -1,0 +1,352 @@
+2025-04-11 10:04:14,588 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 10:04:14,589 [INFO] candidates: []
+2025-04-11 10:04:14,589 [INFO] phase: win
+2025-04-11 10:04:14,590 [INFO] candidates after extend: []
+2025-04-11 10:04:14,599 [INFO] Final candidates: []
+2025-04-11 10:04:14,599 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:14,599 [INFO] candidates: []
+2025-04-11 10:04:14,599 [INFO] phase: defense
+2025-04-11 10:04:14,600 [INFO] candidates after extend: []
+2025-04-11 10:04:14,607 [INFO] Final candidates: []
+2025-04-11 10:04:14,607 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:04:14,607 [INFO] No candidate found in Phase 1 or 2; using full legal moves for MCTS.
+2025-04-11 10:04:15,942 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-11 10:04:15,942 [INFO] candidates: []
+2025-04-11 10:04:15,943 [INFO] phase: win
+2025-04-11 10:04:15,943 [INFO] candidates after extend: []
+2025-04-11 10:04:15,951 [INFO] Final candidates: []
+2025-04-11 10:04:16,001 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:16,001 [INFO] candidates: []
+2025-04-11 10:04:16,001 [INFO] phase: defense
+2025-04-11 10:04:16,002 [INFO] candidates after extend: []
+2025-04-11 10:04:16,010 [INFO] Final candidates: []
+2025-04-11 10:04:16,010 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:04:16,010 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(9), np.int64(6)))
+2025-04-11 10:04:16,011 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-11 10:04:16,011 [INFO] Default policy: Starting random playout.
+2025-04-11 10:04:16,230 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 10:04:16,230 [INFO] candidates: []
+2025-04-11 10:04:16,230 [INFO] phase: win
+2025-04-11 10:04:16,231 [INFO] candidates after extend: []
+2025-04-11 10:04:16,238 [INFO] Final candidates: []
+2025-04-11 10:04:16,238 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:16,238 [INFO] candidates: []
+2025-04-11 10:04:16,238 [INFO] phase: defense
+2025-04-11 10:04:16,239 [INFO] candidates after extend: []
+2025-04-11 10:04:16,247 [INFO] Final candidates: []
+2025-04-11 10:04:16,247 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:04:16,247 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(7)), (np.int64(8), np.int64(8)))
+2025-04-11 10:04:16,247 [INFO] Default policy: Starting random playout.
+2025-04-11 10:04:16,469 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 10:04:16,470 [INFO] candidates: []
+2025-04-11 10:04:16,470 [INFO] phase: win
+2025-04-11 10:04:16,470 [INFO] candidates after extend: []
+2025-04-11 10:04:16,478 [INFO] Final candidates: []
+2025-04-11 10:04:16,478 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:16,478 [INFO] candidates: []
+2025-04-11 10:04:16,478 [INFO] phase: defense
+2025-04-11 10:04:16,478 [INFO] candidates after extend: []
+2025-04-11 10:04:16,486 [INFO] Final candidates: []
+2025-04-11 10:04:16,486 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:04:16,486 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(7)), (np.int64(10), np.int64(8)))
+2025-04-11 10:04:16,486 [INFO] Default policy: Starting random playout.
+2025-04-11 10:04:16,848 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 10:04:16,848 [INFO] candidates: []
+2025-04-11 10:04:16,848 [INFO] phase: win
+2025-04-11 10:04:16,848 [INFO] candidates after extend: []
+2025-04-11 10:04:16,856 [INFO] Final candidates: []
+2025-04-11 10:04:16,856 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:16,856 [INFO] candidates: []
+2025-04-11 10:04:16,856 [INFO] phase: defense
+2025-04-11 10:04:16,856 [INFO] candidates after extend: []
+2025-04-11 10:04:16,864 [INFO] Final candidates: []
+2025-04-11 10:04:16,864 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:04:16,864 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(6)), (np.int64(8), np.int64(10)))
+2025-04-11 10:04:16,865 [INFO] Default policy: Starting random playout.
+2025-04-11 10:04:17,197 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 10:04:17,198 [INFO] candidates: []
+2025-04-11 10:04:17,198 [INFO] phase: win
+2025-04-11 10:04:17,198 [INFO] candidates after extend: []
+2025-04-11 10:04:17,205 [INFO] Final candidates: []
+2025-04-11 10:04:17,206 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:17,206 [INFO] candidates: []
+2025-04-11 10:04:17,206 [INFO] phase: defense
+2025-04-11 10:04:17,206 [INFO] candidates after extend: []
+2025-04-11 10:04:17,214 [INFO] Final candidates: []
+2025-04-11 10:04:17,214 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:04:17,214 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(7), np.int64(9)), (np.int64(10), np.int64(10)))
+2025-04-11 10:04:17,214 [INFO] Default policy: Starting random playout.
+2025-04-11 10:04:17,544 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 10:04:17,544 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-11 10:04:17,544 [INFO] MCTS selected move: M10,G10
+2025-04-11 10:04:17,705 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 10:04:17,705 [INFO] candidates: []
+2025-04-11 10:04:17,705 [INFO] phase: win
+2025-04-11 10:04:17,706 [INFO] candidates after extend: []
+2025-04-11 10:04:17,713 [INFO] Final candidates: []
+2025-04-11 10:04:17,713 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:17,713 [INFO] candidates: []
+2025-04-11 10:04:17,713 [INFO] phase: defense
+2025-04-11 10:04:17,714 [INFO] candidates after extend: []
+2025-04-11 10:04:17,721 [INFO] Final candidates: []
+2025-04-11 10:04:17,721 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:04:17,721 [INFO] No candidate found in Phase 1 or 2; using full legal moves for MCTS.
+2025-04-11 10:04:17,722 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-11 10:04:17,722 [INFO] candidates: []
+2025-04-11 10:04:17,722 [INFO] phase: win
+2025-04-11 10:04:17,722 [INFO] candidates after extend: []
+2025-04-11 10:04:17,729 [INFO] Final candidates: []
+2025-04-11 10:04:17,730 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:17,730 [INFO] candidates: []
+2025-04-11 10:04:17,730 [INFO] phase: defense
+2025-04-11 10:04:17,730 [INFO] candidates after extend: []
+2025-04-11 10:04:17,737 [INFO] Final candidates: []
+2025-04-11 10:04:17,737 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:04:17,737 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(4)), (np.int64(9), np.int64(12)))
+2025-04-11 10:04:17,738 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-11 10:04:17,738 [INFO] Default policy: Starting random playout.
+2025-04-11 10:04:17,840 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 10:04:17,840 [INFO] candidates: []
+2025-04-11 10:04:17,840 [INFO] phase: win
+2025-04-11 10:04:17,841 [INFO] candidates after extend: []
+2025-04-11 10:04:17,848 [INFO] Final candidates: []
+2025-04-11 10:04:17,848 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:17,848 [INFO] candidates: []
+2025-04-11 10:04:17,848 [INFO] phase: defense
+2025-04-11 10:04:17,849 [INFO] candidates after extend: []
+2025-04-11 10:04:17,856 [INFO] Final candidates: []
+2025-04-11 10:04:17,856 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:04:17,856 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(6), np.int64(11)), (np.int64(10), np.int64(8)))
+2025-04-11 10:04:17,856 [INFO] Default policy: Starting random playout.
+2025-04-11 10:04:18,114 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 10:04:18,114 [INFO] candidates: []
+2025-04-11 10:04:18,114 [INFO] phase: win
+2025-04-11 10:04:18,114 [INFO] candidates after extend: []
+2025-04-11 10:04:18,122 [INFO] Final candidates: []
+2025-04-11 10:04:18,122 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:18,122 [INFO] candidates: []
+2025-04-11 10:04:18,122 [INFO] phase: defense
+2025-04-11 10:04:18,122 [INFO] candidates after extend: []
+2025-04-11 10:04:18,130 [INFO] Final candidates: []
+2025-04-11 10:04:18,130 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:04:18,130 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(7), np.int64(4)), (np.int64(9), np.int64(13)))
+2025-04-11 10:04:18,130 [INFO] Default policy: Starting random playout.
+2025-04-11 10:04:18,470 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 10:04:18,471 [INFO] candidates: []
+2025-04-11 10:04:18,471 [INFO] phase: win
+2025-04-11 10:04:18,471 [INFO] candidates after extend: []
+2025-04-11 10:04:18,478 [INFO] Final candidates: []
+2025-04-11 10:04:18,478 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:18,478 [INFO] candidates: []
+2025-04-11 10:04:18,478 [INFO] phase: defense
+2025-04-11 10:04:18,479 [INFO] candidates after extend: []
+2025-04-11 10:04:18,486 [INFO] Final candidates: []
+2025-04-11 10:04:18,486 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:04:18,486 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(13)), (np.int64(10), np.int64(10)))
+2025-04-11 10:04:18,486 [INFO] Default policy: Starting random playout.
+2025-04-11 10:04:18,694 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 10:04:18,695 [INFO] candidates: []
+2025-04-11 10:04:18,695 [INFO] phase: win
+2025-04-11 10:04:18,695 [INFO] candidates after extend: []
+2025-04-11 10:04:18,703 [INFO] Final candidates: []
+2025-04-11 10:04:18,703 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:18,703 [INFO] candidates: []
+2025-04-11 10:04:18,703 [INFO] phase: defense
+2025-04-11 10:04:18,703 [INFO] candidates after extend: []
+2025-04-11 10:04:18,710 [INFO] Final candidates: []
+2025-04-11 10:04:18,710 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:04:18,710 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(7), np.int64(9)), (np.int64(9), np.int64(3)))
+2025-04-11 10:04:18,711 [INFO] Default policy: Starting random playout.
+2025-04-11 10:04:19,057 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 10:04:19,058 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-11 10:04:19,058 [INFO] MCTS selected move: E11,N10
+2025-04-11 10:04:19,244 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 10:04:19,244 [INFO] candidates: []
+2025-04-11 10:04:19,244 [INFO] phase: win
+2025-04-11 10:04:19,244 [INFO] candidates after extend: []
+2025-04-11 10:04:19,251 [INFO] Final candidates: []
+2025-04-11 10:04:19,251 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:19,251 [INFO] candidates: []
+2025-04-11 10:04:19,251 [INFO] phase: defense
+2025-04-11 10:04:19,252 [INFO] candidates after extend: []
+2025-04-11 10:04:19,254 [DEBUG] check_window_margin_custom: For L=7, window [0 1 1 1 1 1 0] with coords [(4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10)] triggers candidate.
+2025-04-11 10:04:19,257 [DEBUG] board coords: [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8)]
+2025-04-11 10:04:19,257 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1)]
+2025-04-11 10:04:19,257 [DEBUG] check_window_intermediate_custom: empty_cells=[(3, 3), (4, 4)]
+2025-04-11 10:04:19,258 [DEBUG] check_window_intermediate_custom: For L=6, window [0 0 1 1 1 1] with coords [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8)] triggers candidate.
+2025-04-11 10:04:19,258 [DEBUG] board coords: [(6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)]
+2025-04-11 10:04:19,258 [DEBUG] board values[np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(0)]
+2025-04-11 10:04:19,258 [DEBUG] check_window_intermediate_custom: empty_cells=[(10, 10), (11, 11)]
+2025-04-11 10:04:19,258 [DEBUG] check_window_intermediate_custom: For L=6, window [1 1 1 1 0 0] with coords [(6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)] triggers candidate.
+2025-04-11 10:04:19,258 [DEBUG] board coords: [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9)]
+2025-04-11 10:04:19,258 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1)]
+2025-04-11 10:04:19,258 [DEBUG] check_window_intermediate_custom: empty_cells=[(3, 3), (4, 4)]
+2025-04-11 10:04:19,258 [DEBUG] check_window_intermediate_custom: For L=7, window [0 0 1 1 1 1 1] with coords [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9)] triggers candidate.
+2025-04-11 10:04:19,258 [DEBUG] The consecutive condition should be found in the former check_window_margin_custom.
+2025-04-11 10:04:19,258 [DEBUG] board coords: [(5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)]
+2025-04-11 10:04:19,258 [DEBUG] board values[np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(0)]
+2025-04-11 10:04:19,258 [DEBUG] check_window_intermediate_custom: empty_cells=[(10, 10), (11, 11)]
+2025-04-11 10:04:19,259 [DEBUG] check_window_intermediate_custom: For L=7, window [1 1 1 1 1 0 0] with coords [(5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)] triggers candidate.
+2025-04-11 10:04:19,260 [INFO] Final candidates: [(4, 4), (10, 10), (3, 3), (11, 11)]
+2025-04-11 10:04:19,260 [INFO] Phase defense: Collected 6unique candidate(s):[((4, 4), (10, 10)), ((4, 4), (3, 3)), ((10, 10), (3, 3)), ((3, 3), (11, 11)), ((4, 4), (11, 11)), ((10, 10), (11, 11))]
+2025-04-11 10:04:19,260 [INFO] Phase 2 (defense): 6 candidate(s) found.
+2025-04-11 10:04:19,260 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-11 10:04:19,260 [INFO] candidates: []
+2025-04-11 10:04:19,260 [INFO] phase: win
+2025-04-11 10:04:19,260 [INFO] candidates after extend: []
+2025-04-11 10:04:19,267 [INFO] Final candidates: []
+2025-04-11 10:04:19,267 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:19,267 [INFO] candidates: []
+2025-04-11 10:04:19,267 [INFO] phase: defense
+2025-04-11 10:04:19,268 [INFO] candidates after extend: []
+2025-04-11 10:04:19,270 [DEBUG] check_window_margin_custom: For L=7, window [0 1 1 1 1 1 0] with coords [(4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10)] triggers candidate.
+2025-04-11 10:04:19,273 [DEBUG] board coords: [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8)]
+2025-04-11 10:04:19,273 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1)]
+2025-04-11 10:04:19,273 [DEBUG] check_window_intermediate_custom: empty_cells=[(3, 3), (4, 4)]
+2025-04-11 10:04:19,273 [DEBUG] check_window_intermediate_custom: For L=6, window [0 0 1 1 1 1] with coords [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8)] triggers candidate.
+2025-04-11 10:04:19,273 [DEBUG] board coords: [(6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)]
+2025-04-11 10:04:19,274 [DEBUG] board values[np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(0)]
+2025-04-11 10:04:19,274 [DEBUG] check_window_intermediate_custom: empty_cells=[(10, 10), (11, 11)]
+2025-04-11 10:04:19,274 [DEBUG] check_window_intermediate_custom: For L=6, window [1 1 1 1 0 0] with coords [(6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)] triggers candidate.
+2025-04-11 10:04:19,274 [DEBUG] board coords: [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9)]
+2025-04-11 10:04:19,274 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1)]
+2025-04-11 10:04:19,274 [DEBUG] check_window_intermediate_custom: empty_cells=[(3, 3), (4, 4)]
+2025-04-11 10:04:19,274 [DEBUG] check_window_intermediate_custom: For L=7, window [0 0 1 1 1 1 1] with coords [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9)] triggers candidate.
+2025-04-11 10:04:19,274 [DEBUG] The consecutive condition should be found in the former check_window_margin_custom.
+2025-04-11 10:04:19,274 [DEBUG] board coords: [(5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)]
+2025-04-11 10:04:19,274 [DEBUG] board values[np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(0)]
+2025-04-11 10:04:19,274 [DEBUG] check_window_intermediate_custom: empty_cells=[(10, 10), (11, 11)]
+2025-04-11 10:04:19,274 [DEBUG] check_window_intermediate_custom: For L=7, window [1 1 1 1 1 0 0] with coords [(5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)] triggers candidate.
+2025-04-11 10:04:19,276 [INFO] Final candidates: [(4, 4), (10, 10), (3, 3), (11, 11)]
+2025-04-11 10:04:19,276 [INFO] Phase defense: Collected 6unique candidate(s):[((4, 4), (10, 10)), ((4, 4), (3, 3)), ((10, 10), (3, 3)), ((3, 3), (11, 11)), ((4, 4), (11, 11)), ((10, 10), (11, 11))]
+2025-04-11 10:04:19,276 [DEBUG] Tree_policy iteration 1: Expanding move ((4, 4), (11, 11))
+2025-04-11 10:04:19,276 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-11 10:04:19,276 [INFO] Default policy: Starting random playout.
+2025-04-11 10:04:19,285 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 10:04:19,285 [INFO] candidates: []
+2025-04-11 10:04:19,285 [INFO] phase: win
+2025-04-11 10:04:19,286 [INFO] candidates after extend: []
+2025-04-11 10:04:19,293 [INFO] Final candidates: []
+2025-04-11 10:04:19,293 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:19,293 [INFO] candidates: []
+2025-04-11 10:04:19,293 [INFO] phase: defense
+2025-04-11 10:04:19,294 [INFO] candidates after extend: []
+2025-04-11 10:04:19,296 [DEBUG] check_window_margin_custom: For L=7, window [0 1 1 1 1 1 0] with coords [(4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10)] triggers candidate.
+2025-04-11 10:04:19,299 [DEBUG] board coords: [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8)]
+2025-04-11 10:04:19,299 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1)]
+2025-04-11 10:04:19,299 [DEBUG] check_window_intermediate_custom: empty_cells=[(3, 3), (4, 4)]
+2025-04-11 10:04:19,299 [DEBUG] check_window_intermediate_custom: For L=6, window [0 0 1 1 1 1] with coords [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8)] triggers candidate.
+2025-04-11 10:04:19,299 [DEBUG] board coords: [(6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)]
+2025-04-11 10:04:19,299 [DEBUG] board values[np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(0)]
+2025-04-11 10:04:19,299 [DEBUG] check_window_intermediate_custom: empty_cells=[(10, 10), (11, 11)]
+2025-04-11 10:04:19,299 [DEBUG] check_window_intermediate_custom: For L=6, window [1 1 1 1 0 0] with coords [(6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)] triggers candidate.
+2025-04-11 10:04:19,300 [DEBUG] board coords: [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9)]
+2025-04-11 10:04:19,300 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1)]
+2025-04-11 10:04:19,300 [DEBUG] check_window_intermediate_custom: empty_cells=[(3, 3), (4, 4)]
+2025-04-11 10:04:19,300 [DEBUG] check_window_intermediate_custom: For L=7, window [0 0 1 1 1 1 1] with coords [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9)] triggers candidate.
+2025-04-11 10:04:19,300 [DEBUG] The consecutive condition should be found in the former check_window_margin_custom.
+2025-04-11 10:04:19,300 [DEBUG] board coords: [(5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)]
+2025-04-11 10:04:19,300 [DEBUG] board values[np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(0)]
+2025-04-11 10:04:19,300 [DEBUG] check_window_intermediate_custom: empty_cells=[(10, 10), (11, 11)]
+2025-04-11 10:04:19,300 [DEBUG] check_window_intermediate_custom: For L=7, window [1 1 1 1 1 0 0] with coords [(5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)] triggers candidate.
+2025-04-11 10:04:19,301 [INFO] Final candidates: [(4, 4), (10, 10), (3, 3), (11, 11)]
+2025-04-11 10:04:19,301 [INFO] Phase defense: Collected 6unique candidate(s):[((4, 4), (10, 10)), ((4, 4), (3, 3)), ((10, 10), (3, 3)), ((3, 3), (11, 11)), ((4, 4), (11, 11)), ((10, 10), (11, 11))]
+2025-04-11 10:04:19,301 [DEBUG] Tree_policy iteration 1: Expanding move ((4, 4), (3, 3))
+2025-04-11 10:04:19,302 [INFO] Default policy: Starting random playout.
+2025-04-11 10:04:19,528 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 10:04:19,528 [INFO] candidates: []
+2025-04-11 10:04:19,528 [INFO] phase: win
+2025-04-11 10:04:19,529 [INFO] candidates after extend: []
+2025-04-11 10:04:19,536 [INFO] Final candidates: []
+2025-04-11 10:04:19,536 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:19,536 [INFO] candidates: []
+2025-04-11 10:04:19,536 [INFO] phase: defense
+2025-04-11 10:04:19,536 [INFO] candidates after extend: []
+2025-04-11 10:04:19,539 [DEBUG] check_window_margin_custom: For L=7, window [0 1 1 1 1 1 0] with coords [(4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10)] triggers candidate.
+2025-04-11 10:04:19,542 [DEBUG] board coords: [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8)]
+2025-04-11 10:04:19,542 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1)]
+2025-04-11 10:04:19,542 [DEBUG] check_window_intermediate_custom: empty_cells=[(3, 3), (4, 4)]
+2025-04-11 10:04:19,542 [DEBUG] check_window_intermediate_custom: For L=6, window [0 0 1 1 1 1] with coords [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8)] triggers candidate.
+2025-04-11 10:04:19,542 [DEBUG] board coords: [(6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)]
+2025-04-11 10:04:19,542 [DEBUG] board values[np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(0)]
+2025-04-11 10:04:19,542 [DEBUG] check_window_intermediate_custom: empty_cells=[(10, 10), (11, 11)]
+2025-04-11 10:04:19,542 [DEBUG] check_window_intermediate_custom: For L=6, window [1 1 1 1 0 0] with coords [(6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)] triggers candidate.
+2025-04-11 10:04:19,543 [DEBUG] board coords: [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9)]
+2025-04-11 10:04:19,543 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1)]
+2025-04-11 10:04:19,543 [DEBUG] check_window_intermediate_custom: empty_cells=[(3, 3), (4, 4)]
+2025-04-11 10:04:19,543 [DEBUG] check_window_intermediate_custom: For L=7, window [0 0 1 1 1 1 1] with coords [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9)] triggers candidate.
+2025-04-11 10:04:19,543 [DEBUG] The consecutive condition should be found in the former check_window_margin_custom.
+2025-04-11 10:04:19,543 [DEBUG] board coords: [(5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)]
+2025-04-11 10:04:19,543 [DEBUG] board values[np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(0)]
+2025-04-11 10:04:19,543 [DEBUG] check_window_intermediate_custom: empty_cells=[(10, 10), (11, 11)]
+2025-04-11 10:04:19,543 [DEBUG] check_window_intermediate_custom: For L=7, window [1 1 1 1 1 0 0] with coords [(5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)] triggers candidate.
+2025-04-11 10:04:19,544 [INFO] Final candidates: [(4, 4), (10, 10), (3, 3), (11, 11)]
+2025-04-11 10:04:19,544 [INFO] Phase defense: Collected 6unique candidate(s):[((4, 4), (10, 10)), ((4, 4), (3, 3)), ((10, 10), (3, 3)), ((3, 3), (11, 11)), ((4, 4), (11, 11)), ((10, 10), (11, 11))]
+2025-04-11 10:04:19,544 [DEBUG] Tree_policy iteration 1: Expanding move ((10, 10), (11, 11))
+2025-04-11 10:04:19,545 [INFO] Default policy: Starting random playout.
+2025-04-11 10:04:19,854 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 10:04:19,854 [INFO] candidates: []
+2025-04-11 10:04:19,854 [INFO] phase: win
+2025-04-11 10:04:19,854 [INFO] candidates after extend: []
+2025-04-11 10:04:19,861 [INFO] Final candidates: []
+2025-04-11 10:04:19,861 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:19,861 [INFO] candidates: []
+2025-04-11 10:04:19,861 [INFO] phase: defense
+2025-04-11 10:04:19,862 [INFO] candidates after extend: []
+2025-04-11 10:04:19,864 [DEBUG] check_window_margin_custom: For L=7, window [0 1 1 1 1 1 0] with coords [(4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10)] triggers candidate.
+2025-04-11 10:04:19,867 [DEBUG] board coords: [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8)]
+2025-04-11 10:04:19,867 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1)]
+2025-04-11 10:04:19,867 [DEBUG] check_window_intermediate_custom: empty_cells=[(3, 3), (4, 4)]
+2025-04-11 10:04:19,867 [DEBUG] check_window_intermediate_custom: For L=6, window [0 0 1 1 1 1] with coords [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8)] triggers candidate.
+2025-04-11 10:04:19,867 [DEBUG] board coords: [(6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)]
+2025-04-11 10:04:19,867 [DEBUG] board values[np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(0)]
+2025-04-11 10:04:19,867 [DEBUG] check_window_intermediate_custom: empty_cells=[(10, 10), (11, 11)]
+2025-04-11 10:04:19,867 [DEBUG] check_window_intermediate_custom: For L=6, window [1 1 1 1 0 0] with coords [(6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)] triggers candidate.
+2025-04-11 10:04:19,868 [DEBUG] board coords: [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9)]
+2025-04-11 10:04:19,868 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1)]
+2025-04-11 10:04:19,868 [DEBUG] check_window_intermediate_custom: empty_cells=[(3, 3), (4, 4)]
+2025-04-11 10:04:19,868 [DEBUG] check_window_intermediate_custom: For L=7, window [0 0 1 1 1 1 1] with coords [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9)] triggers candidate.
+2025-04-11 10:04:19,868 [DEBUG] The consecutive condition should be found in the former check_window_margin_custom.
+2025-04-11 10:04:19,868 [DEBUG] board coords: [(5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)]
+2025-04-11 10:04:19,868 [DEBUG] board values[np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(0)]
+2025-04-11 10:04:19,868 [DEBUG] check_window_intermediate_custom: empty_cells=[(10, 10), (11, 11)]
+2025-04-11 10:04:19,868 [DEBUG] check_window_intermediate_custom: For L=7, window [1 1 1 1 1 0 0] with coords [(5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)] triggers candidate.
+2025-04-11 10:04:19,869 [INFO] Final candidates: [(4, 4), (10, 10), (3, 3), (11, 11)]
+2025-04-11 10:04:19,869 [INFO] Phase defense: Collected 6unique candidate(s):[((4, 4), (10, 10)), ((4, 4), (3, 3)), ((10, 10), (3, 3)), ((3, 3), (11, 11)), ((4, 4), (11, 11)), ((10, 10), (11, 11))]
+2025-04-11 10:04:19,869 [DEBUG] Tree_policy iteration 1: Expanding move ((3, 3), (11, 11))
+2025-04-11 10:04:19,870 [INFO] Default policy: Starting random playout.
+2025-04-11 10:04:20,253 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 10:04:20,254 [INFO] candidates: []
+2025-04-11 10:04:20,254 [INFO] phase: win
+2025-04-11 10:04:20,254 [INFO] candidates after extend: []
+2025-04-11 10:04:20,261 [INFO] Final candidates: []
+2025-04-11 10:04:20,261 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:04:20,261 [INFO] candidates: []
+2025-04-11 10:04:20,261 [INFO] phase: defense
+2025-04-11 10:04:20,262 [INFO] candidates after extend: []
+2025-04-11 10:04:20,264 [DEBUG] check_window_margin_custom: For L=7, window [0 1 1 1 1 1 0] with coords [(4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10)] triggers candidate.
+2025-04-11 10:04:20,267 [DEBUG] board coords: [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8)]
+2025-04-11 10:04:20,267 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1)]
+2025-04-11 10:04:20,267 [DEBUG] check_window_intermediate_custom: empty_cells=[(3, 3), (4, 4)]
+2025-04-11 10:04:20,267 [DEBUG] check_window_intermediate_custom: For L=6, window [0 0 1 1 1 1] with coords [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8)] triggers candidate.
+2025-04-11 10:04:20,268 [DEBUG] board coords: [(6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)]
+2025-04-11 10:04:20,268 [DEBUG] board values[np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(0)]
+2025-04-11 10:04:20,268 [DEBUG] check_window_intermediate_custom: empty_cells=[(10, 10), (11, 11)]
+2025-04-11 10:04:20,268 [DEBUG] check_window_intermediate_custom: For L=6, window [1 1 1 1 0 0] with coords [(6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)] triggers candidate.
+2025-04-11 10:04:20,268 [DEBUG] board coords: [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9)]
+2025-04-11 10:04:20,268 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1)]
+2025-04-11 10:04:20,268 [DEBUG] check_window_intermediate_custom: empty_cells=[(3, 3), (4, 4)]
+2025-04-11 10:04:20,268 [DEBUG] check_window_intermediate_custom: For L=7, window [0 0 1 1 1 1 1] with coords [(3, 3), (4, 4), (5, 5), (6, 6), (7, 7), (8, 8), (9, 9)] triggers candidate.
+2025-04-11 10:04:20,268 [DEBUG] The consecutive condition should be found in the former check_window_margin_custom.
+2025-04-11 10:04:20,268 [DEBUG] board coords: [(5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)]
+2025-04-11 10:04:20,268 [DEBUG] board values[np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(0)]
+2025-04-11 10:04:20,268 [DEBUG] check_window_intermediate_custom: empty_cells=[(10, 10), (11, 11)]
+2025-04-11 10:04:20,268 [DEBUG] check_window_intermediate_custom: For L=7, window [1 1 1 1 1 0 0] with coords [(5, 5), (6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)] triggers candidate.
+2025-04-11 10:04:20,270 [INFO] Final candidates: [(4, 4), (10, 10), (3, 3), (11, 11)]
+2025-04-11 10:04:20,270 [INFO] Phase defense: Collected 6unique candidate(s):[((4, 4), (10, 10)), ((4, 4), (3, 3)), ((10, 10), (3, 3)), ((3, 3), (11, 11)), ((4, 4), (11, 11)), ((10, 10), (11, 11))]
+2025-04-11 10:04:20,270 [DEBUG] Tree_policy iteration 1: Expanding move ((10, 10), (3, 3))
+2025-04-11 10:04:20,270 [INFO] Default policy: Starting random playout.
+2025-04-11 10:04:20,433 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 10:04:20,434 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-11 10:04:20,434 [INFO] MCTS (defense candidates) selected move: E5,M12
+2025-04-11 10:10:42,499 [INFO] Game terminated.

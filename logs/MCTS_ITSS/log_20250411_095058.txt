@@ -1,0 +1,229 @@
+2025-04-11 09:51:19,917 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 09:51:19,917 [INFO] candidates: []
+2025-04-11 09:51:19,917 [INFO] candidates after append: [[]]
+2025-04-11 09:51:19,926 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:51:19,926 [INFO] candidates: []
+2025-04-11 09:51:19,926 [INFO] candidates after append: [[]]
+2025-04-11 09:51:19,934 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:51:19,934 [INFO] No candidate found in Phase 1 or 2; using full legal moves for MCTS.
+2025-04-11 09:51:19,934 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-11 09:51:19,934 [INFO] candidates: []
+2025-04-11 09:51:19,935 [INFO] candidates after append: [[]]
+2025-04-11 09:51:19,947 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:51:19,947 [INFO] candidates: []
+2025-04-11 09:51:19,948 [INFO] candidates after append: [[]]
+2025-04-11 09:51:19,956 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:51:19,956 [DEBUG] Tree_policy iteration 1: Expanding move (11, 10)
+2025-04-11 09:51:19,956 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-11 09:51:19,957 [INFO] Default policy: Starting random playout.
+2025-04-11 09:51:20,167 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 09:51:20,168 [INFO] candidates: []
+2025-04-11 09:51:20,168 [INFO] candidates after append: [[]]
+2025-04-11 09:51:20,176 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:51:20,176 [INFO] candidates: []
+2025-04-11 09:51:20,176 [INFO] candidates after append: [[]]
+2025-04-11 09:51:20,184 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:51:20,184 [DEBUG] Tree_policy iteration 1: Expanding move (14, 7)
+2025-04-11 09:51:20,184 [INFO] Default policy: Starting random playout.
+2025-04-11 09:51:20,444 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 09:51:20,445 [INFO] candidates: []
+2025-04-11 09:51:20,445 [INFO] candidates after append: [[]]
+2025-04-11 09:51:20,453 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:51:20,453 [INFO] candidates: []
+2025-04-11 09:51:20,453 [INFO] candidates after append: [[]]
+2025-04-11 09:51:20,461 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:51:20,461 [DEBUG] Tree_policy iteration 1: Expanding move (6, 13)
+2025-04-11 09:51:20,461 [INFO] Default policy: Starting random playout.
+2025-04-11 09:51:20,544 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 09:51:20,544 [INFO] candidates: []
+2025-04-11 09:51:20,544 [INFO] candidates after append: [[]]
+2025-04-11 09:51:20,552 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:51:20,552 [INFO] candidates: []
+2025-04-11 09:51:20,553 [INFO] candidates after append: [[]]
+2025-04-11 09:51:20,563 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:51:20,563 [DEBUG] Tree_policy iteration 1: Expanding move (7, 2)
+2025-04-11 09:51:20,563 [INFO] Default policy: Starting random playout.
+2025-04-11 09:51:20,917 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 09:51:20,917 [INFO] candidates: []
+2025-04-11 09:51:20,918 [INFO] candidates after append: [[]]
+2025-04-11 09:51:20,925 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:51:20,925 [INFO] candidates: []
+2025-04-11 09:51:20,926 [INFO] candidates after append: [[]]
+2025-04-11 09:51:20,933 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:51:20,933 [DEBUG] Tree_policy iteration 1: Expanding move (15, 15)
+2025-04-11 09:51:20,933 [INFO] Default policy: Starting random playout.
+2025-04-11 09:51:21,162 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 09:51:21,162 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-11 09:51:21,162 [INFO] MCTS selected move: L12
+2025-04-11 09:51:21,291 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 09:51:21,291 [INFO] candidates: []
+2025-04-11 09:51:21,291 [INFO] candidates after append: [[]]
+2025-04-11 09:51:21,298 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:51:21,298 [INFO] candidates: []
+2025-04-11 09:51:21,299 [INFO] candidates after append: [[]]
+2025-04-11 09:51:21,306 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:51:21,306 [INFO] No candidate found in Phase 1 or 2; using full legal moves for MCTS.
+2025-04-11 09:51:21,307 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-11 09:51:21,307 [INFO] candidates: []
+2025-04-11 09:51:21,307 [INFO] candidates after append: [[]]
+2025-04-11 09:51:21,315 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:51:21,315 [INFO] candidates: []
+2025-04-11 09:51:21,315 [INFO] candidates after append: [[]]
+2025-04-11 09:51:21,322 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:51:21,322 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(13), np.int64(9)))
+2025-04-11 09:51:21,323 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-11 09:51:21,323 [INFO] Default policy: Starting random playout.
+2025-04-11 09:51:21,609 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 09:51:21,609 [INFO] candidates: []
+2025-04-11 09:51:21,610 [INFO] candidates after append: [[]]
+2025-04-11 09:51:21,617 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:51:21,617 [INFO] candidates: []
+2025-04-11 09:51:21,618 [INFO] candidates after append: [[]]
+2025-04-11 09:51:21,625 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:51:21,625 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(5)), (np.int64(13), np.int64(9)))
+2025-04-11 09:51:21,625 [INFO] Default policy: Starting random playout.
+2025-04-11 09:51:21,907 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 09:51:21,908 [INFO] candidates: []
+2025-04-11 09:51:21,908 [INFO] candidates after append: [[]]
+2025-04-11 09:51:21,916 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:51:21,916 [INFO] candidates: []
+2025-04-11 09:51:21,917 [INFO] candidates after append: [[]]
+2025-04-11 09:51:21,925 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:51:21,925 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(13), np.int64(8)), (np.int64(12), np.int64(11)))
+2025-04-11 09:51:21,925 [INFO] Default policy: Starting random playout.
+2025-04-11 09:51:22,071 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 09:51:22,071 [INFO] candidates: []
+2025-04-11 09:51:22,071 [INFO] candidates after append: [[]]
+2025-04-11 09:51:22,079 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:51:22,079 [INFO] candidates: []
+2025-04-11 09:51:22,079 [INFO] candidates after append: [[]]
+2025-04-11 09:51:22,087 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:51:22,087 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(11), np.int64(13)))
+2025-04-11 09:51:22,087 [INFO] Default policy: Starting random playout.
+2025-04-11 09:51:22,354 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 09:51:22,354 [INFO] candidates: []
+2025-04-11 09:51:22,354 [INFO] candidates after append: [[]]
+2025-04-11 09:51:22,362 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:51:22,362 [INFO] candidates: []
+2025-04-11 09:51:22,362 [INFO] candidates after append: [[]]
+2025-04-11 09:51:22,369 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:51:22,370 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(7)), (np.int64(10), np.int64(10)))
+2025-04-11 09:51:22,370 [INFO] Default policy: Starting random playout.
+2025-04-11 09:51:22,530 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 09:51:22,530 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-11 09:51:22,531 [INFO] MCTS selected move: H13,K14
+2025-04-11 09:52:18,627 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 09:52:18,627 [INFO] candidates: []
+2025-04-11 09:52:18,628 [INFO] candidates after append: [[]]
+2025-04-11 09:52:18,636 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:52:18,636 [INFO] candidates: []
+2025-04-11 09:52:18,636 [INFO] candidates after append: [[]]
+2025-04-11 09:52:18,644 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:52:18,644 [INFO] No candidate found in Phase 1 or 2; using full legal moves for MCTS.
+2025-04-11 09:52:18,644 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-11 09:52:18,644 [INFO] candidates: []
+2025-04-11 09:52:18,645 [INFO] candidates after append: [[]]
+2025-04-11 09:52:18,652 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:52:18,652 [INFO] candidates: []
+2025-04-11 09:52:18,653 [INFO] candidates after append: [[]]
+2025-04-11 09:52:18,661 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:52:18,661 [DEBUG] Tree_policy iteration 1: Expanding move (3, 6)
+2025-04-11 09:52:18,661 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-11 09:52:18,661 [INFO] Default policy: Starting random playout.
+2025-04-11 09:52:18,740 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 09:52:18,740 [INFO] candidates: []
+2025-04-11 09:52:18,741 [INFO] candidates after append: [[]]
+2025-04-11 09:52:18,748 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:52:18,748 [INFO] candidates: []
+2025-04-11 09:52:18,749 [INFO] candidates after append: [[]]
+2025-04-11 09:52:18,756 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:52:18,756 [DEBUG] Tree_policy iteration 1: Expanding move (11, 7)
+2025-04-11 09:52:18,756 [INFO] Default policy: Starting random playout.
+2025-04-11 09:52:18,883 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 09:52:18,883 [INFO] candidates: []
+2025-04-11 09:52:18,884 [INFO] candidates after append: [[]]
+2025-04-11 09:52:18,891 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:52:18,891 [INFO] candidates: []
+2025-04-11 09:52:18,892 [INFO] candidates after append: [[]]
+2025-04-11 09:52:18,899 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:52:18,900 [DEBUG] Tree_policy iteration 1: Expanding move (18, 16)
+2025-04-11 09:52:18,900 [INFO] Default policy: Starting random playout.
+2025-04-11 09:52:19,197 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 09:52:19,197 [INFO] candidates: []
+2025-04-11 09:52:19,197 [INFO] candidates after append: [[]]
+2025-04-11 09:52:19,205 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:52:19,205 [INFO] candidates: []
+2025-04-11 09:52:19,206 [INFO] candidates after append: [[]]
+2025-04-11 09:52:19,213 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:52:19,213 [DEBUG] Tree_policy iteration 1: Expanding move (14, 1)
+2025-04-11 09:52:19,213 [INFO] Default policy: Starting random playout.
+2025-04-11 09:52:19,504 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 09:52:19,504 [INFO] candidates: []
+2025-04-11 09:52:19,505 [INFO] candidates after append: [[]]
+2025-04-11 09:52:19,513 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:52:19,513 [INFO] candidates: []
+2025-04-11 09:52:19,514 [INFO] candidates after append: [[]]
+2025-04-11 09:52:19,521 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:52:19,521 [DEBUG] Tree_policy iteration 1: Expanding move (18, 17)
+2025-04-11 09:52:19,522 [INFO] Default policy: Starting random playout.
+2025-04-11 09:52:19,842 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 09:52:19,842 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-11 09:52:19,842 [INFO] MCTS selected move: G4
+2025-04-11 09:52:54,008 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 09:52:54,008 [INFO] candidates: []
+2025-04-11 09:52:54,009 [INFO] candidates after append: [[]]
+2025-04-11 09:52:54,016 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:52:54,016 [INFO] candidates: []
+2025-04-11 09:52:54,017 [INFO] candidates after append: [[]]
+2025-04-11 09:52:54,024 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:52:54,024 [INFO] No candidate found in Phase 1 or 2; using full legal moves for MCTS.
+2025-04-11 09:52:54,025 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-11 09:52:54,025 [INFO] candidates: []
+2025-04-11 09:52:54,025 [INFO] candidates after append: [[]]
+2025-04-11 09:52:54,033 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:52:54,033 [INFO] candidates: []
+2025-04-11 09:52:54,033 [INFO] candidates after append: [[]]
+2025-04-11 09:52:54,041 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:52:54,041 [DEBUG] Tree_policy iteration 1: Expanding move (0, 15)
+2025-04-11 09:52:54,041 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-11 09:52:54,041 [INFO] Default policy: Starting random playout.
+2025-04-11 09:52:54,397 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 09:52:54,398 [INFO] candidates: []
+2025-04-11 09:52:54,398 [INFO] candidates after append: [[]]
+2025-04-11 09:52:54,406 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:52:54,406 [INFO] candidates: []
+2025-04-11 09:52:54,406 [INFO] candidates after append: [[]]
+2025-04-11 09:52:54,415 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:52:54,415 [DEBUG] Tree_policy iteration 1: Expanding move (8, 17)
+2025-04-11 09:52:54,415 [INFO] Default policy: Starting random playout.
+2025-04-11 09:52:54,761 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 09:52:54,761 [INFO] candidates: []
+2025-04-11 09:52:54,762 [INFO] candidates after append: [[]]
+2025-04-11 09:52:54,769 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:52:54,769 [INFO] candidates: []
+2025-04-11 09:52:54,770 [INFO] candidates after append: [[]]
+2025-04-11 09:52:54,777 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:52:54,777 [DEBUG] Tree_policy iteration 1: Expanding move (8, 5)
+2025-04-11 09:52:54,778 [INFO] Default policy: Starting random playout.
+2025-04-11 09:52:55,066 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 09:52:55,066 [INFO] candidates: []
+2025-04-11 09:52:55,066 [INFO] candidates after append: [[]]
+2025-04-11 09:52:55,074 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:52:55,074 [INFO] candidates: []
+2025-04-11 09:52:55,075 [INFO] candidates after append: [[]]
+2025-04-11 09:52:55,083 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:52:55,083 [DEBUG] Tree_policy iteration 1: Expanding move (16, 17)
+2025-04-11 09:52:55,083 [INFO] Default policy: Starting random playout.
+2025-04-11 09:52:55,388 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 09:52:55,389 [INFO] candidates: []
+2025-04-11 09:52:55,389 [INFO] candidates after append: [[]]
+2025-04-11 09:52:55,397 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 09:52:55,397 [INFO] candidates: []
+2025-04-11 09:52:55,397 [INFO] candidates after append: [[]]
+2025-04-11 09:52:55,405 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 09:52:55,405 [DEBUG] Tree_policy iteration 1: Expanding move (16, 12)
+2025-04-11 09:52:55,405 [INFO] Default policy: Starting random playout.
+2025-04-11 09:52:55,699 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 09:52:55,699 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-11 09:52:55,699 [INFO] MCTS selected move: Q1
+2025-04-11 09:53:06,348 [INFO] Game terminated.

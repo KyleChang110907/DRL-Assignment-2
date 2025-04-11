@@ -1,0 +1,183 @@
+2025-04-11 10:01:37,278 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 10:01:37,279 [INFO] candidates: []
+2025-04-11 10:01:37,279 [INFO] phase: win
+2025-04-11 10:01:37,279 [INFO] candidates after append: [[]]
+2025-04-11 10:01:37,287 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:37,287 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:01:37,287 [INFO] candidates: []
+2025-04-11 10:01:37,287 [INFO] phase: defense
+2025-04-11 10:01:37,289 [INFO] candidates after append: [[]]
+2025-04-11 10:01:37,297 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:37,297 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:01:37,298 [INFO] No candidate found in Phase 1 or 2; using full legal moves for MCTS.
+2025-04-11 10:01:37,299 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-11 10:01:37,299 [INFO] candidates: []
+2025-04-11 10:01:37,299 [INFO] phase: win
+2025-04-11 10:01:37,299 [INFO] candidates after append: [[]]
+2025-04-11 10:01:37,307 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:37,307 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:01:37,307 [INFO] candidates: []
+2025-04-11 10:01:37,307 [INFO] phase: defense
+2025-04-11 10:01:37,307 [INFO] candidates after append: [[]]
+2025-04-11 10:01:37,315 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:37,315 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:01:37,315 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(8)), (np.int64(8), np.int64(7)))
+2025-04-11 10:01:37,315 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-11 10:01:37,315 [INFO] Default policy: Starting random playout.
+2025-04-11 10:01:37,591 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 10:01:37,591 [INFO] candidates: []
+2025-04-11 10:01:37,591 [INFO] phase: win
+2025-04-11 10:01:37,591 [INFO] candidates after append: [[]]
+2025-04-11 10:01:37,599 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:37,599 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:01:37,599 [INFO] candidates: []
+2025-04-11 10:01:37,599 [INFO] phase: defense
+2025-04-11 10:01:37,600 [INFO] candidates after append: [[]]
+2025-04-11 10:01:37,612 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:37,612 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:01:37,612 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(6)), (np.int64(7), np.int64(8)))
+2025-04-11 10:01:37,613 [INFO] Default policy: Starting random playout.
+2025-04-11 10:01:37,956 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 10:01:37,956 [INFO] candidates: []
+2025-04-11 10:01:37,956 [INFO] phase: win
+2025-04-11 10:01:37,956 [INFO] candidates after append: [[]]
+2025-04-11 10:01:37,964 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:37,964 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:01:37,964 [INFO] candidates: []
+2025-04-11 10:01:37,964 [INFO] phase: defense
+2025-04-11 10:01:37,965 [INFO] candidates after append: [[]]
+2025-04-11 10:01:37,972 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:37,972 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:01:37,972 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(8)), (np.int64(8), np.int64(10)))
+2025-04-11 10:01:37,973 [INFO] Default policy: Starting random playout.
+2025-04-11 10:01:38,262 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 10:01:38,262 [INFO] candidates: []
+2025-04-11 10:01:38,262 [INFO] phase: win
+2025-04-11 10:01:38,263 [INFO] candidates after append: [[]]
+2025-04-11 10:01:38,270 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:38,270 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:01:38,270 [INFO] candidates: []
+2025-04-11 10:01:38,270 [INFO] phase: defense
+2025-04-11 10:01:38,271 [INFO] candidates after append: [[]]
+2025-04-11 10:01:38,279 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:38,279 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:01:38,279 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(9)), (np.int64(6), np.int64(9)))
+2025-04-11 10:01:38,279 [INFO] Default policy: Starting random playout.
+2025-04-11 10:01:38,546 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 10:01:38,546 [INFO] candidates: []
+2025-04-11 10:01:38,546 [INFO] phase: win
+2025-04-11 10:01:38,547 [INFO] candidates after append: [[]]
+2025-04-11 10:01:38,555 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:38,555 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:01:38,555 [INFO] candidates: []
+2025-04-11 10:01:38,555 [INFO] phase: defense
+2025-04-11 10:01:38,556 [INFO] candidates after append: [[]]
+2025-04-11 10:01:38,563 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:38,563 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:01:38,563 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(8), np.int64(7)))
+2025-04-11 10:01:38,564 [INFO] Default policy: Starting random playout.
+2025-04-11 10:01:38,755 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 10:01:38,755 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-11 10:01:38,755 [INFO] MCTS selected move: J9,H9
+2025-04-11 10:01:38,931 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 10:01:38,932 [INFO] candidates: []
+2025-04-11 10:01:38,932 [INFO] phase: win
+2025-04-11 10:01:38,932 [INFO] candidates after append: [[]]
+2025-04-11 10:01:38,939 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:38,939 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:01:38,939 [INFO] candidates: []
+2025-04-11 10:01:38,939 [INFO] phase: defense
+2025-04-11 10:01:38,940 [INFO] candidates after append: [[]]
+2025-04-11 10:01:38,947 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:38,947 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:01:38,947 [INFO] No candidate found in Phase 1 or 2; using full legal moves for MCTS.
+2025-04-11 10:01:38,947 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-11 10:01:38,948 [INFO] candidates: []
+2025-04-11 10:01:38,948 [INFO] phase: win
+2025-04-11 10:01:38,948 [INFO] candidates after append: [[]]
+2025-04-11 10:01:38,955 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:38,955 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:01:38,955 [INFO] candidates: []
+2025-04-11 10:01:38,955 [INFO] phase: defense
+2025-04-11 10:01:38,956 [INFO] candidates after append: [[]]
+2025-04-11 10:01:38,963 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:38,963 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:01:38,963 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(11)), (np.int64(8), np.int64(10)))
+2025-04-11 10:01:38,963 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-11 10:01:38,963 [INFO] Default policy: Starting random playout.
+2025-04-11 10:01:39,051 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 10:01:39,052 [INFO] candidates: []
+2025-04-11 10:01:39,052 [INFO] phase: win
+2025-04-11 10:01:39,052 [INFO] candidates after append: [[]]
+2025-04-11 10:01:39,060 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:39,060 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:01:39,060 [INFO] candidates: []
+2025-04-11 10:01:39,060 [INFO] phase: defense
+2025-04-11 10:01:39,060 [INFO] candidates after append: [[]]
+2025-04-11 10:01:39,067 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:39,067 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:01:39,067 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(11)), (np.int64(7), np.int64(9)))
+2025-04-11 10:01:39,068 [INFO] Default policy: Starting random playout.
+2025-04-11 10:01:39,119 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 10:01:39,119 [INFO] candidates: []
+2025-04-11 10:01:39,119 [INFO] phase: win
+2025-04-11 10:01:39,120 [INFO] candidates after append: [[]]
+2025-04-11 10:01:39,127 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:39,127 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:01:39,127 [INFO] candidates: []
+2025-04-11 10:01:39,127 [INFO] phase: defense
+2025-04-11 10:01:39,128 [INFO] candidates after append: [[]]
+2025-04-11 10:01:39,135 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:39,135 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:01:39,135 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(5), np.int64(9)), (np.int64(10), np.int64(7)))
+2025-04-11 10:01:39,135 [INFO] Default policy: Starting random playout.
+2025-04-11 10:01:39,429 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 10:01:39,429 [INFO] candidates: []
+2025-04-11 10:01:39,429 [INFO] phase: win
+2025-04-11 10:01:39,429 [INFO] candidates after append: [[]]
+2025-04-11 10:01:39,437 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:39,437 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:01:39,437 [INFO] candidates: []
+2025-04-11 10:01:39,437 [INFO] phase: defense
+2025-04-11 10:01:39,437 [INFO] candidates after append: [[]]
+2025-04-11 10:01:39,445 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:39,445 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:01:39,445 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(6), np.int64(8)), (np.int64(10), np.int64(7)))
+2025-04-11 10:01:39,445 [INFO] Default policy: Starting random playout.
+2025-04-11 10:01:39,656 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 10:01:39,657 [INFO] candidates: []
+2025-04-11 10:01:39,657 [INFO] phase: win
+2025-04-11 10:01:39,657 [INFO] candidates after append: [[]]
+2025-04-11 10:01:39,665 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:39,665 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:01:39,665 [INFO] candidates: []
+2025-04-11 10:01:39,665 [INFO] phase: defense
+2025-04-11 10:01:39,665 [INFO] candidates after append: [[]]
+2025-04-11 10:01:39,673 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:39,673 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 10:01:39,673 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(6)), (np.int64(11), np.int64(9)))
+2025-04-11 10:01:39,673 [INFO] Default policy: Starting random playout.
+2025-04-11 10:01:39,999 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 10:01:39,999 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-11 10:01:39,999 [INFO] MCTS selected move: M9,L9
+2025-04-11 10:01:40,185 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 10:01:40,185 [INFO] candidates: []
+2025-04-11 10:01:40,185 [INFO] phase: win
+2025-04-11 10:01:40,185 [INFO] candidates after append: [[]]
+2025-04-11 10:01:40,192 [INFO] Final candidates: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+2025-04-11 10:01:40,192 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 10:01:40,192 [INFO] candidates: []
+2025-04-11 10:01:40,192 [INFO] phase: defense
+2025-04-11 10:01:40,193 [INFO] candidates after append: [[]]
+2025-04-11 10:01:40,194 [DEBUG] check_window_margin_custom: For L=6, window [0 1 1 1 1 0] with coords [(5, 9), (6, 9), (7, 9), (8, 9), (9, 9), (10, 9)] triggers candidate.
+2025-04-11 10:01:40,198 [DEBUG] board coords: [(4, 9), (5, 9), (6, 9), (7, 9), (8, 9), (9, 9)]
+2025-04-11 10:01:40,198 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1)]
+2025-04-11 10:01:40,198 [DEBUG] check_window_intermediate_custom: empty_cells=[(4, 9), (5, 9)]
+2025-04-11 10:01:40,198 [DEBUG] check_window_intermediate_custom: For L=6, window [0 0 1 1 1 1] with coords [(4, 9), (5, 9), (6, 9), (7, 9), (8, 9), (9, 9)] triggers candidate.
+2025-04-11 10:01:40,198 [DEBUG] The consecutive condition should be found in the former check_window_margin_custom.
+2025-04-11 10:01:40,198 [DEBUG] board coords: [(6, 9), (7, 9), (8, 9), (9, 9), (10, 9), (11, 9)]
+2025-04-11 10:01:40,198 [DEBUG] board values[np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(0)]
+2025-04-11 10:01:40,198 [DEBUG] check_window_intermediate_custom: empty_cells=[(10, 9), (11, 9)]
+2025-04-11 10:01:40,198 [DEBUG] check_window_intermediate_custom: For L=6, window [1 1 1 1 0 0] with coords [(6, 9), (7, 9), (8, 9), (9, 9), (10, 9), (11, 9)] triggers candidate.
+2025-04-11 10:01:40,200 [INFO] Final candidates: [[], [], [[(5, 9), (10, 9)]], [], [], [], [], [], [], [], [[(4, 9), (5, 9)], [(10, 9), (11, 9)]], [], [], [], [], []]
+2025-04-11 10:02:52,438 [INFO] Game terminated.
