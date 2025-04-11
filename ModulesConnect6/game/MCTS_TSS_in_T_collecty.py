@@ -513,6 +513,9 @@ def pre_mcts_collect(game, my_val, phase="win"):
                     candidate = check_window_intermediate_custom(window, coords, val_to_check, L )
                     if candidate is not None:
                         moves_found.extend(candidate)
+                    candidate = check_window_missing_one_custom(window, coords, val_to_check, L )
+                    if candidate is not None:
+                        moves_found.extend(candidate)
         
         elif dc==0 and dr!=0:
             # vertical
@@ -524,6 +527,9 @@ def pre_mcts_collect(game, my_val, phase="win"):
                     if candidate is not None:
                         moves_found.extend(candidate)
                     candidate = check_window_intermediate_custom(window, coords, val_to_check, L )
+                    if candidate is not None:
+                        moves_found.extend(candidate)
+                    candidate = check_window_missing_one_custom(window, coords, val_to_check, L )
                     if candidate is not None:
                         moves_found.extend(candidate)
         
@@ -539,6 +545,9 @@ def pre_mcts_collect(game, my_val, phase="win"):
                     candidate = check_window_intermediate_custom(window, coords, val_to_check, L )
                     if candidate is not None:
                         moves_found.extend(candidate)
+                    candidate = check_window_missing_one_custom(window, coords, val_to_check, L )
+                    if candidate is not None:
+                        moves_found.extend(candidate)
         
         elif dr==1 and dc==-1:
             # anti-diagonal
@@ -552,6 +561,10 @@ def pre_mcts_collect(game, my_val, phase="win"):
                     candidate = check_window_intermediate_custom(window, coords, val_to_check, L )
                     if candidate is not None:
                         moves_found.extend(candidate)
+                    candidate = check_window_missing_one_custom(window, coords, val_to_check, L )
+                    if candidate is not None:
+                        moves_found.extend(candidate)
+
         return moves_found
 
 
@@ -673,39 +686,39 @@ def pre_mcts_collect(game, my_val, phase="win"):
 
     
     for_win = True if phase=="win" else False
-    candidates.extend(scan_direction_margin(0, 1, 6, for_win=for_win))
-    candidates.extend(scan_direction_margin(0, 1, 7, for_win=for_win))
-    candidates.extend(scan_direction_margin(1, 0, 6, for_win=for_win))
-    candidates.extend(scan_direction_margin(1, 0, 7, for_win=for_win))
-    candidates.extend(scan_direction_margin(1, 1, 6, for_win=for_win))
-    candidates.extend(scan_direction_margin(1, 1, 7, for_win=for_win))
-    candidates.extend(scan_direction_margin(1, -1, 6, for_win=for_win))
-    candidates.extend(scan_direction_margin(1, -1, 7, for_win=for_win))
-    candidates.extend(scan_direction_intermediate(0, 1, 6, for_win=for_win))
-    candidates.extend(scan_direction_intermediate(0, 1, 7, for_win=for_win))
-    candidates.extend(scan_direction_intermediate(1, 0, 6, for_win=for_win))
-    candidates.extend(scan_direction_intermediate(1, 0, 7, for_win=for_win))
-    candidates.extend(scan_direction_intermediate(1, 1, 6, for_win=for_win))
-    candidates.extend(scan_direction_intermediate(1, 1, 7, for_win=for_win))
-    candidates.extend(scan_direction_intermediate(1, -1, 6, for_win=for_win))
-    candidates.extend(scan_direction_intermediate(1, -1, 7, for_win=for_win))
-    candidates.extend(scan_direction_missing_one(0, 1, 6, for_win=for_win))
-    candidates.extend(scan_direction_missing_one(0, 1, 7, for_win=for_win))
-    candidates.extend(scan_direction_missing_one(1, 0, 6, for_win=for_win))
-    candidates.extend(scan_direction_missing_one(1, 0, 7, for_win=for_win))
-    candidates.extend(scan_direction_missing_one(1, 1, 6, for_win=for_win))
-    candidates.extend(scan_direction_missing_one(1, 1, 7, for_win=for_win))
-    candidates.extend(scan_direction_missing_one(1, -1, 6, for_win=for_win))
-    candidates.extend(scan_direction_missing_one(1, -1, 7, for_win=for_win))
-    
-    # candidates.extend(scan_direction(0, 1, 6, for_win=for_win))
-    # candidates.extend(scan_direction(0, 1, 7, for_win=for_win))
-    # candidates.extend(scan_direction(1, 0, 6, for_win=for_win))
-    # candidates.extend(scan_direction(1, 0, 7, for_win=for_win))
-    # candidates.extend(scan_direction(1, 1, 6, for_win=for_win))
-    # candidates.extend(scan_direction(1, 1, 7, for_win=for_win))
-    # candidates.extend(scan_direction(1, -1, 6, for_win=for_win))
-    # candidates.extend(scan_direction(1, -1, 7, for_win=for_win))
+    # candidates.extend(scan_direction_margin(0, 1, 6, for_win=for_win))
+    # candidates.extend(scan_direction_margin(0, 1, 7, for_win=for_win))
+    # candidates.extend(scan_direction_margin(1, 0, 6, for_win=for_win))
+    # candidates.extend(scan_direction_margin(1, 0, 7, for_win=for_win))
+    # candidates.extend(scan_direction_margin(1, 1, 6, for_win=for_win))
+    # candidates.extend(scan_direction_margin(1, 1, 7, for_win=for_win))
+    # candidates.extend(scan_direction_margin(1, -1, 6, for_win=for_win))
+    # candidates.extend(scan_direction_margin(1, -1, 7, for_win=for_win))
+    # candidates.extend(scan_direction_intermediate(0, 1, 6, for_win=for_win))
+    # candidates.extend(scan_direction_intermediate(0, 1, 7, for_win=for_win))
+    # candidates.extend(scan_direction_intermediate(1, 0, 6, for_win=for_win))
+    # candidates.extend(scan_direction_intermediate(1, 0, 7, for_win=for_win))
+    # candidates.extend(scan_direction_intermediate(1, 1, 6, for_win=for_win))
+    # candidates.extend(scan_direction_intermediate(1, 1, 7, for_win=for_win))
+    # candidates.extend(scan_direction_intermediate(1, -1, 6, for_win=for_win))
+    # candidates.extend(scan_direction_intermediate(1, -1, 7, for_win=for_win))
+    # candidates.extend(scan_direction_missing_one(0, 1, 6, for_win=for_win))
+    # candidates.extend(scan_direction_missing_one(0, 1, 7, for_win=for_win))
+    # candidates.extend(scan_direction_missing_one(1, 0, 6, for_win=for_win))
+    # candidates.extend(scan_direction_missing_one(1, 0, 7, for_win=for_win))
+    # candidates.extend(scan_direction_missing_one(1, 1, 6, for_win=for_win))
+    # candidates.extend(scan_direction_missing_one(1, 1, 7, for_win=for_win))
+    # candidates.extend(scan_direction_missing_one(1, -1, 6, for_win=for_win))
+    # candidates.extend(scan_direction_missing_one(1, -1, 7, for_win=for_win))
+
+    candidates.extend(scan_direction(0, 1, 6, for_win=for_win))
+    candidates.extend(scan_direction(0, 1, 7, for_win=for_win))
+    candidates.extend(scan_direction(1, 0, 6, for_win=for_win))
+    candidates.extend(scan_direction(1, 0, 7, for_win=for_win))
+    candidates.extend(scan_direction(1, 1, 6, for_win=for_win))
+    candidates.extend(scan_direction(1, 1, 7, for_win=for_win))
+    candidates.extend(scan_direction(1, -1, 6, for_win=for_win))
+    candidates.extend(scan_direction(1, -1, 7, for_win=for_win))
 
 
     # 每兩個候選點組合成一個走法
