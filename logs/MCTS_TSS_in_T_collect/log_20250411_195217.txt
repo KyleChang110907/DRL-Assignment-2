@@ -1,0 +1,260 @@
+2025-04-11 19:52:34,771 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 19:52:34,781 [INFO] Final candidates: []
+2025-04-11 19:52:34,781 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:52:34,790 [INFO] Final candidates: []
+2025-04-11 19:52:34,790 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:52:34,790 [INFO] No candidate found in Phase 1 or 2; using full legal moves for MCTS.
+2025-04-11 19:52:34,790 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-11 19:52:34,791 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(10)), (np.int64(10), np.int64(9)))
+2025-04-11 19:52:34,800 [INFO] Final candidates: []
+2025-04-11 19:52:34,800 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:52:34,811 [INFO] Final candidates: []
+2025-04-11 19:52:34,811 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:52:34,811 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-11 19:52:34,811 [INFO] Default policy: Starting random playout.
+2025-04-11 19:52:34,889 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:52:34,889 [DEBUG] MCTS iteration 0: Rollout reward: 0.
+2025-04-11 19:52:34,889 [DEBUG] MCTS iteration 0: Backed up Finish.
+2025-04-11 19:52:34,889 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(9), np.int64(7)))
+2025-04-11 19:52:34,898 [INFO] Final candidates: []
+2025-04-11 19:52:34,898 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:52:34,907 [INFO] Final candidates: []
+2025-04-11 19:52:34,907 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:52:34,908 [INFO] Default policy: Starting random playout.
+2025-04-11 19:52:34,967 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:52:34,967 [DEBUG] MCTS iteration 1: Rollout reward: 0.
+2025-04-11 19:52:34,967 [DEBUG] MCTS iteration 1: Backed up Finish.
+2025-04-11 19:52:34,968 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(10)), (np.int64(9), np.int64(8)))
+2025-04-11 19:52:34,977 [INFO] Final candidates: []
+2025-04-11 19:52:34,977 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:52:34,986 [INFO] Final candidates: []
+2025-04-11 19:52:34,986 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:52:34,986 [INFO] Default policy: Starting random playout.
+2025-04-11 19:52:35,161 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:52:35,161 [DEBUG] MCTS iteration 2: Rollout reward: 0.
+2025-04-11 19:52:35,161 [DEBUG] MCTS iteration 2: Backed up Finish.
+2025-04-11 19:52:35,161 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(8)), (np.int64(7), np.int64(9)))
+2025-04-11 19:52:35,170 [INFO] Final candidates: []
+2025-04-11 19:52:35,170 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:52:35,180 [INFO] Final candidates: []
+2025-04-11 19:52:35,180 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:52:35,180 [INFO] Default policy: Starting random playout.
+2025-04-11 19:52:35,302 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:52:35,302 [DEBUG] MCTS iteration 3: Rollout reward: 0.
+2025-04-11 19:52:35,302 [DEBUG] MCTS iteration 3: Backed up Finish.
+2025-04-11 19:52:35,302 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(9)), (np.int64(10), np.int64(10)))
+2025-04-11 19:52:35,312 [INFO] Final candidates: []
+2025-04-11 19:52:35,312 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:52:35,321 [INFO] Final candidates: []
+2025-04-11 19:52:35,321 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:52:35,321 [INFO] Default policy: Starting random playout.
+2025-04-11 19:52:35,488 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:52:35,488 [DEBUG] MCTS iteration 4: Rollout reward: 1.
+2025-04-11 19:52:35,488 [DEBUG] MCTS iteration 4: Backed up Finish.
+2025-04-11 19:52:35,489 [INFO] MCTS: Search completed after 5 iterations.
+2025-04-11 19:52:35,489 [DEBUG] MCTS: BEST ((np.int64(8), np.int64(10)), (np.int64(10), np.int64(9))) with 1 visits.
+2025-04-11 19:52:35,489 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-11 19:52:35,489 [INFO] MCTS selected move: L9,K11
+2025-04-11 19:52:35,489 [INFO] ===============NEW MOVE================
+2025-04-11 19:52:50,612 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 19:52:50,621 [INFO] Final candidates: []
+2025-04-11 19:52:50,621 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:52:50,629 [INFO] Final candidates: []
+2025-04-11 19:52:50,630 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:52:50,630 [INFO] No candidate found in Phase 1 or 2; using full legal moves for MCTS.
+2025-04-11 19:52:50,630 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-11 19:52:50,630 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(6)), (np.int64(9), np.int64(7)))
+2025-04-11 19:52:50,639 [INFO] Final candidates: []
+2025-04-11 19:52:50,639 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:52:50,647 [INFO] Final candidates: []
+2025-04-11 19:52:50,647 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:52:50,648 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-11 19:52:50,648 [INFO] Default policy: Starting random playout.
+2025-04-11 19:52:50,744 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:52:50,744 [DEBUG] MCTS iteration 0: Rollout reward: 1.
+2025-04-11 19:52:50,744 [DEBUG] MCTS iteration 0: Backed up Finish.
+2025-04-11 19:52:50,745 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(8)), (np.int64(11), np.int64(9)))
+2025-04-11 19:52:50,754 [INFO] Final candidates: []
+2025-04-11 19:52:50,754 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:52:50,763 [INFO] Final candidates: []
+2025-04-11 19:52:50,763 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:52:50,763 [INFO] Default policy: Starting random playout.
+2025-04-11 19:52:50,819 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:52:50,819 [DEBUG] MCTS iteration 1: Rollout reward: 0.
+2025-04-11 19:52:50,819 [DEBUG] MCTS iteration 1: Backed up Finish.
+2025-04-11 19:52:50,819 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(12)), (np.int64(7), np.int64(10)))
+2025-04-11 19:52:50,828 [INFO] Final candidates: []
+2025-04-11 19:52:50,828 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:52:50,837 [INFO] Final candidates: []
+2025-04-11 19:52:50,837 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:52:50,837 [INFO] Default policy: Starting random playout.
+2025-04-11 19:52:50,893 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:52:50,893 [DEBUG] MCTS iteration 2: Rollout reward: 1.
+2025-04-11 19:52:50,893 [DEBUG] MCTS iteration 2: Backed up Finish.
+2025-04-11 19:52:50,894 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(9)), (np.int64(7), np.int64(8)))
+2025-04-11 19:52:50,902 [INFO] Final candidates: []
+2025-04-11 19:52:50,902 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:52:50,911 [INFO] Final candidates: []
+2025-04-11 19:52:50,912 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:52:50,912 [INFO] Default policy: Starting random playout.
+2025-04-11 19:52:50,978 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:52:50,978 [DEBUG] MCTS iteration 3: Rollout reward: 0.
+2025-04-11 19:52:50,978 [DEBUG] MCTS iteration 3: Backed up Finish.
+2025-04-11 19:52:50,978 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(8)), (np.int64(9), np.int64(10)))
+2025-04-11 19:52:50,987 [INFO] Final candidates: []
+2025-04-11 19:52:50,987 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:52:50,995 [INFO] Final candidates: []
+2025-04-11 19:52:50,996 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:52:50,996 [INFO] Default policy: Starting random playout.
+2025-04-11 19:52:51,018 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:52:51,018 [DEBUG] MCTS iteration 4: Rollout reward: 1.
+2025-04-11 19:52:51,018 [DEBUG] MCTS iteration 4: Backed up Finish.
+2025-04-11 19:52:51,018 [INFO] MCTS: Search completed after 5 iterations.
+2025-04-11 19:52:51,018 [DEBUG] MCTS: BEST ((np.int64(8), np.int64(6)), (np.int64(9), np.int64(7))) with 1 visits.
+2025-04-11 19:52:51,018 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-11 19:52:51,018 [INFO] MCTS selected move: G9,H10
+2025-04-11 19:52:51,018 [INFO] ===============NEW MOVE================
+2025-04-11 19:53:00,919 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 19:53:00,927 [INFO] Final candidates: []
+2025-04-11 19:53:00,927 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:53:00,932 [DEBUG] board coords: [(6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)]
+2025-04-11 19:53:00,933 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1)]
+2025-04-11 19:53:00,933 [DEBUG] check_window_intermediate_custom: empty_cells=[(6, 6), (7, 7)]
+2025-04-11 19:53:00,933 [DEBUG] check_window_intermediate_custom: For L=6, window [0 0 1 1 1 1] with coords [(6, 6), (7, 7), (8, 8), (9, 9), (10, 10), (11, 11)] triggers candidate.
+2025-04-11 19:53:00,933 [DEBUG] check_window_intermediate_custom: valid_move=[(7, 7)]
+2025-04-11 19:53:00,933 [DEBUG] check_window_margin_custom: For L=6, window [0 1 1 1 1 0] with coords [(7, 7), (8, 8), (9, 9), (10, 10), (11, 11), (12, 12)] triggers candidate.
+2025-04-11 19:53:00,933 [DEBUG] The consecutive condition should be found in the former check_window_margin_custom.
+2025-04-11 19:53:00,933 [DEBUG] board coords: [(9, 9), (10, 10), (11, 11), (12, 12), (13, 13), (14, 14)]
+2025-04-11 19:53:00,933 [DEBUG] board values[np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(1), np.int64(0)]
+2025-04-11 19:53:00,933 [DEBUG] check_window_intermediate_custom: empty_cells=[(12, 12), (14, 14)]
+2025-04-11 19:53:00,933 [DEBUG] check_window_intermediate_custom: For L=6, window [1 1 1 0 1 0] with coords [(9, 9), (10, 10), (11, 11), (12, 12), (13, 13), (14, 14)] triggers candidate.
+2025-04-11 19:53:00,933 [DEBUG] check_window_intermediate_custom: valid_move=[(12, 12)]
+2025-04-11 19:53:00,934 [DEBUG] board coords: [(7, 7), (8, 8), (9, 9), (10, 10), (11, 11), (12, 12), (13, 13)]
+2025-04-11 19:53:00,934 [DEBUG] board values[np.int64(0), np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(1)]
+2025-04-11 19:53:00,934 [DEBUG] check_window_intermediate_custom: empty_cells=[(7, 7), (12, 12)]
+2025-04-11 19:53:00,934 [DEBUG] check_window_intermediate_custom: For L=7, window [0 1 1 1 1 0 1] with coords [(7, 7), (8, 8), (9, 9), (10, 10), (11, 11), (12, 12), (13, 13)] triggers candidate.
+2025-04-11 19:53:00,934 [DEBUG] check_window_intermediate_custom: valid_move=[(12, 12)]
+2025-04-11 19:53:00,934 [DEBUG] board coords: [(8, 8), (9, 9), (10, 10), (11, 11), (12, 12), (13, 13), (14, 14)]
+2025-04-11 19:53:00,934 [DEBUG] board values[np.int64(1), np.int64(1), np.int64(1), np.int64(1), np.int64(0), np.int64(1), np.int64(0)]
+2025-04-11 19:53:00,934 [DEBUG] check_window_intermediate_custom: empty_cells=[(12, 12), (14, 14)]
+2025-04-11 19:53:00,934 [DEBUG] check_window_intermediate_custom: For L=7, window [1 1 1 1 0 1 0] with coords [(8, 8), (9, 9), (10, 10), (11, 11), (12, 12), (13, 13), (14, 14)] triggers candidate.
+2025-04-11 19:53:00,934 [DEBUG] check_window_intermediate_custom: valid_move=[(12, 12)]
+2025-04-11 19:53:00,937 [INFO] Final candidates: [(12, 12), (7, 7)]
+2025-04-11 19:53:00,937 [INFO] Phase defense: Collected 1unique candidate(s):[((12, 12), (7, 7))]
+2025-04-11 19:53:00,937 [INFO] Phase 2 (defense): 1 candidate(s) found.
+2025-04-11 19:53:00,937 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-11 19:53:00,937 [DEBUG] Tree_policy iteration 1: Expanding move ((12, 12), (7, 7))
+2025-04-11 19:53:00,945 [INFO] Final candidates: []
+2025-04-11 19:53:00,945 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:53:00,954 [INFO] Final candidates: []
+2025-04-11 19:53:00,954 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:53:00,954 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-11 19:53:00,954 [INFO] Default policy: Starting random playout.
+2025-04-11 19:53:01,028 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:53:01,028 [DEBUG] MCTS iteration 0: Rollout reward: 1.
+2025-04-11 19:53:01,028 [DEBUG] MCTS iteration 0: Backed up Finish.
+2025-04-11 19:53:01,028 [DEBUG] Best_child: Chosen child with highest UCB1 weight.
+2025-04-11 19:53:01,028 [DEBUG] Tree_policy iteration 2: Expanding move ((np.int64(8), np.int64(11)), (np.int64(13), np.int64(15)))
+2025-04-11 19:53:01,037 [INFO] Final candidates: []
+2025-04-11 19:53:01,037 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:53:01,045 [INFO] Final candidates: []
+2025-04-11 19:53:01,045 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:53:01,046 [INFO] Default policy: Starting random playout.
+2025-04-11 19:53:01,215 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:53:01,215 [DEBUG] MCTS iteration 1: Rollout reward: 1.
+2025-04-11 19:53:01,216 [DEBUG] MCTS iteration 1: Backed up Finish.
+2025-04-11 19:53:01,216 [DEBUG] Best_child: Chosen child with highest UCB1 weight.
+2025-04-11 19:53:01,216 [DEBUG] Tree_policy iteration 2: Expanding move ((np.int64(10), np.int64(12)), (np.int64(8), np.int64(11)))
+2025-04-11 19:53:01,224 [INFO] Final candidates: []
+2025-04-11 19:53:01,224 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:53:01,232 [INFO] Final candidates: []
+2025-04-11 19:53:01,232 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:53:01,233 [INFO] Default policy: Starting random playout.
+2025-04-11 19:53:01,280 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:53:01,280 [DEBUG] MCTS iteration 2: Rollout reward: 1.
+2025-04-11 19:53:01,280 [DEBUG] MCTS iteration 2: Backed up Finish.
+2025-04-11 19:53:01,280 [DEBUG] Best_child: Chosen child with highest UCB1 weight.
+2025-04-11 19:53:01,280 [DEBUG] Tree_policy iteration 2: Expanding move ((np.int64(7), np.int64(10)), (np.int64(7), np.int64(5)))
+2025-04-11 19:53:01,289 [INFO] Final candidates: []
+2025-04-11 19:53:01,289 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:53:01,297 [INFO] Final candidates: []
+2025-04-11 19:53:01,297 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:53:01,297 [INFO] Default policy: Starting random playout.
+2025-04-11 19:53:01,357 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:53:01,357 [DEBUG] MCTS iteration 3: Rollout reward: 0.
+2025-04-11 19:53:01,357 [DEBUG] MCTS iteration 3: Backed up Finish.
+2025-04-11 19:53:01,357 [DEBUG] Best_child: Chosen child with highest UCB1 weight.
+2025-04-11 19:53:01,357 [DEBUG] Tree_policy iteration 2: Expanding move ((np.int64(11), np.int64(8)), (np.int64(6), np.int64(6)))
+2025-04-11 19:53:01,366 [INFO] Final candidates: []
+2025-04-11 19:53:01,366 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:53:01,374 [INFO] Final candidates: []
+2025-04-11 19:53:01,374 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:53:01,374 [INFO] Default policy: Starting random playout.
+2025-04-11 19:53:01,525 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:53:01,525 [DEBUG] MCTS iteration 4: Rollout reward: 1.
+2025-04-11 19:53:01,525 [DEBUG] MCTS iteration 4: Backed up Finish.
+2025-04-11 19:53:01,525 [INFO] MCTS: Search completed after 5 iterations.
+2025-04-11 19:53:01,525 [DEBUG] MCTS: BEST ((12, 12), (7, 7)) with 5 visits.
+2025-04-11 19:53:01,525 [INFO] MCTS: Search finished. Best move selected with 5 visits.
+2025-04-11 19:53:01,525 [INFO] Phase 2 (defense): MCTS selected move: ((12, 12), (7, 7))
+2025-04-11 19:53:01,525 [INFO] Phase 2 (defense): MCTS selected move string : N13,H8
+2025-04-11 19:53:01,525 [INFO] MCTS (defense candidates) selected move: N13,H8
+2025-04-11 19:53:08,202 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 19:53:08,210 [INFO] Final candidates: []
+2025-04-11 19:53:08,210 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:53:08,219 [INFO] Final candidates: []
+2025-04-11 19:53:08,219 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:53:08,219 [INFO] No candidate found in Phase 1 or 2; using full legal moves for MCTS.
+2025-04-11 19:53:08,219 [INFO] MCTS: Starting search for 5 iterations.
+2025-04-11 19:53:08,219 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(11)), (np.int64(9), np.int64(12)))
+2025-04-11 19:53:08,227 [INFO] Final candidates: []
+2025-04-11 19:53:08,227 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:53:08,236 [INFO] Final candidates: []
+2025-04-11 19:53:08,236 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:53:08,236 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-11 19:53:08,236 [INFO] Default policy: Starting random playout.
+2025-04-11 19:53:08,328 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:53:08,328 [DEBUG] MCTS iteration 0: Rollout reward: 1.
+2025-04-11 19:53:08,328 [DEBUG] MCTS iteration 0: Backed up Finish.
+2025-04-11 19:53:08,328 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(6)), (np.int64(9), np.int64(12)))
+2025-04-11 19:53:08,337 [INFO] Final candidates: []
+2025-04-11 19:53:08,337 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:53:08,345 [INFO] Final candidates: []
+2025-04-11 19:53:08,345 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:53:08,346 [INFO] Default policy: Starting random playout.
+2025-04-11 19:53:08,401 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:53:08,401 [DEBUG] MCTS iteration 1: Rollout reward: 1.
+2025-04-11 19:53:08,401 [DEBUG] MCTS iteration 1: Backed up Finish.
+2025-04-11 19:53:08,401 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(4)), (np.int64(9), np.int64(6)))
+2025-04-11 19:53:08,410 [INFO] Final candidates: []
+2025-04-11 19:53:08,410 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:53:08,418 [INFO] Final candidates: []
+2025-04-11 19:53:08,418 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:53:08,418 [INFO] Default policy: Starting random playout.
+2025-04-11 19:53:08,579 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:53:08,579 [DEBUG] MCTS iteration 2: Rollout reward: 0.
+2025-04-11 19:53:08,579 [DEBUG] MCTS iteration 2: Backed up Finish.
+2025-04-11 19:53:08,579 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(14), np.int64(13)), (np.int64(12), np.int64(11)))
+2025-04-11 19:53:08,587 [INFO] Final candidates: []
+2025-04-11 19:53:08,587 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:53:08,595 [INFO] Final candidates: []
+2025-04-11 19:53:08,595 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:53:08,596 [INFO] Default policy: Starting random playout.
+2025-04-11 19:53:08,804 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:53:08,805 [DEBUG] MCTS iteration 3: Rollout reward: 1.
+2025-04-11 19:53:08,805 [DEBUG] MCTS iteration 3: Backed up Finish.
+2025-04-11 19:53:08,805 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(10)), (np.int64(12), np.int64(14)))
+2025-04-11 19:53:08,813 [INFO] Final candidates: []
+2025-04-11 19:53:08,813 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:53:08,821 [INFO] Final candidates: []
+2025-04-11 19:53:08,821 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:53:08,821 [INFO] Default policy: Starting random playout.
+2025-04-11 19:53:08,867 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:53:08,867 [DEBUG] MCTS iteration 4: Rollout reward: 1.
+2025-04-11 19:53:08,867 [DEBUG] MCTS iteration 4: Backed up Finish.
+2025-04-11 19:53:08,867 [INFO] MCTS: Search completed after 5 iterations.
+2025-04-11 19:53:08,867 [DEBUG] MCTS: BEST ((np.int64(8), np.int64(11)), (np.int64(9), np.int64(12))) with 1 visits.
+2025-04-11 19:53:08,867 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-11 19:53:08,867 [INFO] MCTS selected move: M9,N10
+2025-04-11 19:53:08,867 [INFO] ===============NEW MOVE================
+2025-04-11 19:54:15,701 [INFO] Game terminated.

@@ -1,0 +1,2190 @@
+2025-04-11 19:28:11,620 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 19:28:11,631 [INFO] Final candidates: []
+2025-04-11 19:28:11,631 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:11,640 [INFO] Final candidates: []
+2025-04-11 19:28:11,640 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:11,640 [INFO] No candidate found in Phase 1 or 2; using full legal moves for MCTS.
+2025-04-11 19:28:11,640 [INFO] MCTS: Starting search for 100 iterations.
+2025-04-11 19:28:11,640 [DEBUG] Tree_policy iteration 1: Expanding move (12, 8)
+2025-04-11 19:28:11,652 [INFO] Final candidates: []
+2025-04-11 19:28:11,652 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:11,662 [INFO] Final candidates: []
+2025-04-11 19:28:11,662 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:11,662 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-11 19:28:11,662 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:11,758 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:11,758 [DEBUG] Tree_policy iteration 1: Expanding move (10, 13)
+2025-04-11 19:28:11,766 [INFO] Final candidates: []
+2025-04-11 19:28:11,766 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:11,774 [INFO] Final candidates: []
+2025-04-11 19:28:11,774 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:11,775 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:12,028 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:12,029 [DEBUG] Tree_policy iteration 1: Expanding move (8, 17)
+2025-04-11 19:28:12,037 [INFO] Final candidates: []
+2025-04-11 19:28:12,037 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,050 [INFO] Final candidates: []
+2025-04-11 19:28:12,050 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,050 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:12,129 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:12,129 [DEBUG] Tree_policy iteration 1: Expanding move (3, 7)
+2025-04-11 19:28:12,138 [INFO] Final candidates: []
+2025-04-11 19:28:12,138 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,146 [INFO] Final candidates: []
+2025-04-11 19:28:12,146 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,146 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:12,287 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:12,287 [DEBUG] Tree_policy iteration 1: Expanding move (17, 8)
+2025-04-11 19:28:12,295 [INFO] Final candidates: []
+2025-04-11 19:28:12,295 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,303 [INFO] Final candidates: []
+2025-04-11 19:28:12,303 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,303 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:12,414 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:12,414 [DEBUG] Tree_policy iteration 1: Expanding move (12, 13)
+2025-04-11 19:28:12,424 [INFO] Final candidates: []
+2025-04-11 19:28:12,424 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,432 [INFO] Final candidates: []
+2025-04-11 19:28:12,432 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,432 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:12,506 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:12,506 [DEBUG] Tree_policy iteration 1: Expanding move (9, 5)
+2025-04-11 19:28:12,514 [INFO] Final candidates: []
+2025-04-11 19:28:12,514 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,523 [INFO] Final candidates: []
+2025-04-11 19:28:12,523 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,523 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:12,548 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:12,549 [DEBUG] Tree_policy iteration 1: Expanding move (11, 1)
+2025-04-11 19:28:12,559 [INFO] Final candidates: []
+2025-04-11 19:28:12,559 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,567 [INFO] Final candidates: []
+2025-04-11 19:28:12,567 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,567 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:12,579 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:12,579 [DEBUG] Tree_policy iteration 1: Expanding move (10, 11)
+2025-04-11 19:28:12,587 [INFO] Final candidates: []
+2025-04-11 19:28:12,587 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,595 [INFO] Final candidates: []
+2025-04-11 19:28:12,595 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,595 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:12,800 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:12,800 [DEBUG] Tree_policy iteration 1: Expanding move (17, 15)
+2025-04-11 19:28:12,808 [INFO] Final candidates: []
+2025-04-11 19:28:12,808 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,816 [INFO] Final candidates: []
+2025-04-11 19:28:12,816 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,816 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:12,854 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:12,854 [DEBUG] Tree_policy iteration 1: Expanding move (10, 12)
+2025-04-11 19:28:12,863 [INFO] Final candidates: []
+2025-04-11 19:28:12,863 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,871 [INFO] Final candidates: []
+2025-04-11 19:28:12,871 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,871 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:12,965 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:12,965 [DEBUG] Tree_policy iteration 1: Expanding move (7, 16)
+2025-04-11 19:28:12,973 [INFO] Final candidates: []
+2025-04-11 19:28:12,973 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,981 [INFO] Final candidates: []
+2025-04-11 19:28:12,981 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:12,981 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:13,120 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:13,120 [DEBUG] Tree_policy iteration 1: Expanding move (10, 4)
+2025-04-11 19:28:13,128 [INFO] Final candidates: []
+2025-04-11 19:28:13,128 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:13,137 [INFO] Final candidates: []
+2025-04-11 19:28:13,137 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:13,137 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:13,251 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:13,251 [DEBUG] Tree_policy iteration 1: Expanding move (0, 8)
+2025-04-11 19:28:13,260 [INFO] Final candidates: []
+2025-04-11 19:28:13,260 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:13,268 [INFO] Final candidates: []
+2025-04-11 19:28:13,268 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:13,268 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:13,344 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:13,344 [DEBUG] Tree_policy iteration 1: Expanding move (14, 17)
+2025-04-11 19:28:13,352 [INFO] Final candidates: []
+2025-04-11 19:28:13,352 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:13,361 [INFO] Final candidates: []
+2025-04-11 19:28:13,361 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:13,361 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:13,532 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:13,532 [DEBUG] Tree_policy iteration 1: Expanding move (14, 5)
+2025-04-11 19:28:13,541 [INFO] Final candidates: []
+2025-04-11 19:28:13,541 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:13,549 [INFO] Final candidates: []
+2025-04-11 19:28:13,549 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:13,549 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:13,637 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:13,637 [DEBUG] Tree_policy iteration 1: Expanding move (13, 0)
+2025-04-11 19:28:13,647 [INFO] Final candidates: []
+2025-04-11 19:28:13,647 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:13,655 [INFO] Final candidates: []
+2025-04-11 19:28:13,655 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:13,655 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:13,776 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:13,776 [DEBUG] Tree_policy iteration 1: Expanding move (11, 5)
+2025-04-11 19:28:13,788 [INFO] Final candidates: []
+2025-04-11 19:28:13,788 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:13,799 [INFO] Final candidates: []
+2025-04-11 19:28:13,799 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:13,799 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:13,881 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:13,881 [DEBUG] Tree_policy iteration 1: Expanding move (4, 5)
+2025-04-11 19:28:13,893 [INFO] Final candidates: []
+2025-04-11 19:28:13,893 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:13,902 [INFO] Final candidates: []
+2025-04-11 19:28:13,902 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:13,902 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:13,967 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:13,968 [DEBUG] Tree_policy iteration 1: Expanding move (17, 10)
+2025-04-11 19:28:13,976 [INFO] Final candidates: []
+2025-04-11 19:28:13,976 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:13,984 [INFO] Final candidates: []
+2025-04-11 19:28:13,984 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:13,984 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:14,093 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:14,093 [DEBUG] Tree_policy iteration 1: Expanding move (9, 13)
+2025-04-11 19:28:14,105 [INFO] Final candidates: []
+2025-04-11 19:28:14,105 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:14,122 [INFO] Final candidates: []
+2025-04-11 19:28:14,122 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:14,122 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:14,169 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:14,169 [DEBUG] Tree_policy iteration 1: Expanding move (17, 14)
+2025-04-11 19:28:14,177 [INFO] Final candidates: []
+2025-04-11 19:28:14,178 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:14,187 [INFO] Final candidates: []
+2025-04-11 19:28:14,187 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:14,187 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:14,357 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:14,357 [DEBUG] Tree_policy iteration 1: Expanding move (3, 16)
+2025-04-11 19:28:14,365 [INFO] Final candidates: []
+2025-04-11 19:28:14,365 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:14,373 [INFO] Final candidates: []
+2025-04-11 19:28:14,373 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:14,374 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:14,604 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:14,604 [DEBUG] Tree_policy iteration 1: Expanding move (10, 10)
+2025-04-11 19:28:14,616 [INFO] Final candidates: []
+2025-04-11 19:28:14,616 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:14,626 [INFO] Final candidates: []
+2025-04-11 19:28:14,626 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:14,626 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:14,859 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:14,859 [DEBUG] Tree_policy iteration 1: Expanding move (18, 4)
+2025-04-11 19:28:14,867 [INFO] Final candidates: []
+2025-04-11 19:28:14,867 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:14,876 [INFO] Final candidates: []
+2025-04-11 19:28:14,876 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:14,876 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:14,902 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:14,902 [DEBUG] Tree_policy iteration 1: Expanding move (5, 15)
+2025-04-11 19:28:14,912 [INFO] Final candidates: []
+2025-04-11 19:28:14,912 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:14,920 [INFO] Final candidates: []
+2025-04-11 19:28:14,920 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:14,920 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:15,001 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:15,001 [DEBUG] Tree_policy iteration 1: Expanding move (8, 7)
+2025-04-11 19:28:15,009 [INFO] Final candidates: []
+2025-04-11 19:28:15,009 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:15,018 [INFO] Final candidates: []
+2025-04-11 19:28:15,018 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:15,018 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:15,195 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:15,195 [DEBUG] Tree_policy iteration 1: Expanding move (4, 11)
+2025-04-11 19:28:15,203 [INFO] Final candidates: []
+2025-04-11 19:28:15,203 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:15,211 [INFO] Final candidates: []
+2025-04-11 19:28:15,211 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:15,212 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:15,247 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:15,247 [DEBUG] Tree_policy iteration 1: Expanding move (18, 18)
+2025-04-11 19:28:15,255 [INFO] Final candidates: []
+2025-04-11 19:28:15,255 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:15,264 [INFO] Final candidates: []
+2025-04-11 19:28:15,264 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:15,264 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:15,387 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:15,387 [DEBUG] Tree_policy iteration 1: Expanding move (13, 18)
+2025-04-11 19:28:15,395 [INFO] Final candidates: []
+2025-04-11 19:28:15,395 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:15,404 [INFO] Final candidates: []
+2025-04-11 19:28:15,404 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:15,404 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:15,443 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:15,444 [DEBUG] Tree_policy iteration 1: Expanding move (14, 6)
+2025-04-11 19:28:15,452 [INFO] Final candidates: []
+2025-04-11 19:28:15,452 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:15,460 [INFO] Final candidates: []
+2025-04-11 19:28:15,460 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:15,460 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:15,715 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:15,715 [DEBUG] Tree_policy iteration 1: Expanding move (7, 10)
+2025-04-11 19:28:15,723 [INFO] Final candidates: []
+2025-04-11 19:28:15,723 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:15,732 [INFO] Final candidates: []
+2025-04-11 19:28:15,732 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:15,732 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:15,853 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:15,853 [DEBUG] Tree_policy iteration 1: Expanding move (15, 7)
+2025-04-11 19:28:15,861 [INFO] Final candidates: []
+2025-04-11 19:28:15,861 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:15,869 [INFO] Final candidates: []
+2025-04-11 19:28:15,869 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:15,869 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:15,946 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:15,947 [DEBUG] Tree_policy iteration 1: Expanding move (10, 15)
+2025-04-11 19:28:15,955 [INFO] Final candidates: []
+2025-04-11 19:28:15,955 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:15,965 [INFO] Final candidates: []
+2025-04-11 19:28:15,965 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:15,965 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:16,024 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:16,024 [DEBUG] Tree_policy iteration 1: Expanding move (9, 4)
+2025-04-11 19:28:16,032 [INFO] Final candidates: []
+2025-04-11 19:28:16,032 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:16,040 [INFO] Final candidates: []
+2025-04-11 19:28:16,040 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:16,040 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:16,149 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:16,149 [DEBUG] Tree_policy iteration 1: Expanding move (9, 18)
+2025-04-11 19:28:16,157 [INFO] Final candidates: []
+2025-04-11 19:28:16,157 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:16,165 [INFO] Final candidates: []
+2025-04-11 19:28:16,165 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:16,165 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:16,198 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:16,198 [DEBUG] Tree_policy iteration 1: Expanding move (9, 9)
+2025-04-11 19:28:16,206 [INFO] Final candidates: []
+2025-04-11 19:28:16,206 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:16,214 [INFO] Final candidates: []
+2025-04-11 19:28:16,214 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:16,214 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:16,291 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:16,291 [DEBUG] Tree_policy iteration 1: Expanding move (8, 14)
+2025-04-11 19:28:16,299 [INFO] Final candidates: []
+2025-04-11 19:28:16,299 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:16,307 [INFO] Final candidates: []
+2025-04-11 19:28:16,307 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:16,307 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:16,405 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:16,405 [DEBUG] Tree_policy iteration 1: Expanding move (11, 13)
+2025-04-11 19:28:16,413 [INFO] Final candidates: []
+2025-04-11 19:28:16,413 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:16,421 [INFO] Final candidates: []
+2025-04-11 19:28:16,421 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:16,421 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:16,719 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:16,719 [DEBUG] Tree_policy iteration 1: Expanding move (2, 3)
+2025-04-11 19:28:16,727 [INFO] Final candidates: []
+2025-04-11 19:28:16,727 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:16,737 [INFO] Final candidates: []
+2025-04-11 19:28:16,737 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:16,737 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:16,753 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:16,753 [DEBUG] Tree_policy iteration 1: Expanding move (6, 17)
+2025-04-11 19:28:16,762 [INFO] Final candidates: []
+2025-04-11 19:28:16,762 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:16,770 [INFO] Final candidates: []
+2025-04-11 19:28:16,770 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:16,770 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:16,834 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:16,835 [DEBUG] Tree_policy iteration 1: Expanding move (3, 8)
+2025-04-11 19:28:16,843 [INFO] Final candidates: []
+2025-04-11 19:28:16,843 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:16,853 [INFO] Final candidates: []
+2025-04-11 19:28:16,853 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:16,854 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:17,103 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:17,103 [DEBUG] Tree_policy iteration 1: Expanding move (18, 8)
+2025-04-11 19:28:17,113 [INFO] Final candidates: []
+2025-04-11 19:28:17,113 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,126 [INFO] Final candidates: []
+2025-04-11 19:28:17,127 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,127 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:17,155 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:17,155 [DEBUG] Tree_policy iteration 1: Expanding move (1, 15)
+2025-04-11 19:28:17,163 [INFO] Final candidates: []
+2025-04-11 19:28:17,163 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,172 [INFO] Final candidates: []
+2025-04-11 19:28:17,172 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,172 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:17,231 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:17,231 [DEBUG] Tree_policy iteration 1: Expanding move (17, 18)
+2025-04-11 19:28:17,240 [INFO] Final candidates: []
+2025-04-11 19:28:17,240 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,248 [INFO] Final candidates: []
+2025-04-11 19:28:17,248 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,248 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:17,362 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:17,362 [DEBUG] Tree_policy iteration 1: Expanding move (11, 6)
+2025-04-11 19:28:17,370 [INFO] Final candidates: []
+2025-04-11 19:28:17,370 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,378 [INFO] Final candidates: []
+2025-04-11 19:28:17,378 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,378 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:17,539 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:17,539 [DEBUG] Tree_policy iteration 1: Expanding move (5, 11)
+2025-04-11 19:28:17,549 [INFO] Final candidates: []
+2025-04-11 19:28:17,549 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,557 [INFO] Final candidates: []
+2025-04-11 19:28:17,557 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,557 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:17,685 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:17,685 [DEBUG] Tree_policy iteration 1: Expanding move (6, 14)
+2025-04-11 19:28:17,694 [INFO] Final candidates: []
+2025-04-11 19:28:17,694 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,702 [INFO] Final candidates: []
+2025-04-11 19:28:17,702 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,702 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:17,776 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:17,776 [DEBUG] Tree_policy iteration 1: Expanding move (11, 10)
+2025-04-11 19:28:17,784 [INFO] Final candidates: []
+2025-04-11 19:28:17,784 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,792 [INFO] Final candidates: []
+2025-04-11 19:28:17,792 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,793 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:17,878 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:17,878 [DEBUG] Tree_policy iteration 1: Expanding move (4, 3)
+2025-04-11 19:28:17,886 [INFO] Final candidates: []
+2025-04-11 19:28:17,886 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,894 [INFO] Final candidates: []
+2025-04-11 19:28:17,894 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,894 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:17,906 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:17,906 [DEBUG] Tree_policy iteration 1: Expanding move (13, 5)
+2025-04-11 19:28:17,914 [INFO] Final candidates: []
+2025-04-11 19:28:17,914 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,922 [INFO] Final candidates: []
+2025-04-11 19:28:17,922 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:17,922 [DEBUG] MCTS iteration 50: reached a node with 0 visits.
+2025-04-11 19:28:17,922 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:18,072 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:18,072 [DEBUG] Tree_policy iteration 1: Expanding move (11, 11)
+2025-04-11 19:28:18,081 [INFO] Final candidates: []
+2025-04-11 19:28:18,081 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:18,089 [INFO] Final candidates: []
+2025-04-11 19:28:18,089 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:18,089 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:18,107 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:18,108 [DEBUG] Tree_policy iteration 1: Expanding move (10, 8)
+2025-04-11 19:28:18,117 [INFO] Final candidates: []
+2025-04-11 19:28:18,117 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:18,125 [INFO] Final candidates: []
+2025-04-11 19:28:18,125 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:18,125 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:18,246 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:18,246 [DEBUG] Tree_policy iteration 1: Expanding move (7, 2)
+2025-04-11 19:28:18,254 [INFO] Final candidates: []
+2025-04-11 19:28:18,254 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:18,262 [INFO] Final candidates: []
+2025-04-11 19:28:18,262 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:18,262 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:18,354 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:18,354 [DEBUG] Tree_policy iteration 1: Expanding move (17, 2)
+2025-04-11 19:28:18,362 [INFO] Final candidates: []
+2025-04-11 19:28:18,362 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:18,370 [INFO] Final candidates: []
+2025-04-11 19:28:18,370 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:18,370 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:18,398 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:18,398 [DEBUG] Tree_policy iteration 1: Expanding move (18, 12)
+2025-04-11 19:28:18,406 [INFO] Final candidates: []
+2025-04-11 19:28:18,406 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:18,414 [INFO] Final candidates: []
+2025-04-11 19:28:18,414 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:18,414 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:18,602 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:18,602 [DEBUG] Tree_policy iteration 1: Expanding move (13, 7)
+2025-04-11 19:28:18,610 [INFO] Final candidates: []
+2025-04-11 19:28:18,610 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:18,618 [INFO] Final candidates: []
+2025-04-11 19:28:18,618 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:18,619 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:18,668 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:18,669 [DEBUG] Tree_policy iteration 1: Expanding move (0, 1)
+2025-04-11 19:28:18,677 [INFO] Final candidates: []
+2025-04-11 19:28:18,677 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:18,685 [INFO] Final candidates: []
+2025-04-11 19:28:18,685 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:18,685 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:18,851 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:18,851 [DEBUG] Tree_policy iteration 1: Expanding move (12, 5)
+2025-04-11 19:28:18,859 [INFO] Final candidates: []
+2025-04-11 19:28:18,859 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:18,867 [INFO] Final candidates: []
+2025-04-11 19:28:18,867 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:18,867 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:19,013 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:19,013 [DEBUG] Tree_policy iteration 1: Expanding move (4, 15)
+2025-04-11 19:28:19,021 [INFO] Final candidates: []
+2025-04-11 19:28:19,021 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,029 [INFO] Final candidates: []
+2025-04-11 19:28:19,029 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,030 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:19,089 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:19,089 [DEBUG] Tree_policy iteration 1: Expanding move (18, 0)
+2025-04-11 19:28:19,097 [INFO] Final candidates: []
+2025-04-11 19:28:19,097 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,105 [INFO] Final candidates: []
+2025-04-11 19:28:19,105 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,105 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:19,230 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:19,230 [DEBUG] Tree_policy iteration 1: Expanding move (3, 10)
+2025-04-11 19:28:19,238 [INFO] Final candidates: []
+2025-04-11 19:28:19,238 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,248 [INFO] Final candidates: []
+2025-04-11 19:28:19,248 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,248 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:19,316 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:19,316 [DEBUG] Tree_policy iteration 1: Expanding move (16, 0)
+2025-04-11 19:28:19,325 [INFO] Final candidates: []
+2025-04-11 19:28:19,325 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,333 [INFO] Final candidates: []
+2025-04-11 19:28:19,333 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,333 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:19,438 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:19,438 [DEBUG] Tree_policy iteration 1: Expanding move (15, 9)
+2025-04-11 19:28:19,446 [INFO] Final candidates: []
+2025-04-11 19:28:19,446 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,454 [INFO] Final candidates: []
+2025-04-11 19:28:19,454 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,454 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:19,661 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:19,661 [DEBUG] Tree_policy iteration 1: Expanding move (18, 13)
+2025-04-11 19:28:19,669 [INFO] Final candidates: []
+2025-04-11 19:28:19,669 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,677 [INFO] Final candidates: []
+2025-04-11 19:28:19,677 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,677 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:19,726 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:19,726 [DEBUG] Tree_policy iteration 1: Expanding move (17, 11)
+2025-04-11 19:28:19,734 [INFO] Final candidates: []
+2025-04-11 19:28:19,734 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,742 [INFO] Final candidates: []
+2025-04-11 19:28:19,742 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,742 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:19,802 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:19,803 [DEBUG] Tree_policy iteration 1: Expanding move (4, 16)
+2025-04-11 19:28:19,811 [INFO] Final candidates: []
+2025-04-11 19:28:19,811 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,819 [INFO] Final candidates: []
+2025-04-11 19:28:19,819 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,819 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:19,876 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:19,877 [DEBUG] Tree_policy iteration 1: Expanding move (1, 6)
+2025-04-11 19:28:19,885 [INFO] Final candidates: []
+2025-04-11 19:28:19,885 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,893 [INFO] Final candidates: []
+2025-04-11 19:28:19,893 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:19,894 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:20,038 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:20,038 [DEBUG] Tree_policy iteration 1: Expanding move (16, 15)
+2025-04-11 19:28:20,047 [INFO] Final candidates: []
+2025-04-11 19:28:20,047 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,055 [INFO] Final candidates: []
+2025-04-11 19:28:20,055 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,056 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:20,157 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:20,157 [DEBUG] Tree_policy iteration 1: Expanding move (3, 14)
+2025-04-11 19:28:20,165 [INFO] Final candidates: []
+2025-04-11 19:28:20,165 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,173 [INFO] Final candidates: []
+2025-04-11 19:28:20,174 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,174 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:20,355 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:20,355 [DEBUG] Tree_policy iteration 1: Expanding move (1, 0)
+2025-04-11 19:28:20,364 [INFO] Final candidates: []
+2025-04-11 19:28:20,364 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,372 [INFO] Final candidates: []
+2025-04-11 19:28:20,372 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,372 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:20,435 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:20,435 [DEBUG] Tree_policy iteration 1: Expanding move (13, 9)
+2025-04-11 19:28:20,443 [INFO] Final candidates: []
+2025-04-11 19:28:20,443 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,451 [INFO] Final candidates: []
+2025-04-11 19:28:20,451 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,451 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:20,529 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:20,529 [DEBUG] Tree_policy iteration 1: Expanding move (0, 7)
+2025-04-11 19:28:20,537 [INFO] Final candidates: []
+2025-04-11 19:28:20,537 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,545 [INFO] Final candidates: []
+2025-04-11 19:28:20,545 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,545 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:20,610 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:20,611 [DEBUG] Tree_policy iteration 1: Expanding move (15, 12)
+2025-04-11 19:28:20,619 [INFO] Final candidates: []
+2025-04-11 19:28:20,619 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,627 [INFO] Final candidates: []
+2025-04-11 19:28:20,627 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,627 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:20,714 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:20,714 [DEBUG] Tree_policy iteration 1: Expanding move (3, 11)
+2025-04-11 19:28:20,723 [INFO] Final candidates: []
+2025-04-11 19:28:20,723 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,731 [INFO] Final candidates: []
+2025-04-11 19:28:20,731 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,731 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:20,746 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:20,746 [DEBUG] Tree_policy iteration 1: Expanding move (13, 16)
+2025-04-11 19:28:20,754 [INFO] Final candidates: []
+2025-04-11 19:28:20,754 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,762 [INFO] Final candidates: []
+2025-04-11 19:28:20,762 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,763 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:20,777 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:20,777 [DEBUG] Tree_policy iteration 1: Expanding move (6, 16)
+2025-04-11 19:28:20,785 [INFO] Final candidates: []
+2025-04-11 19:28:20,785 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,793 [INFO] Final candidates: []
+2025-04-11 19:28:20,793 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:20,793 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:21,019 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:21,019 [DEBUG] Tree_policy iteration 1: Expanding move (16, 4)
+2025-04-11 19:28:21,028 [INFO] Final candidates: []
+2025-04-11 19:28:21,028 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,036 [INFO] Final candidates: []
+2025-04-11 19:28:21,036 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,036 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:21,137 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:21,138 [DEBUG] Tree_policy iteration 1: Expanding move (14, 11)
+2025-04-11 19:28:21,146 [INFO] Final candidates: []
+2025-04-11 19:28:21,146 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,154 [INFO] Final candidates: []
+2025-04-11 19:28:21,154 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,154 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:21,196 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:21,196 [DEBUG] Tree_policy iteration 1: Expanding move (10, 17)
+2025-04-11 19:28:21,204 [INFO] Final candidates: []
+2025-04-11 19:28:21,204 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,214 [INFO] Final candidates: []
+2025-04-11 19:28:21,214 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,214 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:21,286 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:21,287 [DEBUG] Tree_policy iteration 1: Expanding move (4, 8)
+2025-04-11 19:28:21,295 [INFO] Final candidates: []
+2025-04-11 19:28:21,295 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,303 [INFO] Final candidates: []
+2025-04-11 19:28:21,303 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,303 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:21,318 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:21,318 [DEBUG] Tree_policy iteration 1: Expanding move (6, 18)
+2025-04-11 19:28:21,326 [INFO] Final candidates: []
+2025-04-11 19:28:21,327 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,334 [INFO] Final candidates: []
+2025-04-11 19:28:21,334 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,335 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:21,352 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:21,352 [DEBUG] Tree_policy iteration 1: Expanding move (14, 2)
+2025-04-11 19:28:21,360 [INFO] Final candidates: []
+2025-04-11 19:28:21,360 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,368 [INFO] Final candidates: []
+2025-04-11 19:28:21,368 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,369 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:21,452 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:21,452 [DEBUG] Tree_policy iteration 1: Expanding move (17, 17)
+2025-04-11 19:28:21,460 [INFO] Final candidates: []
+2025-04-11 19:28:21,460 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,468 [INFO] Final candidates: []
+2025-04-11 19:28:21,468 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,468 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:21,525 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:21,525 [DEBUG] Tree_policy iteration 1: Expanding move (1, 13)
+2025-04-11 19:28:21,533 [INFO] Final candidates: []
+2025-04-11 19:28:21,533 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,541 [INFO] Final candidates: []
+2025-04-11 19:28:21,541 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,542 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:21,654 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:21,654 [DEBUG] Tree_policy iteration 1: Expanding move (2, 10)
+2025-04-11 19:28:21,662 [INFO] Final candidates: []
+2025-04-11 19:28:21,663 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,670 [INFO] Final candidates: []
+2025-04-11 19:28:21,671 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,671 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:21,698 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:21,698 [DEBUG] Tree_policy iteration 1: Expanding move (9, 2)
+2025-04-11 19:28:21,706 [INFO] Final candidates: []
+2025-04-11 19:28:21,706 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,714 [INFO] Final candidates: []
+2025-04-11 19:28:21,714 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,714 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:21,758 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:21,758 [DEBUG] Tree_policy iteration 1: Expanding move (5, 5)
+2025-04-11 19:28:21,766 [INFO] Final candidates: []
+2025-04-11 19:28:21,766 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,774 [INFO] Final candidates: []
+2025-04-11 19:28:21,774 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,774 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:21,953 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:21,953 [DEBUG] Tree_policy iteration 1: Expanding move (8, 0)
+2025-04-11 19:28:21,961 [INFO] Final candidates: []
+2025-04-11 19:28:21,961 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,969 [INFO] Final candidates: []
+2025-04-11 19:28:21,969 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:21,970 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:22,109 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:22,109 [DEBUG] Tree_policy iteration 1: Expanding move (5, 14)
+2025-04-11 19:28:22,119 [INFO] Final candidates: []
+2025-04-11 19:28:22,119 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:22,127 [INFO] Final candidates: []
+2025-04-11 19:28:22,127 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:22,127 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:22,298 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:22,298 [DEBUG] Tree_policy iteration 1: Expanding move (15, 3)
+2025-04-11 19:28:22,306 [INFO] Final candidates: []
+2025-04-11 19:28:22,306 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:22,314 [INFO] Final candidates: []
+2025-04-11 19:28:22,314 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:22,315 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:22,349 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:22,349 [DEBUG] Tree_policy iteration 1: Expanding move (0, 10)
+2025-04-11 19:28:22,357 [INFO] Final candidates: []
+2025-04-11 19:28:22,357 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:22,365 [INFO] Final candidates: []
+2025-04-11 19:28:22,365 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:22,366 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:22,380 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:22,380 [DEBUG] Tree_policy iteration 1: Expanding move (8, 13)
+2025-04-11 19:28:22,388 [INFO] Final candidates: []
+2025-04-11 19:28:22,388 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:22,396 [INFO] Final candidates: []
+2025-04-11 19:28:22,396 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:22,396 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:22,581 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:22,581 [DEBUG] Tree_policy iteration 1: Expanding move (14, 8)
+2025-04-11 19:28:22,589 [INFO] Final candidates: []
+2025-04-11 19:28:22,589 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:22,597 [INFO] Final candidates: []
+2025-04-11 19:28:22,597 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:22,597 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:22,685 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:22,685 [DEBUG] Tree_policy iteration 1: Expanding move (14, 7)
+2025-04-11 19:28:22,694 [INFO] Final candidates: []
+2025-04-11 19:28:22,694 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:22,702 [INFO] Final candidates: []
+2025-04-11 19:28:22,702 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:22,702 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:22,760 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:22,760 [DEBUG] Tree_policy iteration 1: Expanding move (5, 0)
+2025-04-11 19:28:22,768 [INFO] Final candidates: []
+2025-04-11 19:28:22,768 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:22,777 [INFO] Final candidates: []
+2025-04-11 19:28:22,777 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:22,778 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:22,919 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:22,919 [DEBUG] Tree_policy iteration 1: Expanding move (10, 0)
+2025-04-11 19:28:22,927 [INFO] Final candidates: []
+2025-04-11 19:28:22,927 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:22,935 [INFO] Final candidates: []
+2025-04-11 19:28:22,935 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:22,936 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:22,985 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:22,985 [DEBUG] Tree_policy iteration 1: Expanding move (11, 15)
+2025-04-11 19:28:22,993 [INFO] Final candidates: []
+2025-04-11 19:28:22,993 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:23,001 [INFO] Final candidates: []
+2025-04-11 19:28:23,001 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:23,001 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:23,181 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:23,181 [DEBUG] Tree_policy iteration 1: Expanding move (4, 12)
+2025-04-11 19:28:23,191 [INFO] Final candidates: []
+2025-04-11 19:28:23,191 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:23,200 [INFO] Final candidates: []
+2025-04-11 19:28:23,200 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:23,200 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:23,241 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:28:23,241 [DEBUG] Tree_policy iteration 1: Expanding move (14, 16)
+2025-04-11 19:28:23,249 [INFO] Final candidates: []
+2025-04-11 19:28:23,249 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:28:23,257 [INFO] Final candidates: []
+2025-04-11 19:28:23,257 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:28:23,257 [INFO] Default policy: Starting random playout.
+2025-04-11 19:28:23,416 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:28:23,416 [DEBUG] MCTS: BEST (12, 8) with 1 visits.
+2025-04-11 19:28:23,416 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-11 19:28:23,416 [INFO] MCTS selected move: J13
+2025-04-11 19:28:23,416 [INFO] ===============NEW MOVE================
+2025-04-11 19:31:13,582 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 19:31:13,591 [INFO] Final candidates: []
+2025-04-11 19:31:13,591 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:13,601 [INFO] Final candidates: []
+2025-04-11 19:31:13,601 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:13,601 [INFO] No candidate found in Phase 1 or 2; using full legal moves for MCTS.
+2025-04-11 19:31:13,602 [INFO] MCTS: Starting search for 100 iterations.
+2025-04-11 19:31:13,602 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(7)), (np.int64(8), np.int64(8)))
+2025-04-11 19:31:13,610 [INFO] Final candidates: []
+2025-04-11 19:31:13,610 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:13,618 [INFO] Final candidates: []
+2025-04-11 19:31:13,618 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:13,619 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-11 19:31:13,619 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:13,643 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:13,643 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(10), np.int64(10)))
+2025-04-11 19:31:13,652 [INFO] Final candidates: []
+2025-04-11 19:31:13,652 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:13,660 [INFO] Final candidates: []
+2025-04-11 19:31:13,660 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:13,660 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:13,752 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:13,752 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(8)), (np.int64(10), np.int64(10)))
+2025-04-11 19:31:13,760 [INFO] Final candidates: []
+2025-04-11 19:31:13,760 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:13,770 [INFO] Final candidates: []
+2025-04-11 19:31:13,770 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:13,771 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:14,001 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:14,001 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(7), np.int64(8)))
+2025-04-11 19:31:14,009 [INFO] Final candidates: []
+2025-04-11 19:31:14,009 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:14,017 [INFO] Final candidates: []
+2025-04-11 19:31:14,017 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:14,017 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:14,200 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:14,201 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(8)), (np.int64(12), np.int64(9)))
+2025-04-11 19:31:14,209 [INFO] Final candidates: []
+2025-04-11 19:31:14,209 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:14,218 [INFO] Final candidates: []
+2025-04-11 19:31:14,218 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:14,218 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:14,350 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:14,351 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(6)), (np.int64(9), np.int64(6)))
+2025-04-11 19:31:14,359 [INFO] Final candidates: []
+2025-04-11 19:31:14,359 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:14,366 [INFO] Final candidates: []
+2025-04-11 19:31:14,366 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:14,366 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:14,649 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:14,649 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(8)), (np.int64(10), np.int64(7)))
+2025-04-11 19:31:14,657 [INFO] Final candidates: []
+2025-04-11 19:31:14,657 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:14,667 [INFO] Final candidates: []
+2025-04-11 19:31:14,667 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:14,667 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:14,749 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:14,749 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(10)), (np.int64(8), np.int64(10)))
+2025-04-11 19:31:14,758 [INFO] Final candidates: []
+2025-04-11 19:31:14,758 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:14,768 [INFO] Final candidates: []
+2025-04-11 19:31:14,768 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:14,768 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:14,856 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:14,856 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(9), np.int64(10)))
+2025-04-11 19:31:14,865 [INFO] Final candidates: []
+2025-04-11 19:31:14,865 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:14,872 [INFO] Final candidates: []
+2025-04-11 19:31:14,872 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:14,873 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:14,998 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:14,999 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(9)), (np.int64(10), np.int64(9)))
+2025-04-11 19:31:15,007 [INFO] Final candidates: []
+2025-04-11 19:31:15,007 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:15,014 [INFO] Final candidates: []
+2025-04-11 19:31:15,014 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:15,015 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:15,148 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:15,148 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(9), np.int64(11)))
+2025-04-11 19:31:15,156 [INFO] Final candidates: []
+2025-04-11 19:31:15,156 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:15,164 [INFO] Final candidates: []
+2025-04-11 19:31:15,164 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:15,164 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:15,367 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:15,368 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(9)), (np.int64(10), np.int64(10)))
+2025-04-11 19:31:15,377 [INFO] Final candidates: []
+2025-04-11 19:31:15,378 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:15,385 [INFO] Final candidates: []
+2025-04-11 19:31:15,385 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:15,386 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:15,532 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:15,532 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(7)), (np.int64(8), np.int64(7)))
+2025-04-11 19:31:15,540 [INFO] Final candidates: []
+2025-04-11 19:31:15,540 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:15,548 [INFO] Final candidates: []
+2025-04-11 19:31:15,548 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:15,548 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:15,677 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:15,677 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(7)), (np.int64(10), np.int64(10)))
+2025-04-11 19:31:15,685 [INFO] Final candidates: []
+2025-04-11 19:31:15,685 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:15,692 [INFO] Final candidates: []
+2025-04-11 19:31:15,692 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:15,692 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:15,912 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:15,912 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(7)), (np.int64(7), np.int64(8)))
+2025-04-11 19:31:15,920 [INFO] Final candidates: []
+2025-04-11 19:31:15,920 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:15,928 [INFO] Final candidates: []
+2025-04-11 19:31:15,928 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:15,928 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:16,098 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:16,098 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(8)), (np.int64(13), np.int64(7)))
+2025-04-11 19:31:16,107 [INFO] Final candidates: []
+2025-04-11 19:31:16,107 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:16,114 [INFO] Final candidates: []
+2025-04-11 19:31:16,114 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:16,114 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:16,421 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:16,421 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(13), np.int64(7)))
+2025-04-11 19:31:16,429 [INFO] Final candidates: []
+2025-04-11 19:31:16,429 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:16,437 [INFO] Final candidates: []
+2025-04-11 19:31:16,437 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:16,437 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:16,625 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:16,625 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(9)), (np.int64(13), np.int64(7)))
+2025-04-11 19:31:16,633 [INFO] Final candidates: []
+2025-04-11 19:31:16,633 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:16,641 [INFO] Final candidates: []
+2025-04-11 19:31:16,641 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:16,641 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:16,786 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:16,786 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(10)), (np.int64(7), np.int64(8)))
+2025-04-11 19:31:16,796 [INFO] Final candidates: []
+2025-04-11 19:31:16,796 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:16,804 [INFO] Final candidates: []
+2025-04-11 19:31:16,804 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:16,804 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:16,892 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:16,892 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(8)), (np.int64(10), np.int64(7)))
+2025-04-11 19:31:16,902 [INFO] Final candidates: []
+2025-04-11 19:31:16,902 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:16,910 [INFO] Final candidates: []
+2025-04-11 19:31:16,910 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:16,910 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:16,917 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:16,917 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(9)), (np.int64(9), np.int64(6)))
+2025-04-11 19:31:16,925 [INFO] Final candidates: []
+2025-04-11 19:31:16,925 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:16,933 [INFO] Final candidates: []
+2025-04-11 19:31:16,933 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:16,933 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:16,987 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:16,987 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(9)), (np.int64(9), np.int64(10)))
+2025-04-11 19:31:16,995 [INFO] Final candidates: []
+2025-04-11 19:31:16,995 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:17,003 [INFO] Final candidates: []
+2025-04-11 19:31:17,003 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:17,003 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:17,065 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:17,066 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(7), np.int64(9)), (np.int64(9), np.int64(6)))
+2025-04-11 19:31:17,074 [INFO] Final candidates: []
+2025-04-11 19:31:17,074 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:17,081 [INFO] Final candidates: []
+2025-04-11 19:31:17,082 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:17,082 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:17,343 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:17,343 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(11), np.int64(7)))
+2025-04-11 19:31:17,351 [INFO] Final candidates: []
+2025-04-11 19:31:17,351 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:17,359 [INFO] Final candidates: []
+2025-04-11 19:31:17,359 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:17,359 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:17,713 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:17,713 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(9)), (np.int64(8), np.int64(8)))
+2025-04-11 19:31:17,721 [INFO] Final candidates: []
+2025-04-11 19:31:17,721 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:17,729 [INFO] Final candidates: []
+2025-04-11 19:31:17,729 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:17,729 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:17,896 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:17,896 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(8), np.int64(7)))
+2025-04-11 19:31:17,905 [INFO] Final candidates: []
+2025-04-11 19:31:17,905 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:17,914 [INFO] Final candidates: []
+2025-04-11 19:31:17,914 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:17,915 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:18,108 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:18,108 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(10)), (np.int64(14), np.int64(8)))
+2025-04-11 19:31:18,116 [INFO] Final candidates: []
+2025-04-11 19:31:18,116 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:18,124 [INFO] Final candidates: []
+2025-04-11 19:31:18,124 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:18,124 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:18,324 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:18,324 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(9)), (np.int64(11), np.int64(8)))
+2025-04-11 19:31:18,334 [INFO] Final candidates: []
+2025-04-11 19:31:18,334 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:18,342 [INFO] Final candidates: []
+2025-04-11 19:31:18,342 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:18,342 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:18,419 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:18,419 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(9)), (np.int64(8), np.int64(10)))
+2025-04-11 19:31:18,427 [INFO] Final candidates: []
+2025-04-11 19:31:18,427 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:18,435 [INFO] Final candidates: []
+2025-04-11 19:31:18,435 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:18,435 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:18,516 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:18,516 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(6)), (np.int64(10), np.int64(10)))
+2025-04-11 19:31:18,524 [INFO] Final candidates: []
+2025-04-11 19:31:18,524 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:18,532 [INFO] Final candidates: []
+2025-04-11 19:31:18,532 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:18,532 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:18,745 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:18,746 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(8)), (np.int64(8), np.int64(7)))
+2025-04-11 19:31:18,754 [INFO] Final candidates: []
+2025-04-11 19:31:18,754 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:18,761 [INFO] Final candidates: []
+2025-04-11 19:31:18,761 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:18,762 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:18,797 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:18,797 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(7), np.int64(9)), (np.int64(8), np.int64(7)))
+2025-04-11 19:31:18,805 [INFO] Final candidates: []
+2025-04-11 19:31:18,805 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:18,813 [INFO] Final candidates: []
+2025-04-11 19:31:18,813 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:18,813 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:18,891 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:18,891 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(13), np.int64(7)), (np.int64(7), np.int64(8)))
+2025-04-11 19:31:18,900 [INFO] Final candidates: []
+2025-04-11 19:31:18,900 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:18,909 [INFO] Final candidates: []
+2025-04-11 19:31:18,909 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:18,909 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:19,000 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:19,000 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(7)), (np.int64(11), np.int64(7)))
+2025-04-11 19:31:19,008 [INFO] Final candidates: []
+2025-04-11 19:31:19,008 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,016 [INFO] Final candidates: []
+2025-04-11 19:31:19,016 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,016 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:19,057 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:19,057 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(7)), (np.int64(7), np.int64(9)))
+2025-04-11 19:31:19,066 [INFO] Final candidates: []
+2025-04-11 19:31:19,066 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,074 [INFO] Final candidates: []
+2025-04-11 19:31:19,074 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,074 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:19,121 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:19,121 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(7)), (np.int64(10), np.int64(10)))
+2025-04-11 19:31:19,138 [INFO] Final candidates: []
+2025-04-11 19:31:19,138 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,149 [INFO] Final candidates: []
+2025-04-11 19:31:19,149 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,149 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:19,314 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:19,314 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(6)), (np.int64(11), np.int64(9)))
+2025-04-11 19:31:19,322 [INFO] Final candidates: []
+2025-04-11 19:31:19,323 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,330 [INFO] Final candidates: []
+2025-04-11 19:31:19,330 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,330 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:19,346 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:19,346 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(9)), (np.int64(8), np.int64(7)))
+2025-04-11 19:31:19,354 [INFO] Final candidates: []
+2025-04-11 19:31:19,354 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,363 [INFO] Final candidates: []
+2025-04-11 19:31:19,363 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,363 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:19,412 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:19,413 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(9)), (np.int64(11), np.int64(9)))
+2025-04-11 19:31:19,421 [INFO] Final candidates: []
+2025-04-11 19:31:19,421 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,428 [INFO] Final candidates: []
+2025-04-11 19:31:19,428 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,429 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:19,444 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:19,445 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(10)), (np.int64(10), np.int64(7)))
+2025-04-11 19:31:19,454 [INFO] Final candidates: []
+2025-04-11 19:31:19,454 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,462 [INFO] Final candidates: []
+2025-04-11 19:31:19,462 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,462 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:19,617 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:19,617 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(11), np.int64(8)))
+2025-04-11 19:31:19,625 [INFO] Final candidates: []
+2025-04-11 19:31:19,625 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,633 [INFO] Final candidates: []
+2025-04-11 19:31:19,633 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,633 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:19,749 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:19,749 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(9), np.int64(7)))
+2025-04-11 19:31:19,757 [INFO] Final candidates: []
+2025-04-11 19:31:19,757 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,766 [INFO] Final candidates: []
+2025-04-11 19:31:19,766 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,766 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:19,800 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:19,800 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(10)), (np.int64(9), np.int64(11)))
+2025-04-11 19:31:19,808 [INFO] Final candidates: []
+2025-04-11 19:31:19,809 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,816 [INFO] Final candidates: []
+2025-04-11 19:31:19,816 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,817 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:19,880 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:19,880 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(10)), (np.int64(11), np.int64(7)))
+2025-04-11 19:31:19,888 [INFO] Final candidates: []
+2025-04-11 19:31:19,888 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,898 [INFO] Final candidates: []
+2025-04-11 19:31:19,898 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,898 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:19,935 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:19,935 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(8)), (np.int64(10), np.int64(7)))
+2025-04-11 19:31:19,943 [INFO] Final candidates: []
+2025-04-11 19:31:19,943 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,951 [INFO] Final candidates: []
+2025-04-11 19:31:19,951 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:19,952 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:20,029 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:20,030 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(7), np.int64(8)))
+2025-04-11 19:31:20,038 [INFO] Final candidates: []
+2025-04-11 19:31:20,038 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,045 [INFO] Final candidates: []
+2025-04-11 19:31:20,045 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,046 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:20,193 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:20,193 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(7), np.int64(9)), (np.int64(10), np.int64(10)))
+2025-04-11 19:31:20,202 [INFO] Final candidates: []
+2025-04-11 19:31:20,202 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,216 [INFO] Final candidates: []
+2025-04-11 19:31:20,216 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,217 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:20,274 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:20,274 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(9)), (np.int64(9), np.int64(11)))
+2025-04-11 19:31:20,283 [INFO] Final candidates: []
+2025-04-11 19:31:20,283 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,291 [INFO] Final candidates: []
+2025-04-11 19:31:20,291 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,291 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:20,292 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:20,292 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(13), np.int64(8)), (np.int64(13), np.int64(7)))
+2025-04-11 19:31:20,301 [INFO] Final candidates: []
+2025-04-11 19:31:20,301 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,308 [INFO] Final candidates: []
+2025-04-11 19:31:20,308 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,308 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:20,411 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:20,411 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(6)), (np.int64(11), np.int64(9)))
+2025-04-11 19:31:20,419 [INFO] Final candidates: []
+2025-04-11 19:31:20,419 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,427 [INFO] Final candidates: []
+2025-04-11 19:31:20,428 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,428 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:20,553 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:20,553 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(8)), (np.int64(14), np.int64(8)))
+2025-04-11 19:31:20,561 [INFO] Final candidates: []
+2025-04-11 19:31:20,561 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,569 [INFO] Final candidates: []
+2025-04-11 19:31:20,569 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,569 [DEBUG] MCTS iteration 50: reached a node with 0 visits.
+2025-04-11 19:31:20,569 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:20,718 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:20,718 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(11), np.int64(8)))
+2025-04-11 19:31:20,726 [INFO] Final candidates: []
+2025-04-11 19:31:20,726 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,735 [INFO] Final candidates: []
+2025-04-11 19:31:20,735 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,735 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:20,780 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:20,780 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(8)), (np.int64(11), np.int64(9)))
+2025-04-11 19:31:20,788 [INFO] Final candidates: []
+2025-04-11 19:31:20,788 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,799 [INFO] Final candidates: []
+2025-04-11 19:31:20,799 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,799 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:20,941 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:20,941 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(12), np.int64(6)))
+2025-04-11 19:31:20,949 [INFO] Final candidates: []
+2025-04-11 19:31:20,949 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,957 [INFO] Final candidates: []
+2025-04-11 19:31:20,957 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:20,957 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:21,041 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:21,041 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(8)), (np.int64(9), np.int64(10)))
+2025-04-11 19:31:21,049 [INFO] Final candidates: []
+2025-04-11 19:31:21,049 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:21,057 [INFO] Final candidates: []
+2025-04-11 19:31:21,057 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:21,057 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:21,155 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:21,155 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(6)), (np.int64(8), np.int64(7)))
+2025-04-11 19:31:21,163 [INFO] Final candidates: []
+2025-04-11 19:31:21,163 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:21,172 [INFO] Final candidates: []
+2025-04-11 19:31:21,172 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:21,172 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:21,337 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:21,337 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(6)), (np.int64(8), np.int64(10)))
+2025-04-11 19:31:21,345 [INFO] Final candidates: []
+2025-04-11 19:31:21,345 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:21,353 [INFO] Final candidates: []
+2025-04-11 19:31:21,353 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:21,353 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:21,440 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:21,440 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(12), np.int64(10)))
+2025-04-11 19:31:21,448 [INFO] Final candidates: []
+2025-04-11 19:31:21,448 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:21,455 [INFO] Final candidates: []
+2025-04-11 19:31:21,455 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:21,456 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:21,559 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:21,559 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(9)), (np.int64(7), np.int64(9)))
+2025-04-11 19:31:21,567 [INFO] Final candidates: []
+2025-04-11 19:31:21,567 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:21,575 [INFO] Final candidates: []
+2025-04-11 19:31:21,575 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:21,575 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:21,758 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:21,758 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(7)), (np.int64(7), np.int64(8)))
+2025-04-11 19:31:21,768 [INFO] Final candidates: []
+2025-04-11 19:31:21,768 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:21,776 [INFO] Final candidates: []
+2025-04-11 19:31:21,776 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:21,776 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:21,791 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:21,792 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(10)), (np.int64(9), np.int64(6)))
+2025-04-11 19:31:21,800 [INFO] Final candidates: []
+2025-04-11 19:31:21,800 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:21,807 [INFO] Final candidates: []
+2025-04-11 19:31:21,807 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:21,807 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:22,041 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:22,041 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(6)), (np.int64(11), np.int64(7)))
+2025-04-11 19:31:22,049 [INFO] Final candidates: []
+2025-04-11 19:31:22,049 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:22,057 [INFO] Final candidates: []
+2025-04-11 19:31:22,057 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:22,057 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:22,102 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:22,102 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(8), np.int64(8)))
+2025-04-11 19:31:22,110 [INFO] Final candidates: []
+2025-04-11 19:31:22,110 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:22,118 [INFO] Final candidates: []
+2025-04-11 19:31:22,118 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:22,118 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:22,209 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:22,209 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(6)), (np.int64(13), np.int64(9)))
+2025-04-11 19:31:22,217 [INFO] Final candidates: []
+2025-04-11 19:31:22,217 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:22,224 [INFO] Final candidates: []
+2025-04-11 19:31:22,224 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:22,225 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:22,358 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:22,359 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(9)), (np.int64(9), np.int64(7)))
+2025-04-11 19:31:22,367 [INFO] Final candidates: []
+2025-04-11 19:31:22,367 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:22,375 [INFO] Final candidates: []
+2025-04-11 19:31:22,375 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:22,376 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:22,567 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:22,567 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(12), np.int64(9)))
+2025-04-11 19:31:22,577 [INFO] Final candidates: []
+2025-04-11 19:31:22,577 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:22,585 [INFO] Final candidates: []
+2025-04-11 19:31:22,585 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:22,585 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:22,728 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:22,728 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(8)), (np.int64(7), np.int64(8)))
+2025-04-11 19:31:22,737 [INFO] Final candidates: []
+2025-04-11 19:31:22,737 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:22,745 [INFO] Final candidates: []
+2025-04-11 19:31:22,745 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:22,745 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:22,807 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:22,807 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(7), np.int64(9)), (np.int64(8), np.int64(10)))
+2025-04-11 19:31:22,815 [INFO] Final candidates: []
+2025-04-11 19:31:22,815 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:22,823 [INFO] Final candidates: []
+2025-04-11 19:31:22,823 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:22,823 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:22,951 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:22,951 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(14), np.int64(8)), (np.int64(8), np.int64(7)))
+2025-04-11 19:31:22,959 [INFO] Final candidates: []
+2025-04-11 19:31:22,959 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:22,967 [INFO] Final candidates: []
+2025-04-11 19:31:22,967 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:22,967 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:23,066 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:23,066 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(9)), (np.int64(11), np.int64(9)))
+2025-04-11 19:31:23,074 [INFO] Final candidates: []
+2025-04-11 19:31:23,074 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:23,081 [INFO] Final candidates: []
+2025-04-11 19:31:23,081 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:23,082 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:23,269 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:23,269 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(10)), (np.int64(13), np.int64(9)))
+2025-04-11 19:31:23,277 [INFO] Final candidates: []
+2025-04-11 19:31:23,277 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:23,285 [INFO] Final candidates: []
+2025-04-11 19:31:23,285 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:23,285 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:23,623 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:23,623 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(13), np.int64(8)), (np.int64(11), np.int64(7)))
+2025-04-11 19:31:23,631 [INFO] Final candidates: []
+2025-04-11 19:31:23,631 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:23,639 [INFO] Final candidates: []
+2025-04-11 19:31:23,639 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:23,639 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:23,683 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:23,684 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(9)), (np.int64(13), np.int64(9)))
+2025-04-11 19:31:23,692 [INFO] Final candidates: []
+2025-04-11 19:31:23,692 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:23,699 [INFO] Final candidates: []
+2025-04-11 19:31:23,699 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:23,700 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:23,948 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:23,948 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(9)), (np.int64(12), np.int64(6)))
+2025-04-11 19:31:23,956 [INFO] Final candidates: []
+2025-04-11 19:31:23,956 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:23,965 [INFO] Final candidates: []
+2025-04-11 19:31:23,965 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:23,966 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:24,044 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:24,044 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(8)), (np.int64(8), np.int64(7)))
+2025-04-11 19:31:24,052 [INFO] Final candidates: []
+2025-04-11 19:31:24,052 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:24,060 [INFO] Final candidates: []
+2025-04-11 19:31:24,060 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:24,061 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:24,123 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:24,123 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(7)), (np.int64(7), np.int64(8)))
+2025-04-11 19:31:24,131 [INFO] Final candidates: []
+2025-04-11 19:31:24,131 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:24,138 [INFO] Final candidates: []
+2025-04-11 19:31:24,138 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:24,139 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:24,169 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:24,169 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(9)), (np.int64(9), np.int64(6)))
+2025-04-11 19:31:24,180 [INFO] Final candidates: []
+2025-04-11 19:31:24,180 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:24,188 [INFO] Final candidates: []
+2025-04-11 19:31:24,188 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:24,188 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:24,401 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:24,401 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(9)), (np.int64(14), np.int64(8)))
+2025-04-11 19:31:24,409 [INFO] Final candidates: []
+2025-04-11 19:31:24,409 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:24,417 [INFO] Final candidates: []
+2025-04-11 19:31:24,417 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:24,417 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:24,506 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:24,506 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(8)), (np.int64(11), np.int64(7)))
+2025-04-11 19:31:24,514 [INFO] Final candidates: []
+2025-04-11 19:31:24,514 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:24,522 [INFO] Final candidates: []
+2025-04-11 19:31:24,522 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:24,522 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:24,637 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:24,637 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(13), np.int64(7)), (np.int64(11), np.int64(9)))
+2025-04-11 19:31:24,645 [INFO] Final candidates: []
+2025-04-11 19:31:24,645 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:24,652 [INFO] Final candidates: []
+2025-04-11 19:31:24,652 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:24,653 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:24,887 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:24,888 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(6)), (np.int64(8), np.int64(10)))
+2025-04-11 19:31:24,897 [INFO] Final candidates: []
+2025-04-11 19:31:24,897 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:24,905 [INFO] Final candidates: []
+2025-04-11 19:31:24,905 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:24,905 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:24,956 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:24,956 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(9)), (np.int64(13), np.int64(9)))
+2025-04-11 19:31:24,964 [INFO] Final candidates: []
+2025-04-11 19:31:24,964 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:24,972 [INFO] Final candidates: []
+2025-04-11 19:31:24,972 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:24,972 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:25,060 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:25,060 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(8)), (np.int64(11), np.int64(9)))
+2025-04-11 19:31:25,073 [INFO] Final candidates: []
+2025-04-11 19:31:25,073 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:25,081 [INFO] Final candidates: []
+2025-04-11 19:31:25,081 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:25,081 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:25,222 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:25,222 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(7)), (np.int64(14), np.int64(8)))
+2025-04-11 19:31:25,231 [INFO] Final candidates: []
+2025-04-11 19:31:25,231 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:25,241 [INFO] Final candidates: []
+2025-04-11 19:31:25,241 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:25,241 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:25,341 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:25,341 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(8)), (np.int64(9), np.int64(7)))
+2025-04-11 19:31:25,351 [INFO] Final candidates: []
+2025-04-11 19:31:25,351 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:25,359 [INFO] Final candidates: []
+2025-04-11 19:31:25,359 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:25,359 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:25,365 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:25,365 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(8)), (np.int64(8), np.int64(10)))
+2025-04-11 19:31:25,373 [INFO] Final candidates: []
+2025-04-11 19:31:25,373 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:25,381 [INFO] Final candidates: []
+2025-04-11 19:31:25,381 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:25,381 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:25,414 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:25,415 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(10)), (np.int64(13), np.int64(7)))
+2025-04-11 19:31:25,423 [INFO] Final candidates: []
+2025-04-11 19:31:25,423 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:25,430 [INFO] Final candidates: []
+2025-04-11 19:31:25,430 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:25,431 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:25,551 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:25,551 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(6)), (np.int64(10), np.int64(7)))
+2025-04-11 19:31:25,563 [INFO] Final candidates: []
+2025-04-11 19:31:25,564 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:25,572 [INFO] Final candidates: []
+2025-04-11 19:31:25,572 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:25,572 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:25,726 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:25,726 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(10)), (np.int64(14), np.int64(8)))
+2025-04-11 19:31:25,743 [INFO] Final candidates: []
+2025-04-11 19:31:25,743 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:25,764 [INFO] Final candidates: []
+2025-04-11 19:31:25,764 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:25,764 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:25,974 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:25,974 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(8)), (np.int64(13), np.int64(8)))
+2025-04-11 19:31:25,982 [INFO] Final candidates: []
+2025-04-11 19:31:25,982 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:25,989 [INFO] Final candidates: []
+2025-04-11 19:31:25,989 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:25,990 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:26,095 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:26,095 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(9)), (np.int64(7), np.int64(8)))
+2025-04-11 19:31:26,103 [INFO] Final candidates: []
+2025-04-11 19:31:26,103 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:26,111 [INFO] Final candidates: []
+2025-04-11 19:31:26,111 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:26,112 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:26,231 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:26,231 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(8)), (np.int64(10), np.int64(8)))
+2025-04-11 19:31:26,239 [INFO] Final candidates: []
+2025-04-11 19:31:26,239 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:26,247 [INFO] Final candidates: []
+2025-04-11 19:31:26,247 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:26,247 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:26,312 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:26,312 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(8)), (np.int64(8), np.int64(8)))
+2025-04-11 19:31:26,320 [INFO] Final candidates: []
+2025-04-11 19:31:26,320 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:26,328 [INFO] Final candidates: []
+2025-04-11 19:31:26,328 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:26,328 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:26,349 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:26,349 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(7), np.int64(9)), (np.int64(11), np.int64(9)))
+2025-04-11 19:31:26,357 [INFO] Final candidates: []
+2025-04-11 19:31:26,358 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:26,365 [INFO] Final candidates: []
+2025-04-11 19:31:26,365 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:26,365 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:26,521 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:26,522 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(10)), (np.int64(10), np.int64(8)))
+2025-04-11 19:31:26,530 [INFO] Final candidates: []
+2025-04-11 19:31:26,530 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:26,538 [INFO] Final candidates: []
+2025-04-11 19:31:26,539 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:26,539 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:26,565 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:26,565 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(10)), (np.int64(10), np.int64(10)))
+2025-04-11 19:31:26,573 [INFO] Final candidates: []
+2025-04-11 19:31:26,573 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:26,581 [INFO] Final candidates: []
+2025-04-11 19:31:26,581 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:26,581 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:26,789 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:26,789 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(8)), (np.int64(14), np.int64(8)))
+2025-04-11 19:31:26,797 [INFO] Final candidates: []
+2025-04-11 19:31:26,798 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:26,805 [INFO] Final candidates: []
+2025-04-11 19:31:26,805 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:26,805 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:26,915 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:26,916 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(7)), (np.int64(7), np.int64(9)))
+2025-04-11 19:31:26,924 [INFO] Final candidates: []
+2025-04-11 19:31:26,924 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:26,932 [INFO] Final candidates: []
+2025-04-11 19:31:26,932 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:26,932 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:27,034 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:27,035 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(6)), (np.int64(10), np.int64(7)))
+2025-04-11 19:31:27,043 [INFO] Final candidates: []
+2025-04-11 19:31:27,043 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:27,051 [INFO] Final candidates: []
+2025-04-11 19:31:27,051 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:27,052 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:27,093 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:31:27,093 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(10)), (np.int64(7), np.int64(8)))
+2025-04-11 19:31:27,102 [INFO] Final candidates: []
+2025-04-11 19:31:27,102 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:31:27,112 [INFO] Final candidates: []
+2025-04-11 19:31:27,112 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:31:27,113 [INFO] Default policy: Starting random playout.
+2025-04-11 19:31:27,221 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:31:27,221 [DEBUG] MCTS: BEST ((np.int64(9), np.int64(7)), (np.int64(8), np.int64(8))) with 1 visits.
+2025-04-11 19:31:27,221 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-11 19:31:27,221 [INFO] MCTS selected move: H10,J9
+2025-04-11 19:31:27,221 [INFO] ===============NEW MOVE================
+2025-04-11 19:32:34,840 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 19:32:34,848 [INFO] Final candidates: []
+2025-04-11 19:32:34,848 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:34,855 [INFO] Final candidates: []
+2025-04-11 19:32:34,855 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:34,855 [INFO] No candidate found in Phase 1 or 2; using full legal moves for MCTS.
+2025-04-11 19:32:34,856 [INFO] MCTS: Starting search for 100 iterations.
+2025-04-11 19:32:34,856 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(6)), (np.int64(7), np.int64(8)))
+2025-04-11 19:32:34,863 [INFO] Final candidates: []
+2025-04-11 19:32:34,863 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:34,871 [INFO] Final candidates: []
+2025-04-11 19:32:34,871 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:34,871 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-11 19:32:34,871 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:35,037 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:35,038 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(9)), (np.int64(13), np.int64(9)))
+2025-04-11 19:32:35,048 [INFO] Final candidates: []
+2025-04-11 19:32:35,048 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,056 [INFO] Final candidates: []
+2025-04-11 19:32:35,056 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,056 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:35,177 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:35,177 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(7), np.int64(8)))
+2025-04-11 19:32:35,187 [INFO] Final candidates: []
+2025-04-11 19:32:35,187 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,195 [INFO] Final candidates: []
+2025-04-11 19:32:35,195 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,195 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:35,295 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:35,296 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(7), np.int64(11)))
+2025-04-11 19:32:35,303 [INFO] Final candidates: []
+2025-04-11 19:32:35,303 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,311 [INFO] Final candidates: []
+2025-04-11 19:32:35,311 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,311 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:35,436 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:35,436 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(6), np.int64(8)), (np.int64(8), np.int64(11)))
+2025-04-11 19:32:35,444 [INFO] Final candidates: []
+2025-04-11 19:32:35,444 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,451 [INFO] Final candidates: []
+2025-04-11 19:32:35,451 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,452 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:35,595 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:35,595 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(6)), (np.int64(7), np.int64(7)))
+2025-04-11 19:32:35,603 [INFO] Final candidates: []
+2025-04-11 19:32:35,603 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,611 [INFO] Final candidates: []
+2025-04-11 19:32:35,612 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,612 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:35,651 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:35,651 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(10)), (np.int64(9), np.int64(10)))
+2025-04-11 19:32:35,659 [INFO] Final candidates: []
+2025-04-11 19:32:35,659 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,667 [INFO] Final candidates: []
+2025-04-11 19:32:35,667 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,667 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:35,718 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:35,718 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(10)), (np.int64(11), np.int64(9)))
+2025-04-11 19:32:35,726 [INFO] Final candidates: []
+2025-04-11 19:32:35,727 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,734 [INFO] Final candidates: []
+2025-04-11 19:32:35,734 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,734 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:35,788 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:35,788 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(6)), (np.int64(13), np.int64(7)))
+2025-04-11 19:32:35,796 [INFO] Final candidates: []
+2025-04-11 19:32:35,796 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,803 [INFO] Final candidates: []
+2025-04-11 19:32:35,803 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,803 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:35,951 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:35,951 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(10)), (np.int64(9), np.int64(11)))
+2025-04-11 19:32:35,960 [INFO] Final candidates: []
+2025-04-11 19:32:35,960 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,967 [INFO] Final candidates: []
+2025-04-11 19:32:35,967 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:35,968 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:36,005 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:36,006 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(13), np.int64(9)))
+2025-04-11 19:32:36,013 [INFO] Final candidates: []
+2025-04-11 19:32:36,013 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:36,021 [INFO] Final candidates: []
+2025-04-11 19:32:36,021 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:36,021 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:36,279 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:36,279 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(6)), (np.int64(12), np.int64(9)))
+2025-04-11 19:32:36,286 [INFO] Final candidates: []
+2025-04-11 19:32:36,287 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:36,294 [INFO] Final candidates: []
+2025-04-11 19:32:36,294 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:36,294 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:36,510 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:36,510 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(13), np.int64(7)), (np.int64(10), np.int64(10)))
+2025-04-11 19:32:36,518 [INFO] Final candidates: []
+2025-04-11 19:32:36,518 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:36,526 [INFO] Final candidates: []
+2025-04-11 19:32:36,526 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:36,526 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:36,804 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:36,804 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(13), np.int64(8)), (np.int64(8), np.int64(7)))
+2025-04-11 19:32:36,812 [INFO] Final candidates: []
+2025-04-11 19:32:36,812 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:36,819 [INFO] Final candidates: []
+2025-04-11 19:32:36,819 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:36,819 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:37,060 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:37,060 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(10), np.int64(9)))
+2025-04-11 19:32:37,070 [INFO] Final candidates: []
+2025-04-11 19:32:37,070 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:37,077 [INFO] Final candidates: []
+2025-04-11 19:32:37,077 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:37,078 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:37,225 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:37,226 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(10)), (np.int64(11), np.int64(9)))
+2025-04-11 19:32:37,233 [INFO] Final candidates: []
+2025-04-11 19:32:37,233 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:37,241 [INFO] Final candidates: []
+2025-04-11 19:32:37,241 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:37,241 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:37,552 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:37,553 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(14), np.int64(8)), (np.int64(8), np.int64(7)))
+2025-04-11 19:32:37,561 [INFO] Final candidates: []
+2025-04-11 19:32:37,561 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:37,570 [INFO] Final candidates: []
+2025-04-11 19:32:37,570 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:37,571 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:37,857 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:37,858 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(14), np.int64(8)), (np.int64(7), np.int64(8)))
+2025-04-11 19:32:37,865 [INFO] Final candidates: []
+2025-04-11 19:32:37,865 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:37,874 [INFO] Final candidates: []
+2025-04-11 19:32:37,874 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:37,874 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:37,922 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:37,922 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(12)), (np.int64(9), np.int64(6)))
+2025-04-11 19:32:37,930 [INFO] Final candidates: []
+2025-04-11 19:32:37,930 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:37,937 [INFO] Final candidates: []
+2025-04-11 19:32:37,937 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:37,937 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:38,037 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:38,037 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(7)), (np.int64(8), np.int64(7)))
+2025-04-11 19:32:38,045 [INFO] Final candidates: []
+2025-04-11 19:32:38,045 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:38,052 [INFO] Final candidates: []
+2025-04-11 19:32:38,052 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:38,053 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:38,250 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:38,250 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(11)), (np.int64(11), np.int64(7)))
+2025-04-11 19:32:38,258 [INFO] Final candidates: []
+2025-04-11 19:32:38,258 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:38,266 [INFO] Final candidates: []
+2025-04-11 19:32:38,266 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:38,266 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:38,425 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:38,425 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(10), np.int64(7)))
+2025-04-11 19:32:38,432 [INFO] Final candidates: []
+2025-04-11 19:32:38,432 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:38,440 [INFO] Final candidates: []
+2025-04-11 19:32:38,440 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:38,441 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:38,504 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:38,505 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(7), np.int64(7)), (np.int64(7), np.int64(10)))
+2025-04-11 19:32:38,512 [INFO] Final candidates: []
+2025-04-11 19:32:38,512 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:38,520 [INFO] Final candidates: []
+2025-04-11 19:32:38,520 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:38,520 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:38,643 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:38,644 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(7), np.int64(10)), (np.int64(12), np.int64(6)))
+2025-04-11 19:32:38,651 [INFO] Final candidates: []
+2025-04-11 19:32:38,651 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:38,659 [INFO] Final candidates: []
+2025-04-11 19:32:38,659 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:38,659 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:38,956 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:38,956 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(6)), (np.int64(10), np.int64(9)))
+2025-04-11 19:32:38,964 [INFO] Final candidates: []
+2025-04-11 19:32:38,964 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:38,971 [INFO] Final candidates: []
+2025-04-11 19:32:38,972 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:38,972 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:39,221 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:39,222 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(10)), (np.int64(14), np.int64(8)))
+2025-04-11 19:32:39,230 [INFO] Final candidates: []
+2025-04-11 19:32:39,230 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:39,237 [INFO] Final candidates: []
+2025-04-11 19:32:39,237 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:39,238 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:39,264 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:39,265 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(7), np.int64(7)))
+2025-04-11 19:32:39,272 [INFO] Final candidates: []
+2025-04-11 19:32:39,272 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:39,280 [INFO] Final candidates: []
+2025-04-11 19:32:39,280 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:39,280 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:39,287 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:39,287 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(6), np.int64(8)), (np.int64(6), np.int64(10)))
+2025-04-11 19:32:39,295 [INFO] Final candidates: []
+2025-04-11 19:32:39,295 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:39,302 [INFO] Final candidates: []
+2025-04-11 19:32:39,302 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:39,302 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:39,450 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:39,450 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(7)), (np.int64(7), np.int64(8)))
+2025-04-11 19:32:39,458 [INFO] Final candidates: []
+2025-04-11 19:32:39,458 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:39,465 [INFO] Final candidates: []
+2025-04-11 19:32:39,465 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:39,466 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:39,556 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:39,557 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(12)), (np.int64(12), np.int64(6)))
+2025-04-11 19:32:39,565 [INFO] Final candidates: []
+2025-04-11 19:32:39,565 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:39,574 [INFO] Final candidates: []
+2025-04-11 19:32:39,574 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:39,574 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:39,784 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:39,784 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(7), np.int64(8)))
+2025-04-11 19:32:39,792 [INFO] Final candidates: []
+2025-04-11 19:32:39,792 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:39,800 [INFO] Final candidates: []
+2025-04-11 19:32:39,800 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:39,800 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:39,858 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:39,858 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(14), np.int64(8)), (np.int64(10), np.int64(10)))
+2025-04-11 19:32:39,865 [INFO] Final candidates: []
+2025-04-11 19:32:39,865 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:39,873 [INFO] Final candidates: []
+2025-04-11 19:32:39,873 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:39,873 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:39,993 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:39,993 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(8)), (np.int64(10), np.int64(7)))
+2025-04-11 19:32:40,001 [INFO] Final candidates: []
+2025-04-11 19:32:40,001 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,008 [INFO] Final candidates: []
+2025-04-11 19:32:40,008 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,009 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:40,192 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:40,192 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(13), np.int64(7)), (np.int64(14), np.int64(8)))
+2025-04-11 19:32:40,200 [INFO] Final candidates: []
+2025-04-11 19:32:40,200 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,208 [INFO] Final candidates: []
+2025-04-11 19:32:40,208 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,208 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:40,314 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:40,314 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(10)), (np.int64(6), np.int64(8)))
+2025-04-11 19:32:40,322 [INFO] Final candidates: []
+2025-04-11 19:32:40,322 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,329 [INFO] Final candidates: []
+2025-04-11 19:32:40,329 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,329 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:40,374 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:40,374 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(10)), (np.int64(8), np.int64(7)))
+2025-04-11 19:32:40,384 [INFO] Final candidates: []
+2025-04-11 19:32:40,384 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,399 [INFO] Final candidates: []
+2025-04-11 19:32:40,399 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,399 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:40,519 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:40,519 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(8)), (np.int64(11), np.int64(9)))
+2025-04-11 19:32:40,534 [INFO] Final candidates: []
+2025-04-11 19:32:40,534 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,545 [INFO] Final candidates: []
+2025-04-11 19:32:40,545 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,546 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:40,571 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:40,571 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(6), np.int64(10)), (np.int64(10), np.int64(7)))
+2025-04-11 19:32:40,579 [INFO] Final candidates: []
+2025-04-11 19:32:40,579 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,586 [INFO] Final candidates: []
+2025-04-11 19:32:40,586 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,587 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:40,624 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:40,625 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(6)), (np.int64(7), np.int64(10)))
+2025-04-11 19:32:40,634 [INFO] Final candidates: []
+2025-04-11 19:32:40,635 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,642 [INFO] Final candidates: []
+2025-04-11 19:32:40,642 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,642 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:40,659 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:40,659 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(11)), (np.int64(7), np.int64(8)))
+2025-04-11 19:32:40,667 [INFO] Final candidates: []
+2025-04-11 19:32:40,667 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,674 [INFO] Final candidates: []
+2025-04-11 19:32:40,674 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,674 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:40,792 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:40,792 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(9), np.int64(6)))
+2025-04-11 19:32:40,800 [INFO] Final candidates: []
+2025-04-11 19:32:40,800 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,807 [INFO] Final candidates: []
+2025-04-11 19:32:40,808 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,808 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:40,944 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:40,944 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(12)), (np.int64(6), np.int64(8)))
+2025-04-11 19:32:40,952 [INFO] Final candidates: []
+2025-04-11 19:32:40,952 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,959 [INFO] Final candidates: []
+2025-04-11 19:32:40,960 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:40,960 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:41,103 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:41,103 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(12), np.int64(9)))
+2025-04-11 19:32:41,111 [INFO] Final candidates: []
+2025-04-11 19:32:41,111 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:41,119 [INFO] Final candidates: []
+2025-04-11 19:32:41,119 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:41,119 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:41,161 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:41,162 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(14), np.int64(8)), (np.int64(13), np.int64(9)))
+2025-04-11 19:32:41,169 [INFO] Final candidates: []
+2025-04-11 19:32:41,169 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:41,177 [INFO] Final candidates: []
+2025-04-11 19:32:41,177 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:41,177 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:41,451 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:41,451 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(7), np.int64(7)), (np.int64(14), np.int64(8)))
+2025-04-11 19:32:41,459 [INFO] Final candidates: []
+2025-04-11 19:32:41,459 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:41,468 [INFO] Final candidates: []
+2025-04-11 19:32:41,468 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:41,468 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:41,527 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:41,527 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(7), np.int64(10)), (np.int64(9), np.int64(6)))
+2025-04-11 19:32:41,534 [INFO] Final candidates: []
+2025-04-11 19:32:41,535 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:41,542 [INFO] Final candidates: []
+2025-04-11 19:32:41,542 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:41,542 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:41,627 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:41,627 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(6)), (np.int64(13), np.int64(8)))
+2025-04-11 19:32:41,634 [INFO] Final candidates: []
+2025-04-11 19:32:41,635 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:41,643 [INFO] Final candidates: []
+2025-04-11 19:32:41,643 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:41,644 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:41,754 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:41,754 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(7)), (np.int64(7), np.int64(8)))
+2025-04-11 19:32:41,762 [INFO] Final candidates: []
+2025-04-11 19:32:41,762 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:41,772 [INFO] Final candidates: []
+2025-04-11 19:32:41,772 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:41,772 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:41,870 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:41,870 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(10)), (np.int64(13), np.int64(9)))
+2025-04-11 19:32:41,879 [INFO] Final candidates: []
+2025-04-11 19:32:41,879 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:41,887 [INFO] Final candidates: []
+2025-04-11 19:32:41,887 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:41,887 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:42,098 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:42,099 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(13), np.int64(8)))
+2025-04-11 19:32:42,106 [INFO] Final candidates: []
+2025-04-11 19:32:42,106 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:42,114 [INFO] Final candidates: []
+2025-04-11 19:32:42,114 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:42,114 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:42,140 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:42,140 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(6)), (np.int64(6), np.int64(8)))
+2025-04-11 19:32:42,148 [INFO] Final candidates: []
+2025-04-11 19:32:42,148 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:42,155 [INFO] Final candidates: []
+2025-04-11 19:32:42,155 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:42,156 [DEBUG] MCTS iteration 50: reached a node with 0 visits.
+2025-04-11 19:32:42,156 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:42,216 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:42,216 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(7), np.int64(9)), (np.int64(8), np.int64(7)))
+2025-04-11 19:32:42,224 [INFO] Final candidates: []
+2025-04-11 19:32:42,225 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:42,232 [INFO] Final candidates: []
+2025-04-11 19:32:42,232 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:42,232 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:42,320 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:42,320 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(12)), (np.int64(7), np.int64(7)))
+2025-04-11 19:32:42,328 [INFO] Final candidates: []
+2025-04-11 19:32:42,328 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:42,335 [INFO] Final candidates: []
+2025-04-11 19:32:42,335 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:42,336 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:42,420 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:42,420 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(14), np.int64(8)))
+2025-04-11 19:32:42,428 [INFO] Final candidates: []
+2025-04-11 19:32:42,428 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:42,437 [INFO] Final candidates: []
+2025-04-11 19:32:42,437 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:42,437 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:42,470 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:42,470 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(5)), (np.int64(13), np.int64(7)))
+2025-04-11 19:32:42,478 [INFO] Final candidates: []
+2025-04-11 19:32:42,478 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:42,485 [INFO] Final candidates: []
+2025-04-11 19:32:42,485 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:42,485 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:42,659 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:42,660 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(12)), (np.int64(14), np.int64(8)))
+2025-04-11 19:32:42,667 [INFO] Final candidates: []
+2025-04-11 19:32:42,667 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:42,675 [INFO] Final candidates: []
+2025-04-11 19:32:42,675 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:42,675 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:42,781 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:42,781 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(10)), (np.int64(6), np.int64(10)))
+2025-04-11 19:32:42,789 [INFO] Final candidates: []
+2025-04-11 19:32:42,789 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:42,796 [INFO] Final candidates: []
+2025-04-11 19:32:42,797 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:42,797 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:43,128 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:43,128 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(13), np.int64(8)), (np.int64(11), np.int64(7)))
+2025-04-11 19:32:43,138 [INFO] Final candidates: []
+2025-04-11 19:32:43,138 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:43,145 [INFO] Final candidates: []
+2025-04-11 19:32:43,145 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:43,145 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:43,224 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:43,225 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(13), np.int64(8)), (np.int64(12), np.int64(6)))
+2025-04-11 19:32:43,234 [INFO] Final candidates: []
+2025-04-11 19:32:43,234 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:43,241 [INFO] Final candidates: []
+2025-04-11 19:32:43,241 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:43,241 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:43,385 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:43,385 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(11)), (np.int64(9), np.int64(10)))
+2025-04-11 19:32:43,393 [INFO] Final candidates: []
+2025-04-11 19:32:43,393 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:43,400 [INFO] Final candidates: []
+2025-04-11 19:32:43,400 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:43,400 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:43,431 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:43,431 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(13), np.int64(7)), (np.int64(7), np.int64(11)))
+2025-04-11 19:32:43,445 [INFO] Final candidates: []
+2025-04-11 19:32:43,445 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:43,454 [INFO] Final candidates: []
+2025-04-11 19:32:43,454 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:43,455 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:43,554 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:43,554 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(6)), (np.int64(8), np.int64(11)))
+2025-04-11 19:32:43,562 [INFO] Final candidates: []
+2025-04-11 19:32:43,562 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:43,569 [INFO] Final candidates: []
+2025-04-11 19:32:43,570 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:43,570 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:43,642 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:43,642 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(6)), (np.int64(14), np.int64(8)))
+2025-04-11 19:32:43,650 [INFO] Final candidates: []
+2025-04-11 19:32:43,650 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:43,657 [INFO] Final candidates: []
+2025-04-11 19:32:43,657 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:43,658 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:43,685 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:43,685 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(6)), (np.int64(7), np.int64(8)))
+2025-04-11 19:32:43,694 [INFO] Final candidates: []
+2025-04-11 19:32:43,694 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:43,702 [INFO] Final candidates: []
+2025-04-11 19:32:43,702 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:43,702 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:43,703 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:43,703 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(9)), (np.int64(7), np.int64(9)))
+2025-04-11 19:32:43,710 [INFO] Final candidates: []
+2025-04-11 19:32:43,711 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:43,720 [INFO] Final candidates: []
+2025-04-11 19:32:43,720 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:43,721 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:44,001 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:44,001 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(13), np.int64(8)), (np.int64(6), np.int64(8)))
+2025-04-11 19:32:44,009 [INFO] Final candidates: []
+2025-04-11 19:32:44,009 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,016 [INFO] Final candidates: []
+2025-04-11 19:32:44,016 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,017 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:44,142 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:44,143 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(6)), (np.int64(9), np.int64(10)))
+2025-04-11 19:32:44,152 [INFO] Final candidates: []
+2025-04-11 19:32:44,152 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,159 [INFO] Final candidates: []
+2025-04-11 19:32:44,159 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,160 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:44,266 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:44,266 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(9)), (np.int64(12), np.int64(9)))
+2025-04-11 19:32:44,274 [INFO] Final candidates: []
+2025-04-11 19:32:44,274 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,281 [INFO] Final candidates: []
+2025-04-11 19:32:44,281 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,282 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:44,369 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:44,370 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(11)), (np.int64(7), np.int64(9)))
+2025-04-11 19:32:44,379 [INFO] Final candidates: []
+2025-04-11 19:32:44,379 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,388 [INFO] Final candidates: []
+2025-04-11 19:32:44,388 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,388 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:44,519 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:44,519 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(9)), (np.int64(11), np.int64(7)))
+2025-04-11 19:32:44,527 [INFO] Final candidates: []
+2025-04-11 19:32:44,527 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,535 [INFO] Final candidates: []
+2025-04-11 19:32:44,535 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,535 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:44,605 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:44,606 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(6), np.int64(8)), (np.int64(12), np.int64(6)))
+2025-04-11 19:32:44,613 [INFO] Final candidates: []
+2025-04-11 19:32:44,613 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,621 [INFO] Final candidates: []
+2025-04-11 19:32:44,621 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,621 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:44,654 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:44,654 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(11), np.int64(8)))
+2025-04-11 19:32:44,662 [INFO] Final candidates: []
+2025-04-11 19:32:44,662 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,671 [INFO] Final candidates: []
+2025-04-11 19:32:44,671 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,672 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:44,854 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:44,854 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(10)), (np.int64(7), np.int64(11)))
+2025-04-11 19:32:44,862 [INFO] Final candidates: []
+2025-04-11 19:32:44,862 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,869 [INFO] Final candidates: []
+2025-04-11 19:32:44,869 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,870 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:44,898 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:44,898 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(6), np.int64(8)), (np.int64(10), np.int64(7)))
+2025-04-11 19:32:44,905 [INFO] Final candidates: []
+2025-04-11 19:32:44,905 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,913 [INFO] Final candidates: []
+2025-04-11 19:32:44,913 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,913 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:44,949 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:44,949 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(10), np.int64(10)))
+2025-04-11 19:32:44,957 [INFO] Final candidates: []
+2025-04-11 19:32:44,957 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,965 [INFO] Final candidates: []
+2025-04-11 19:32:44,965 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:44,965 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:44,992 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:44,992 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(6)), (np.int64(10), np.int64(10)))
+2025-04-11 19:32:45,000 [INFO] Final candidates: []
+2025-04-11 19:32:45,000 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:45,009 [INFO] Final candidates: []
+2025-04-11 19:32:45,009 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:45,009 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:45,023 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:45,024 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(9)), (np.int64(7), np.int64(7)))
+2025-04-11 19:32:45,031 [INFO] Final candidates: []
+2025-04-11 19:32:45,031 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:45,039 [INFO] Final candidates: []
+2025-04-11 19:32:45,039 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:45,039 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:45,180 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:45,180 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(6), np.int64(8)), (np.int64(7), np.int64(8)))
+2025-04-11 19:32:45,190 [INFO] Final candidates: []
+2025-04-11 19:32:45,190 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:45,200 [INFO] Final candidates: []
+2025-04-11 19:32:45,200 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:45,200 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:45,357 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:45,358 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(9)), (np.int64(8), np.int64(11)))
+2025-04-11 19:32:45,365 [INFO] Final candidates: []
+2025-04-11 19:32:45,365 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:45,373 [INFO] Final candidates: []
+2025-04-11 19:32:45,373 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:45,373 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:45,501 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:45,502 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(13), np.int64(8)), (np.int64(13), np.int64(7)))
+2025-04-11 19:32:45,509 [INFO] Final candidates: []
+2025-04-11 19:32:45,509 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:45,517 [INFO] Final candidates: []
+2025-04-11 19:32:45,517 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:45,517 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:45,520 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:45,521 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(13), np.int64(8)), (np.int64(9), np.int64(6)))
+2025-04-11 19:32:45,530 [INFO] Final candidates: []
+2025-04-11 19:32:45,530 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:45,537 [INFO] Final candidates: []
+2025-04-11 19:32:45,537 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:45,538 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:45,730 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:45,730 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(7)), (np.int64(11), np.int64(9)))
+2025-04-11 19:32:45,738 [INFO] Final candidates: []
+2025-04-11 19:32:45,738 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:45,746 [INFO] Final candidates: []
+2025-04-11 19:32:45,746 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:45,746 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:46,068 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:46,069 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(6)), (np.int64(10), np.int64(10)))
+2025-04-11 19:32:46,079 [INFO] Final candidates: []
+2025-04-11 19:32:46,079 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:46,094 [INFO] Final candidates: []
+2025-04-11 19:32:46,094 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:46,094 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:46,179 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:46,179 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(11), np.int64(9)))
+2025-04-11 19:32:46,188 [INFO] Final candidates: []
+2025-04-11 19:32:46,188 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:46,196 [INFO] Final candidates: []
+2025-04-11 19:32:46,196 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:46,197 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:46,221 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:46,221 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(12)), (np.int64(7), np.int64(8)))
+2025-04-11 19:32:46,229 [INFO] Final candidates: []
+2025-04-11 19:32:46,229 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:46,237 [INFO] Final candidates: []
+2025-04-11 19:32:46,237 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:46,237 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:46,274 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:46,274 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(6), np.int64(10)))
+2025-04-11 19:32:46,282 [INFO] Final candidates: []
+2025-04-11 19:32:46,282 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:46,290 [INFO] Final candidates: []
+2025-04-11 19:32:46,290 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:46,290 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:46,461 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:46,461 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(10)), (np.int64(8), np.int64(7)))
+2025-04-11 19:32:46,469 [INFO] Final candidates: []
+2025-04-11 19:32:46,469 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:46,477 [INFO] Final candidates: []
+2025-04-11 19:32:46,477 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:46,477 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:46,659 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:46,659 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(10)), (np.int64(13), np.int64(9)))
+2025-04-11 19:32:46,667 [INFO] Final candidates: []
+2025-04-11 19:32:46,667 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:46,674 [INFO] Final candidates: []
+2025-04-11 19:32:46,674 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:46,674 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:46,792 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:46,792 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(7)), (np.int64(12), np.int64(10)))
+2025-04-11 19:32:46,800 [INFO] Final candidates: []
+2025-04-11 19:32:46,800 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:46,807 [INFO] Final candidates: []
+2025-04-11 19:32:46,807 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:46,808 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:46,828 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:46,828 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(6)), (np.int64(10), np.int64(9)))
+2025-04-11 19:32:46,835 [INFO] Final candidates: []
+2025-04-11 19:32:46,835 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:46,843 [INFO] Final candidates: []
+2025-04-11 19:32:46,843 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:46,843 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:47,061 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:47,061 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(7), np.int64(7)), (np.int64(6), np.int64(8)))
+2025-04-11 19:32:47,069 [INFO] Final candidates: []
+2025-04-11 19:32:47,069 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:47,076 [INFO] Final candidates: []
+2025-04-11 19:32:47,076 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:47,077 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:47,165 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:47,165 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(10)), (np.int64(9), np.int64(6)))
+2025-04-11 19:32:47,173 [INFO] Final candidates: []
+2025-04-11 19:32:47,173 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:47,180 [INFO] Final candidates: []
+2025-04-11 19:32:47,180 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:47,181 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:47,358 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:47,359 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(9)), (np.int64(9), np.int64(11)))
+2025-04-11 19:32:47,366 [INFO] Final candidates: []
+2025-04-11 19:32:47,366 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:47,374 [INFO] Final candidates: []
+2025-04-11 19:32:47,374 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:47,374 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:47,376 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:47,377 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(7), np.int64(10)), (np.int64(14), np.int64(8)))
+2025-04-11 19:32:47,384 [INFO] Final candidates: []
+2025-04-11 19:32:47,384 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:47,392 [INFO] Final candidates: []
+2025-04-11 19:32:47,392 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:47,392 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:47,491 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:47,491 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(11), np.int64(9)), (np.int64(7), np.int64(11)))
+2025-04-11 19:32:47,499 [INFO] Final candidates: []
+2025-04-11 19:32:47,499 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:47,506 [INFO] Final candidates: []
+2025-04-11 19:32:47,506 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:47,506 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:47,709 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:47,710 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(8), np.int64(6)), (np.int64(6), np.int64(8)))
+2025-04-11 19:32:47,717 [INFO] Final candidates: []
+2025-04-11 19:32:47,717 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:47,725 [INFO] Final candidates: []
+2025-04-11 19:32:47,725 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:47,725 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:47,853 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:47,853 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(12), np.int64(6)), (np.int64(6), np.int64(10)))
+2025-04-11 19:32:47,860 [INFO] Final candidates: []
+2025-04-11 19:32:47,860 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:47,868 [INFO] Final candidates: []
+2025-04-11 19:32:47,868 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:47,868 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:47,975 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:47,975 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(10), np.int64(6)), (np.int64(10), np.int64(7)))
+2025-04-11 19:32:47,984 [INFO] Final candidates: []
+2025-04-11 19:32:47,984 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:47,992 [INFO] Final candidates: []
+2025-04-11 19:32:47,992 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:47,992 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:48,258 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:48,258 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(9), np.int64(11)), (np.int64(10), np.int64(10)))
+2025-04-11 19:32:48,266 [INFO] Final candidates: []
+2025-04-11 19:32:48,266 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:48,273 [INFO] Final candidates: []
+2025-04-11 19:32:48,274 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:48,274 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:48,310 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:32:48,310 [DEBUG] Tree_policy iteration 1: Expanding move ((np.int64(6), np.int64(8)), (np.int64(13), np.int64(9)))
+2025-04-11 19:32:48,318 [INFO] Final candidates: []
+2025-04-11 19:32:48,318 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:48,325 [INFO] Final candidates: []
+2025-04-11 19:32:48,325 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:48,326 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:48,555 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:48,555 [DEBUG] MCTS: BEST ((np.int64(12), np.int64(6)), (np.int64(7), np.int64(8))) with 1 visits.
+2025-04-11 19:32:48,555 [INFO] MCTS: Search finished. Best move selected with 1 visits.
+2025-04-11 19:32:48,555 [INFO] MCTS selected move: G13,J8
+2025-04-11 19:32:48,555 [INFO] ===============NEW MOVE================
+2025-04-11 19:32:54,926 [INFO] Starting pre-MCTS candidate collection.
+2025-04-11 19:32:54,933 [INFO] Final candidates: []
+2025-04-11 19:32:54,933 [INFO] Phase win: Collected 0unique candidate(s):[]
+2025-04-11 19:32:54,939 [DEBUG] board coords: [(4, 14), (5, 13), (6, 12), (7, 11), (8, 10), (9, 9)]
+2025-04-11 19:32:54,939 [DEBUG] board values[np.int64(0), np.int64(2), np.int64(0), np.int64(2), np.int64(2), np.int64(2)]
+2025-04-11 19:32:54,939 [DEBUG] check_window_intermediate_custom: empty_cells=[(4, 14), (6, 12)]
+2025-04-11 19:32:54,939 [DEBUG] check_window_intermediate_custom: For L=6, window [0 2 0 2 2 2] with coords [(4, 14), (5, 13), (6, 12), (7, 11), (8, 10), (9, 9)] triggers candidate.
+2025-04-11 19:32:54,940 [DEBUG] check_window_margin_custom: For L=6, window [0 2 2 2 2 0] with coords [(6, 12), (7, 11), (8, 10), (9, 9), (10, 8), (11, 7)] triggers candidate.
+2025-04-11 19:32:54,940 [DEBUG] The consecutive condition should be found in the former check_window_margin_custom.
+2025-04-11 19:32:54,941 [INFO] Final candidates: [(6, 12), (11, 7), (4, 14)]
+2025-04-11 19:32:54,941 [INFO] Phase defense: Collected 3unique candidate(s):[((11, 7), (4, 14)), ((6, 12), (4, 14)), ((6, 12), (11, 7))]
+2025-04-11 19:32:54,941 [INFO] Phase 2 (defense): 3 candidate(s) found.
+2025-04-11 19:32:54,941 [INFO] MCTS: Starting search for 100 iterations.
+2025-04-11 19:32:54,941 [DEBUG] Tree_policy iteration 1: Expanding move ((6, 12), (11, 7))
+2025-04-11 19:32:54,947 [DEBUG] board coords: [(3, 15), (4, 14), (5, 13), (6, 12), (7, 11), (8, 10)]
+2025-04-11 19:32:54,947 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(2), np.int64(2), np.int64(2), np.int64(2)]
+2025-04-11 19:32:54,947 [DEBUG] check_window_intermediate_custom: empty_cells=[(3, 15), (4, 14)]
+2025-04-11 19:32:54,947 [DEBUG] check_window_intermediate_custom: For L=6, window [0 0 2 2 2 2] with coords [(3, 15), (4, 14), (5, 13), (6, 12), (7, 11), (8, 10)] triggers candidate.
+2025-04-11 19:32:54,949 [INFO] Final candidates: [(3, 15), (4, 14)]
+2025-04-11 19:32:54,949 [INFO] Phase win: Collected 1unique candidate(s):[((3, 15), (4, 14))]
+2025-04-11 19:32:54,956 [INFO] Final candidates: []
+2025-04-11 19:32:54,956 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:54,956 [INFO] Phase 1 (immediate win): 1 candidate(s) found.
+2025-04-11 19:32:54,956 [DEBUG] MCTS iteration 0: reached a node with 0 visits.
+2025-04-11 19:32:54,956 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:54,956 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:54,956 [DEBUG] Tree_policy iteration 1: Expanding move ((6, 12), (4, 14))
+2025-04-11 19:32:54,962 [DEBUG] board coords: [(2, 16), (3, 15), (4, 14), (5, 13), (6, 12), (7, 11)]
+2025-04-11 19:32:54,962 [DEBUG] board values[np.int64(0), np.int64(0), np.int64(2), np.int64(2), np.int64(2), np.int64(2)]
+2025-04-11 19:32:54,962 [DEBUG] check_window_intermediate_custom: empty_cells=[(2, 16), (3, 15)]
+2025-04-11 19:32:54,962 [DEBUG] check_window_intermediate_custom: For L=6, window [0 0 2 2 2 2] with coords [(2, 16), (3, 15), (4, 14), (5, 13), (6, 12), (7, 11)] triggers candidate.
+2025-04-11 19:32:54,964 [INFO] Final candidates: [(11, 7), (2, 16), (3, 15)]
+2025-04-11 19:32:54,964 [INFO] Phase win: Collected 3unique candidate(s):[((2, 16), (3, 15)), ((11, 7), (2, 16)), ((11, 7), (3, 15))]
+2025-04-11 19:32:54,971 [INFO] Final candidates: []
+2025-04-11 19:32:54,971 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:54,971 [INFO] Phase 1 (immediate win): 3 candidate(s) found.
+2025-04-11 19:32:54,971 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:54,971 [INFO] Default policy: Playout finished with winner: 2
+2025-04-11 19:32:54,971 [DEBUG] Tree_policy iteration 1: Expanding move ((11, 7), (4, 14))
+2025-04-11 19:32:54,978 [DEBUG] board coords: [(3, 15), (4, 14), (5, 13), (6, 12), (7, 11), (8, 10)]
+2025-04-11 19:32:54,978 [DEBUG] board values[np.int64(0), np.int64(2), np.int64(2), np.int64(0), np.int64(2), np.int64(2)]
+2025-04-11 19:32:54,978 [DEBUG] check_window_intermediate_custom: empty_cells=[(3, 15), (6, 12)]
+2025-04-11 19:32:54,978 [DEBUG] check_window_intermediate_custom: For L=6, window [0 2 2 0 2 2] with coords [(3, 15), (4, 14), (5, 13), (6, 12), (7, 11), (8, 10)] triggers candidate.
+2025-04-11 19:32:54,979 [INFO] Final candidates: [(6, 12), (3, 15)]
+2025-04-11 19:32:54,979 [INFO] Phase win: Collected 1unique candidate(s):[((6, 12), (3, 15))]
+2025-04-11 19:32:54,987 [INFO] Final candidates: []
+2025-04-11 19:32:54,987 [INFO] Phase defense: Collected 0unique candidate(s):[]
+2025-04-11 19:32:54,987 [INFO] Phase 1 (immediate win): 1 candidate(s) found.
+2025-04-11 19:32:54,987 [INFO] Default policy: Starting random playout.
+2025-04-11 19:32:55,092 [INFO] Default policy: Playout finished with winner: 1
+2025-04-11 19:42:05,990 [INFO] Game terminated.

@@ -140,7 +140,7 @@ class Connect6Game:
             logging.info(f"Phase 1 (immediate win): {len(win_candidates)} candidate(s) found.")
             restricted_game = clone_game(self)
             root = MCTSNode(restricted_game, restricted_actions=win_candidates)
-            best_move = mcts(root, itermax=5)
+            best_move = mcts(root, itermax=100) #100
             move_str = move_to_str(best_move, self)
             self.play_move(color, move_str)
             logging.info(f"MCTS (win candidates) selected move: {move_str}")
@@ -154,8 +154,10 @@ class Connect6Game:
             logging.info(f"Phase 2 (defense): {len(defense_candidates)} candidate(s) found.")
             restricted_game = clone_game(self)
             root = MCTSNode(restricted_game, restricted_actions=defense_candidates)
-            best_move = mcts(root, itermax=5)
+            best_move = mcts(root, itermax=100) #100
+            logging.info(f"Phase 2 (defense): MCTS selected move: {best_move}")
             move_str = move_to_str(best_move, self)
+            logging.info(f"Phase 2 (defense): MCTS selected move string : {move_str}")
             self.play_move(color, move_str)
             logging.info(f"MCTS (defense candidates) selected move: {move_str}")
             print(f"{move_str}\n\n", end='', flush=True)
@@ -165,10 +167,11 @@ class Connect6Game:
         # Phase 3: Use full legal moves if no candidate found.
         logging.info("No candidate found in Phase 1 or 2; using full legal moves for MCTS.")
         root = MCTSNode(clone_game(self))
-        best_move = mcts(root, itermax=5)
+        best_move = mcts(root, itermax=100) #100
         move_str = move_to_str(best_move, self)
         self.play_move(color, move_str)
         logging.info(f"MCTS selected move: {move_str}")
+        logging.info(f'===============NEW MOVE================')
         print(f"{move_str}\n\n", end='', flush=True)
         print(move_str, file=sys.stderr)
 
@@ -254,7 +257,7 @@ def get_legal_moves(game):
     empty_positions = [(r, c) for r in range(game.size) for c in range(game.size) if game.board[r, c]==0]
     if num_stones==1:
         return empty_positions
-    R = 3
+    R = 2
     candidates = set()
     stones = [(r, c) for r in range(game.size) for c in range(game.size) if game.board[r, c]!=0]
     while True:
@@ -324,11 +327,17 @@ def tree_policy(node):
     while not terminal(node.game):
         iteration += 1
         if node.untried_moves:
-            candidates = pre_mcts_collect(node.game, node.player, phase="win")
-            if not candidates:
-                candidates = pre_mcts_collect(node.game, node.player, phase="defense")
-            if candidates:
-                valid_candidates = [m for m in candidates if m in node.untried_moves]
+            of_candidates = pre_mcts_collect(node.game, node.player, phase='win')
+            def_candidates = pre_mcts_collect(node.game, node.player, phase='defense')
+            if len(of_candidates)>0:
+                valid_candidates = [m for m in of_candidates if m in node.untried_moves]
+                if valid_candidates:
+                    move = random.choice(valid_candidates)
+                    node.untried_moves.remove(move)
+                else:
+                    move = node.untried_moves.pop(random.randrange(len(node.untried_moves)))
+            elif def_candidates:
+                valid_candidates = [m for m in def_candidates if m in node.untried_moves]
                 if valid_candidates:
                     move = random.choice(valid_candidates)
                     node.untried_moves.remove(move)
@@ -351,6 +360,64 @@ def tree_policy(node):
             node = best_child(node)
     logging.debug("Tree_policy: Terminal node reached.")
     return node
+# def tree_policy(node):
+#     """
+#     擴展當前節點：
+#       - 若尚有未擴展走法，先嘗試從 pre-MCTS 候選（優先進攻，再防守）中挑選，
+#         若該候選存在於 node.untried_moves 中則展開，否則隨機選取。
+#       - 若無未擴展走法，則選取最佳子節點。
+#     """
+#     iteration = 0
+#     while not terminal(node.game):
+#         iteration += 1
+#         if node.untried_moves:
+#             # candidates = pre_mcts_collect(node.game, node.player, phase="win")
+#             # if not candidates:
+#             #     candidates = pre_mcts_collect(node.game, node.player, phase="defense")
+#             # if candidates:
+#             #     valid_candidates = [m for m in candidates if m in node.untried_moves]
+#             #     if valid_candidates:
+#             #         move = random.choice(valid_candidates)
+#             #         node.untried_moves.remove(move)
+#             #     else:
+#             #         move = node.untried_moves.pop(random.randrange(len(node.untried_moves)))
+#             # else:
+#             move = node.untried_moves.pop(random.randrange(len(node.untried_moves)))
+#             logging.debug(f"Tree_policy iteration {iteration}: Expanding move {move}")
+#             new_game = clone_game(node.game)
+#             move_str = move_to_str(move, new_game)
+#             old_stdout = sys.stdout
+#             sys.stdout = io.StringIO()
+#             color = 'B' if new_game.turn==1 else 'W'
+#             new_game.play_move(color, move_str)
+#             sys.stdout = old_stdout
+
+
+#             # preMCTS of new node 
+#             # Phase 1: Immediate win candidate collection
+#             new_game = clone_game(node.game)
+#             my_val = new_game.turn
+#             win_candidates = pre_mcts_collect(new_game, my_val, phase="win")
+#             # Phase 2: Defense candidate collection
+#             defense_candidates = pre_mcts_collect(new_game, my_val, phase="defense")
+#             if len(win_candidates)>0:
+#                 logging.info(f"Phase 1 (immediate win): {len(win_candidates)} candidate(s) found.")
+#                 restricted_game = clone_game(new_game)
+#                 child_node = MCTSNode(restricted_game, restricted_actions=win_candidates)
+#             elif len(defense_candidates)>0:
+#                 logging.info(f"Phase 2 (defense): {len(defense_candidates)} candidate(s) found.")
+#                 restricted_game = clone_game(new_game)
+#                 child_node = MCTSNode(restricted_game, restricted_actions=defense_candidates)
+
+#             # Phase 3: Use full legal moves if no candidate found.
+#             else:
+#                 child_node = MCTSNode(new_game, move, node)
+#             node.children.append(child_node)
+#             return child_node
+#         else:
+#             node = best_child(node)
+#     logging.debug("Tree_policy: Terminal node reached.")
+#     return node
 
 def get_neighbors(game, stone, distance):
     """
@@ -421,7 +488,7 @@ def check_window_margin_custom(window, board_coords, my_val, L):
     else:
             return None
     
-def check_window_intermediate_custom(window, board_coords, my_val, L):
+def check_window_intermediate_custom(window, board_coords, my_val, L, defense_mode=False):
     if len(window) != L:
         return None
     # 檢查窗口是否純淨：只允許 0 或 my_val
@@ -446,15 +513,14 @@ def check_window_intermediate_custom(window, board_coords, my_val, L):
         # 先得到empty cells 在window中的index
         empty_cells_index = [i for i in range(L) if window[i] == 0] 
         if len(empty_cells) == 2:
-            if (empty_cells_index[0] + 1 == empty_cells_index[1]) :
-                if empty_cells_index[0] == 0 :
-                    logging.debug(f"check_window_intermediate_custom (only one inserted{empty_cells[1]}): For L={L}, window {window} with coords {board_coords} triggers candidate.")
-                    return [empty_cells[1]]
-                elif empty_cells_index[1] == L-1:
-                    logging.debug(f"check_window_intermediate_custom (only one inserted{empty_cells[0]}): For L={L}, window {window} with coords {board_coords} triggers candidate.")
-                    return [empty_cells[0]]
             logging.debug(f"check_window_intermediate_custom: For L={L}, window {window} with coords {board_coords} triggers candidate.")
-            return [empty_cells[0], empty_cells[1]]
+            
+            if defense_mode:
+                valid_move = [board_coords[index] for index in empty_cells_index if index != 0 and index != L-1]
+                logging.debug(f"check_window_intermediate_custom: valid_move={valid_move}")
+                return valid_move
+            else:
+                return [empty_cells[0], empty_cells[1]]
         else:
             return None
 
@@ -507,10 +573,10 @@ def pre_mcts_collect(game, my_val, phase="win"):
                     window = board[r, c:c+L]
                     coords = [(r, c+i) for i in range(L)]
                     candidate = check_window_margin_custom(window, coords, val_to_check, L )
-                    
                     if candidate is not None:
                         moves_found.extend(candidate)
-                    candidate = check_window_intermediate_custom(window, coords, val_to_check, L )
+                    
+                    candidate = check_window_intermediate_custom(window, coords, val_to_check, L, defense_mode )
                     if candidate is not None:
                         moves_found.extend(candidate)
                     candidate = check_window_missing_one_custom(window, coords, val_to_check, L )
@@ -526,7 +592,7 @@ def pre_mcts_collect(game, my_val, phase="win"):
                     candidate = check_window_margin_custom(window, coords, val_to_check, L )
                     if candidate is not None:
                         moves_found.extend(candidate)
-                    candidate = check_window_intermediate_custom(window, coords, val_to_check, L )
+                    candidate = check_window_intermediate_custom(window, coords, val_to_check, L , defense_mode )
                     if candidate is not None:
                         moves_found.extend(candidate)
                     candidate = check_window_missing_one_custom(window, coords, val_to_check, L )
@@ -542,7 +608,7 @@ def pre_mcts_collect(game, my_val, phase="win"):
                     candidate = check_window_margin_custom(window, coords, val_to_check, L )
                     if candidate is not None:
                         moves_found.extend(candidate)
-                    candidate = check_window_intermediate_custom(window, coords, val_to_check, L )
+                    candidate = check_window_intermediate_custom(window, coords, val_to_check, L , defense_mode )
                     if candidate is not None:
                         moves_found.extend(candidate)
                     candidate = check_window_missing_one_custom(window, coords, val_to_check, L )
@@ -558,7 +624,7 @@ def pre_mcts_collect(game, my_val, phase="win"):
                     candidate = check_window_margin_custom(window, coords, val_to_check, L )
                     if candidate is not None:
                         moves_found.extend(candidate)
-                    candidate = check_window_intermediate_custom(window, coords, val_to_check, L )
+                    candidate = check_window_intermediate_custom(window, coords, val_to_check, L , defense_mode)
                     if candidate is not None:
                         moves_found.extend(candidate)
                     candidate = check_window_missing_one_custom(window, coords, val_to_check, L )
@@ -759,29 +825,29 @@ def default_policy(game, rollout_player):
     while not terminal(current_game): 
         # Do pre-MCTS-check
         # 1. Check if the current player can win in this move.
-        win_candidates = pre_mcts_collect(current_game, current_game.turn, phase="win")
-        if len(win_candidates)!=0:
-            logging.info(f"Default policy: Found win candidate {win_candidates}.")
-            move = random.choice(win_candidates)
-            move_str = move_to_str(move, current_game)
-            old_stdout = sys.stdout
-            sys.stdout = io.StringIO()
-            color = 'B' if current_game.turn==1 else 'W'
-            current_game.play_move(color, move_str)
-            sys.stdout = old_stdout
-            continue
-        # 2. Check if the current player can block the opponent's winning move.
-        defense_candidates = pre_mcts_collect(current_game, current_game.turn, phase="defense")
-        if len(defense_candidates)!=0:
-            logging.info(f"Default policy: Found defense candidate {defense_candidates}.")
-            move = random.choice(defense_candidates)
-            move_str = move_to_str(move, current_game)
-            old_stdout = sys.stdout
-            sys.stdout = io.StringIO()
-            color = 'B' if current_game.turn==1 else 'W'
-            current_game.play_move(color, move_str)
-            sys.stdout = old_stdout
-            continue
+        # win_candidates = pre_mcts_collect(current_game, current_game.turn, phase="win")
+        # if len(win_candidates)!=0:
+        #     logging.info(f"Default policy: Found win candidate {win_candidates}.")
+        #     move = random.choice(win_candidates)
+        #     move_str = move_to_str(move, current_game)
+        #     old_stdout = sys.stdout
+        #     sys.stdout = io.StringIO()
+        #     color = 'B' if current_game.turn==1 else 'W'
+        #     current_game.play_move(color, move_str)
+        #     sys.stdout = old_stdout
+        #     continue
+        # # 2. Check if the current player can block the opponent's winning move.
+        # defense_candidates = pre_mcts_collect(current_game, current_game.turn, phase="defense")
+        # if len(defense_candidates)!=0:
+        #     logging.info(f"Default policy: Found defense candidate {defense_candidates}.")
+        #     move = random.choice(defense_candidates)
+        #     move_str = move_to_str(move, current_game)
+        #     old_stdout = sys.stdout
+        #     sys.stdout = io.StringIO()
+        #     color = 'B' if current_game.turn==1 else 'W'
+        #     current_game.play_move(color, move_str)
+        #     sys.stdout = old_stdout
+        #     continue
         # 3. If no candidates, select a random legal move.
         legal_moves = get_legal_moves(current_game)
         if not legal_moves:
@@ -820,8 +886,12 @@ def mcts(root, itermax=500):
         if i % 50 == 0:
             logging.debug(f"MCTS iteration {i}: reached a node with {node.visits} visits.")
         rollout_reward = default_policy(node.game, root.player)
+        logging.debug(f"MCTS iteration {i}: Rollout reward: {rollout_reward}.")
         backup(node, rollout_reward, root.player)
+        logging.debug(f"MCTS iteration {i}: Backed up Finish.")
+    logging.info(f"MCTS: Search completed after {itermax} iterations.")
     best = max(root.children, key=lambda c: c.visits)
+    logging.debug(f"MCTS: BEST {best.move} with {best.visits} visits.")
     logging.info(f"MCTS: Search finished. Best move selected with {best.visits} visits.")
     return best.move
 
