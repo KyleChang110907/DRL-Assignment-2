@@ -18,7 +18,7 @@ from Modules2048.value_approximation.NTuple_TD5_8x6 import patterns, OptimisticD
     
 # Folder and checkpoint paths.
 folder_path = './Modules2048/checkpoints/value_approximation/Exp_N_tuple_TD5_6Tuples_8pattern_lr10-1_OI25_test/'
-
+# folder_path = './Modules2048/checkpoints/value_approximation/Exp_N_tuple_TD5_6Tuples_8pattern_lr10-1_OI25_test_19566/'
 MODE = os.getenv('MODE', 'test')
 if MODE == 'LOCAL':
     CHECKPOINT_FILE = os.path.join(folder_path, 'value_net.pkl')
@@ -75,6 +75,21 @@ def get_legal_moves_from_state(state, board_size=4):
         if not np.array_equal(temp_board, state):
             legal_moves.append(action)
     return legal_moves
+
+def insert_random_tile(pure_state):
+    """
+    Insert a random tile (2 or 4) into the board at a random empty position.
+    """
+    empty_positions = np.argwhere(pure_state == 0)
+    if len(empty_positions) == 0:
+        return pure_state  # No empty positions to fill.
+    
+    row, col = random.choice(empty_positions)
+    # the probability of 2 and 4 is 0.9 and 0.1 respectively
+    new_tile_value = 2 if random.random() < 0.9 else 4
+    new_state = pure_state.copy()
+    new_state[row, col] = new_tile_value
+    return new_state
 
 class PUCTNode:
     def __init__(self, state, score, parent=None, action=None):
@@ -153,6 +168,39 @@ class MCTS_PUCT:
         # Optionally print if the pure_value exceeds a threshold.
         
         return pure_value
+    
+    # def rollout(self, sim_env, depth):
+    #     """
+    #     從當前 sim_env (full state) 開始以固定深度進行 rollout，
+    #     每一步選擇一個隨機合法動作並以 simulate_move_without_tile 來獲得下一個純狀態，
+    #     同時計算該動作所獲得的 immediate reward（新分數與舊分數的差值）。
+    #     最終使用 value approximator 對最後的純狀態進行評估，並加上累計的 immediate reward（根據折扣因子）作為 rollout 的結果。
+
+    #     返回值:
+    #     total_reward + discount * pure_value，
+    #     其中 total_reward 為累計的 immediate reward，pure_value 為最後狀態的評估值。
+    #     """
+    #     total_reward = 0.0
+    #     discount = 1.0
+    #     # 逐步模擬深度
+    #     for _ in range(depth):
+    #         legal_moves = [a for a in range(4) if sim_env.is_move_legal(a)]
+    #         if not legal_moves:
+    #             break
+    #         action = random.choice(legal_moves)
+    #         # 記錄舊的 score 作為起點
+    #         old_score = sim_env.score
+    #         # 模擬玩家動作，不加入 random tile
+    #         sim_env = simulate_move_without_tile(sim_env, action)
+    #         # immediate reward 為模擬後分數增加的部分
+    #         immediate_reward = sim_env.score - old_score
+    #         # 累計當前步驟的 reward，乘上目前的 discount
+    #         total_reward += discount * immediate_reward
+    #         discount *= self.gamma
+    #     # 模擬結束後，以 value approximator 評估最後狀態（純狀態）
+    #     pure_value = self.value_approximator.value(sim_env.board)
+    #     return total_reward + discount * pure_value
+
     
     def backpropagate(self, node, rollout_reward):
         discount = 1.0
@@ -236,7 +284,7 @@ else:
 
 from student_agent import Game2048Env  # Provided environment
 env = Game2048Env()
-mcts_puct = MCTS_PUCT(env, approximator, iterations=200, c_puct=1.5, rollout_depth=5 , gamma=0.99)
+mcts_puct = MCTS_PUCT(env, approximator, iterations=150, c_puct=1.5, rollout_depth=7 , gamma=0.99)
     
 
 def get_action(state, score):
@@ -276,14 +324,15 @@ if __name__ == "__main__":
     # Run ten episode using MCTS_PUCT for action selection.
     scores = []
     for _ in range(10):
+        start_time = time.time()
         state = env.reset()
         done = False
         while not done:
             best_act = get_action(state, env.score)
             state, score, done, _ = env.step(best_act)
             # env.render(action=best_act)
-        
-        print("Final score:", env.score, "Max tile:", np.max(state))
+        time_taken = time.time() - start_time
+        print("Final score:", env.score, "Max tile:", np.max(state), "Time taken:", time_taken)
         scores.append(env.score)
     
     # avg and std of scores

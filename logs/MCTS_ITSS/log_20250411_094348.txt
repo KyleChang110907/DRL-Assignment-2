@@ -1,2 +1,0 @@
-2025-04-11 09:43:56,022 [INFO] Starting pre-MCTS candidate collection.
-2025-04-11 09:44:55,545 [INFO] Game terminated.
