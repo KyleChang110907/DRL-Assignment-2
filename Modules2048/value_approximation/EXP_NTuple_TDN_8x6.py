@@ -10,7 +10,7 @@ from collections import defaultdict
 from student_agent import Game2048Env
 
 # 建立 checkpoint 資料夾
-folder_path = './Modules2048/checkpoints/value_approximation/Exp_N_tuple_TD5_6Tuples_8pattern_lr10-1_OI25/'
+folder_path = './Modules2048/checkpoints/value_approximation/Exp_N_tuple_TD5_6Tuples_8pattern_lr10-1_OI25_test_22446/'
 os.makedirs(folder_path, exist_ok=True)
 
 CHECKPOINT_FILE = folder_path + 'value_net.pkl'

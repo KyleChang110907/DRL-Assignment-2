@@ -839,9 +839,9 @@ def pre_mcts_collect(game, my_val, phase="win"):
     elif len(candidates)==1:
         logging.info(f"Phase {phase}: Found only one candidate: {candidates[0]}")
         # 如果只有一個候選點，則將其與慢哈頓距離小於三的所有空點組合
-        r = 2 
+        r = 1
         neighbors = get_neighbors(game, candidates[0], r)
-        while len(neighbors)<2:
+        while len(neighbors)<1:
             r+= 1
             neighbors = get_neighbors(game, candidates[0], r)
         for nb in neighbors:
@@ -862,32 +862,7 @@ def default_policy(game, rollout_player):
     current_game = clone_game(game)
     logging.info("Default policy: Starting random playout.")
     while not terminal(current_game): 
-        # Do pre-MCTS-check
-        # 1. Check if the current player can win in this move.
-        # win_candidates = pre_mcts_collect(current_game, current_game.turn, phase="win")
-        # if len(win_candidates)!=0:
-        #     logging.info(f"Default policy: Found win candidate {win_candidates}.")
-        #     move = random.choice(win_candidates)
-        #     move_str = move_to_str(move, current_game)
-        #     old_stdout = sys.stdout
-        #     sys.stdout = io.StringIO()
-        #     color = 'B' if current_game.turn==1 else 'W'
-        #     current_game.play_move(color, move_str)
-        #     sys.stdout = old_stdout
-        #     continue
-        # # 2. Check if the current player can block the opponent's winning move.
-        # defense_candidates = pre_mcts_collect(current_game, current_game.turn, phase="defense")
-        # if len(defense_candidates)!=0:
-        #     logging.info(f"Default policy: Found defense candidate {defense_candidates}.")
-        #     move = random.choice(defense_candidates)
-        #     move_str = move_to_str(move, current_game)
-        #     old_stdout = sys.stdout
-        #     sys.stdout = io.StringIO()
-        #     color = 'B' if current_game.turn==1 else 'W'
-        #     current_game.play_move(color, move_str)
-        #     sys.stdout = old_stdout
-        #     continue
-        # 3. If no candidates, select a random legal move.
+        #  select a random legal move.
         legal_moves = get_legal_moves(current_game)
         if not legal_moves:
             break

@@ -2,7 +2,24 @@ game=/lud/board/space/line/Connect6.lud
 START GAME OPTIONS
 Board Size/19x19
 END GAME OPTIONS
-RNG internal state=26,60,89,-21,121,67,124,38
+RNG internal state=125,-52,-9,-100,-76,113,-106,114
+Move=[Move:mover=1,from=180,to=180,actions=[Add:type=Vertex,to=180,what=1,decision=true]]
+Move=[Move:mover=2,from=181,to=181,actions=[Add:type=Vertex,to=181,what=2,decision=true],[SetNextPlayer:player=2]]
+Move=[Move:mover=2,from=163,to=163,actions=[Add:type=Vertex,to=163,what=2,decision=true]]
+Move=[Move:mover=1,from=164,to=164,actions=[Add:type=Vertex,to=164,what=1,decision=true],[SetNextPlayer:player=1]]
+Move=[Move:mover=1,from=200,to=200,actions=[Add:type=Vertex,to=200,what=1,decision=true]]
+Move=[Move:mover=2,from=199,to=199,actions=[Add:type=Vertex,to=199,what=2,decision=true],[SetNextPlayer:player=2]]
+Move=[Move:mover=2,from=145,to=145,actions=[Add:type=Vertex,to=145,what=2,decision=true]]
+Move=[Move:mover=1,from=127,to=127,actions=[Add:type=Vertex,to=127,what=1,decision=true],[SetNextPlayer:player=1]]
+Move=[Move:mover=1,from=217,to=217,actions=[Add:type=Vertex,to=217,what=1,decision=true]]
+Move=[Move:mover=2,from=162,to=162,actions=[Add:type=Vertex,to=162,what=2,decision=true],[SetNextPlayer:player=2]]
+Move=[Move:mover=2,from=182,to=182,actions=[Add:type=Vertex,to=182,what=2,decision=true]]
+Move=[Move:mover=1,from=107,to=107,actions=[Add:type=Vertex,to=107,what=1,decision=true],[SetNextPlayer:player=1]]
+Move=[Move:mover=1,from=218,to=218,actions=[Add:type=Vertex,to=218,what=1,decision=true]]
+Move=[Move:mover=2,from=201,to=201,actions=[Add:type=Vertex,to=201,what=2,decision=true],[SetNextPlayer:player=2]]
+Move=[Move:mover=2,from=239,to=239,actions=[Add:type=Vertex,to=239,what=2,decision=true]]
+Move=[Move:mover=1,from=220,to=220,actions=[Add:type=Vertex,to=220,what=1,decision=true],[SetNextPlayer:player=1]]
+Move=[Move:mover=1,from=219,to=219,actions=[Add:type=Vertex,to=219,what=1,decision=true]]
 numInitialPlacementMoves=0
 rankings=0.0,0.0,0.0
 SANDBOX=false

@@ -247,7 +247,7 @@ else:
 
 from student_agent import Game2048Env  # Provided environment
 env = Game2048Env()
-mcts_puct = MCTS_PUCT(env, approximator, iterations=150, c_puct=1.5, rollout_depth=7 , gamma=0.99)
+mcts_puct = MCTS_PUCT(env, approximator, iterations=100, c_puct=1.5, rollout_depth=7 , gamma=0.99)
     
 
 def get_action(state, score):
