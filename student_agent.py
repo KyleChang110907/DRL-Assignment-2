@@ -234,7 +234,7 @@ class Game2048Env(gym.Env):
 
 def get_action(state, score):
     
-    from Modules2048.TD_MCTS.EXP_NTuple_MCTS_TD0_8x6_3 import get_action as mcts_get_action
+    from Modules2048.TD_MCTS.EXP_NTuple_MCTS_TD0_8x6 import get_action as mcts_get_action
 
     action = mcts_get_action(state, score)
 
