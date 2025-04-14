@@ -30,7 +30,7 @@ jobs:
     
     - name: Download large file from Google Drive
       run: |  
-          gdown --fuzzy https://drive.google.com/drive/folders/1RZaWBzGGXWe6RpAcAajpLdpFdiRwPNv2?usp=sharing -O value_net.pkl
+          gdown --fuzzy https://drive.google.com/file/d/1UFWEHr54AGGikilGY3XQ6wkt8P2B7zVU/view?usp=sharing -O value_net.pkl
           
     - name: 3. Ensure env.so is executable
       run: chmod +x env.cpython-38-x86_64-linux-gnu.so
