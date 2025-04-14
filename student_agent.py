@@ -238,7 +238,7 @@ def get_action(state, score):
 
     action = mcts_get_action(state, score)
 
-    # print(f'State: {state}, Score: {score}, Action: {action}')
+    print(f'State: \n {state}, Score: {score}, Action: {action}')
     return action
     # return random.choice([0, 1, 2, 3]) # Choose a random action
     
