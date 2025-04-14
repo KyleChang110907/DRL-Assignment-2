@@ -169,39 +169,6 @@ class MCTS_PUCT:
         
         return pure_value
     
-    # def rollout(self, sim_env, depth):
-    #     """
-    #     從當前 sim_env (full state) 開始以固定深度進行 rollout，
-    #     每一步選擇一個隨機合法動作並以 simulate_move_without_tile 來獲得下一個純狀態，
-    #     同時計算該動作所獲得的 immediate reward（新分數與舊分數的差值）。
-    #     最終使用 value approximator 對最後的純狀態進行評估，並加上累計的 immediate reward（根據折扣因子）作為 rollout 的結果。
-
-    #     返回值:
-    #     total_reward + discount * pure_value，
-    #     其中 total_reward 為累計的 immediate reward，pure_value 為最後狀態的評估值。
-    #     """
-    #     total_reward = 0.0
-    #     discount = 1.0
-    #     # 逐步模擬深度
-    #     for _ in range(depth):
-    #         legal_moves = [a for a in range(4) if sim_env.is_move_legal(a)]
-    #         if not legal_moves:
-    #             break
-    #         action = random.choice(legal_moves)
-    #         # 記錄舊的 score 作為起點
-    #         old_score = sim_env.score
-    #         # 模擬玩家動作，不加入 random tile
-    #         sim_env = simulate_move_without_tile(sim_env, action)
-    #         # immediate reward 為模擬後分數增加的部分
-    #         immediate_reward = sim_env.score - old_score
-    #         # 累計當前步驟的 reward，乘上目前的 discount
-    #         total_reward += discount * immediate_reward
-    #         discount *= self.gamma
-    #     # 模擬結束後，以 value approximator 評估最後狀態（純狀態）
-    #     pure_value = self.value_approximator.value(sim_env.board)
-    #     return total_reward + discount * pure_value
-
-    
     def backpropagate(self, node, rollout_reward):
         discount = 1.0
         while node is not None:
@@ -224,10 +191,6 @@ class MCTS_PUCT:
         # Create a simulation environment starting from the node's pure state.
         sim_env = self.create_env_from_state(node.state, node.score)
         
-        # Selection: traverse the tree until reaching an expandable node.
-        # while node.fully_expanded() and node.children:
-        #     node = self.select_child(node)
-        #     sim_env.step(node.action)
         while node.fully_expanded() and node.children:
             next_node = self.select_child(node)
             # 執行 move 並捕捉返回值

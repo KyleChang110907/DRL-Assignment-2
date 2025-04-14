@@ -131,6 +131,15 @@ class Connect6Game:
         if self.game_over:
             print("? Game over")
             return
+        if np.count_nonzero(self.board) == 0:
+            # 盤面全空，下正中間
+            center = (self.size // 2, self.size // 2)
+            move_str = move_to_str(center, self)
+            self.play_move(color, move_str)
+            logging.info(f"First move at center: {move_str}")
+            print(f"{move_str}\n\n", end='', flush=True)
+            print(move_str, file=sys.stderr)
+            return
         my_val = 1 if color.upper()=='B' else 2
         logging.info("Starting pre-MCTS candidate collection.")
 
@@ -302,19 +311,45 @@ def terminal(game):
         return True
     return False
 
+# def best_child(node, c_param=1.41):
+#     """Selects the best child based on UCB1."""
+#     choices_weights = [
+#         (child.wins/child.visits) + c_param * math.sqrt((2*math.log(node.visits))/child.visits)
+#         for child in node.children if child.visits>0
+#     ]
+#     unvisited = [child for child in node.children if child.visits==0]
+#     if unvisited:
+#         logging.debug("Best_child: Found unvisited child; choosing randomly.")
+#         return random.choice(unvisited)
+#     best = node.children[np.argmax(choices_weights)]
+#     logging.debug("Best_child: Chosen child with highest UCB1 weight.")
+#     return best
+
 def best_child(node, c_param=1.41):
-    """Selects the best child based on UCB1."""
-    choices_weights = [
-        (child.wins/child.visits) + c_param * math.sqrt((2*math.log(node.visits))/child.visits)
-        for child in node.children if child.visits>0
-    ]
-    unvisited = [child for child in node.children if child.visits==0]
-    if unvisited:
-        logging.debug("Best_child: Found unvisited child; choosing randomly.")
-        return random.choice(unvisited)
+    """
+    根據 UCB1 選擇最佳子節點。
+    若子節點標記為 restricted，則給予無窮大的 Q 值；
+    若子節點未被執行 (visits==0)，則以 1000 作為其 UCB 值。
+    """
+    Q_bonus = 1000  # 未執行點給予的探索獎勵
+    choices_weights = []
+    for child in node.children:
+        # 如果該子節點是 restricted（即屬於我們預先指定的 threat 走法），直接給無窮大
+        if getattr(child, 'is_restricted', False):
+            weight = float('inf')
+        elif child.visits == 0:
+            weight = 1000
+        else:
+            weight = (child.wins / child.visits) + c_param * math.sqrt((2 * math.log(node.visits)) / child.visits)
+        choices_weights.append(weight)
+    # 若有無窮大，則直接選取之
+    if any(w == float('inf') for w in choices_weights):
+        best_candidates = [child for child, w in zip(node.children, choices_weights) if w == float('inf')]
+        return random.choice(best_candidates)
     best = node.children[np.argmax(choices_weights)]
-    logging.debug("Best_child: Chosen child with highest UCB1 weight.")
+    logging.debug("Best_child: Chosen child with highest modified Q value.")
     return best
+
 
 def tree_policy(node):
     """
@@ -354,6 +389,10 @@ def tree_policy(node):
             new_game.play_move(color, move_str)
             sys.stdout = old_stdout
             child_node = MCTSNode(new_game, move, node)
+            # 若父節點有 restricted_actions，並且此 move屬於其中，則標記此子節點
+            if hasattr(node, 'restricted_actions'):
+                if move in node.restricted_actions:
+                    child_node.is_restricted = True
             node.children.append(child_node)
             return child_node
         else:
@@ -903,11 +942,17 @@ class MCTSNode:
         self.children = []
         self.visits = 0
         self.wins = 0
+        self.is_restricted = False    # 是否屬於 restricted（我們希望優先搜索的候選）
+        # 初始未執行走法
+        self.untried_moves = get_legal_moves(game)
         if restricted_actions is not None:
-            self.untried_moves = restricted_actions.copy()
+            self.restricted_actions = restricted_actions
+            for action in restricted_actions:
+                if action not in self.untried_moves:
+                    self.untried_moves.append(action)
         else:
-            self.untried_moves = get_legal_moves(game)
-        self.player = game.turn       # The player to move at this node (1: Black, 2: White)
+            self.restricted_actions = []
+        self.player = game.turn       # The player to move at this node
 
 # =============================================================================
 # 3. Main Program Entry
